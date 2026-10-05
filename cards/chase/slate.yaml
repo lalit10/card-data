@@ -1,0 +1,28 @@
+# Chase Slate (chase)
+# Verified against creditcards.chase.com 2026-10-05.
+id: slate
+name: Chase Slate
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 0
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: No rewards or cash-back welcome offer. 0% intro APR for 21 months on purchases and balance
+    transfers, then 18.49%-28.49% variable. Balance transfer fee is $5 or 5% of each transfer, whichever
+    is greater.
+benefits:
+- no_annual_fee
+verified_date: '2026-10-05'
+confidence: high

@@ -1,0 +1,28 @@
+# Disney Visa Card (chase)
+# Verified against creditcards.chase.com 2026-10-05.
+id: disney-visa
+name: Disney Visa Card
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 150
+  spend_usd: 500
+  months: 3
+  notes: $150 offer — $100 Disney gift card eGift on approval plus a $50 statement credit after $500
+    in purchases in the first 3 months. Earns 1% back in Disney Rewards Dollars on all card purchases
+    with no earning limits.
+benefits:
+- no_annual_fee
+verified_date: '2026-10-05'
+confidence: high

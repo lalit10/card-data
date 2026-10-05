@@ -1,0 +1,55 @@
+# Disney Premier Visa Card (chase)
+# Verified against creditcards.chase.com 2026-10-05.
+id: disney-premier
+name: Disney Premier Visa Card
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 49
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: streaming
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5% back in Disney Rewards Dollars on card purchases made directly at DisneyPlus.com, Hulu.com,
+    or Stream.ESPN.com.
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% back at gas stations and most Disney US locations.
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% back at grocery stores.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% back at restaurants.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 300
+  spend_usd: 500
+  months: 3
+  notes: $300 offer — $200 Disney gift card eGift on approval plus a $100 statement credit after $500
+    in purchases in the first 3 months.
+benefits: []
+verified_date: '2026-10-05'
+confidence: high

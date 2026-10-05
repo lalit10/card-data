@@ -1,0 +1,118 @@
+# IHG One Rewards Premier Select Credit Card (chase)
+# Verified against creditcards.chase.com 2026-10-05.
+id: ihg-premier-select
+name: IHG One Rewards Premier Select Credit Card
+issuer: chase
+network: mastercard
+availability: active
+annual_fee_usd: 350
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: ihg_one_rewards
+cpp_floor: 0.4
+cpp_optimistic: 0.7
+base_rate: 3
+earn:
+- type: category
+  key: travel_hotels
+  rate: 12
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 12x with this card on IHG Hotels and Resorts stays (up to 28x total with member and Platinum
+    Elite bonuses posting separately).
+- type: category
+  key: dining
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 6x on dining and all other travel including rideshare.
+- type: category
+  key: travel_other
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 6x on all other travel including rideshare.
+credits:
+- name: Food and Beverage Rewards
+  amount_usd: 75
+  period: quarterly
+  category: dining
+  requires_enrollment: false
+  expires: null
+  notes: $75/quarter ($300/yr) in Food and Beverage Rewards vouchers redeemable at IHG Hotels; quarterly
+    forfeit.
+- name: Airline Statement Credit
+  amount_usd: 200
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: '2027-12-31'
+  notes: $200/calendar-year airline statement credit after $250+ in flights purchased directly with the
+    airline; through 12/31/2027.
+- name: Global Entry or TSA PreCheck or NEXUS fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $120 statement credit every 4 years for a trusted-traveler application fee charged to
+    the card.
+- name: DashPass membership credit
+  amount_usd: 120
+  period: annual
+  category: dining
+  requires_enrollment: true
+  expires: '2027-12-31'
+  notes: One-year complimentary DoorDash DashPass ($120 value); activate by 12/31/2027; auto-renews at
+    the monthly rate after.
+- name: DoorDash non-restaurant promo credit
+  amount_usd: 10
+  period: monthly
+  category: groceries
+  requires_enrollment: true
+  expires: '2027-12-31'
+  notes: Up to $10/month ($120/yr) off groceries and essentials via DoorDash, through 12/31/2027; requires
+    DashPass enrollment.
+- name: United TravelBank Cash
+  amount_usd: 50
+  period: annual
+  category: travel_flights
+  requires_enrollment: true
+  expires: null
+  notes: Up to $50/yr United TravelBank Cash after registering the card with a MileagePlus account.
+- name: Instacart monthly credit
+  amount_usd: 10
+  period: monthly
+  category: groceries
+  requires_enrollment: false
+  expires: null
+  notes: Up to $10/month ($120/yr) in Instacart credits on direct Instacart purchases; monthly forfeit.
+- name: Anniversary Free Night
+  amount_usd: 300
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: One anniversary Free Night each year (60,000-point redemption cap); estimated ~$300 at ~0.5cpp.
+- name: Anniversary Free Night ($40k spend)
+  amount_usd: 300
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Additional anniversary Free Night (60,000-point cap) after $40,000 in calendar-year purchases.
+signup_bonus:
+  points: 210000
+  cash_usd: null
+  spend_usd: 5000
+  months: 3
+  notes: New cardmember offer — 200,000 bonus points after $5,000 in purchases in the first 3 months,
+    plus 10,000 bonus points after adding an authorized user in the first 3 months.
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+verified_date: '2026-10-05'
+confidence: high

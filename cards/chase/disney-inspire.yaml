@@ -1,0 +1,79 @@
+# Disney Inspire Visa Card (chase)
+# Verified against creditcards.chase.com 2026-10-05.
+id: disney-inspire
+name: Disney Inspire Visa Card
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 149
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: streaming
+  rate: 10
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 10% back in Disney Rewards Dollars on card purchases made directly at DisneyPlus.com, Hulu.com,
+    or Stream.ESPN.com.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% back at gas stations and most other US Disney locations.
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% back at grocery stores.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% back at restaurants.
+credits:
+- name: Disney Rewards Dollars anniversary credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $200 in Disney Rewards Dollars each anniversary year after $2,000 in spend on US Disney Resort
+    stays and Disney Cruise Line bookings.
+- name: Theme park tickets statement credit
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $100 statement credit each anniversary year after $200 in spend on US Disney theme park tickets.
+- name: Streaming subscription credit
+  amount_usd: 10
+  period: monthly
+  category: streaming
+  requires_enrollment: true
+  expires: null
+  notes: $10/month statement credit after $10+ in qualifying subscriptions directly at DisneyPlus.com,
+    Hulu.com, or Stream.ESPN.com; yearly activation required; monthly forfeit.
+signup_bonus:
+  points: null
+  cash_usd: 500
+  spend_usd: 1000
+  months: 3
+  notes: $500 offer — $300 Disney gift card eGift on approval plus a $200 statement credit after $1,000
+    in purchases in the first 3 months.
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-10-05'
+confidence: high
