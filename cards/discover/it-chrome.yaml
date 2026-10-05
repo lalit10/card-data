@@ -1,0 +1,43 @@
+# Discover it Chrome (discover)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: it-chrome
+name: Discover it Chrome
+issuer: discover
+network: discover
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: 1000
+  cap_period: quarterly
+  portal_only: false
+  notes: 2% applies automatically (no activation). The $1,000/quarter cap is a single pool shared with
+    restaurants (see the dining entry); combined spend above $1,000 earns 1%.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: 1000
+  cap_period: quarterly
+  portal_only: false
+  notes: 2% applies automatically (no activation). The $1,000/quarter cap is a single pool shared with
+    gas (see the gas entry); combined spend above $1,000 earns 1%.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: null
+benefits:
+- zero_fraud_liability
+- free_fico_score
+verified_date: '2026-07-04'
+confidence: low

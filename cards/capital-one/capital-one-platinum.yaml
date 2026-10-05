@@ -1,0 +1,22 @@
+# Capital One Platinum (capital-one)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: capital-one-platinum
+name: Capital One Platinum
+issuer: capital-one
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 0
+earn: []
+credits: []
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability
+- virtual_card_numbers
+verified_date: '2026-07-04'
+confidence: low

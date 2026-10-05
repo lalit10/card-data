@@ -1,0 +1,89 @@
+# Citi Strata Elite (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: strata-elite
+name: Citi Strata Elite
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 595
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: citi_typ
+cpp_floor: 1.0
+cpp_optimistic: 1.7
+base_rate: 1.5
+earn:
+- type: category
+  key: travel_hotels
+  rate: 12
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only hotels booked through Citi Travel (cititravel.com or phone). Portal-only. No points on the
+    portion of a hotel purchase offset by the $300 Annual Hotel Benefit.
+- type: category
+  key: travel_other
+  rate: 12
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Car rentals and attractions booked through Citi Travel. Portal-only.
+- type: category
+  key: travel_flights
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only air travel booked through Citi Travel. Portal-only.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3X on restaurants incl. delivery (baseline). Rises to 6X during "Citi Nights" — purchases authorized
+    Fri 6PM-Sat 6AM ET and Sat 6PM-Sun 6AM ET — a time-of-week boost that can't be modeled structurally,
+    so the 3X baseline is used (see notes). Excludes bakeries, caterers, restaurants inside another business
+    (hotels, stores, stadiums, grocery stores, warehouse clubs).
+credits:
+- name: Annual hotel benefit (Citi Travel)
+  amount_usd: 300
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Applies to 2+ night stays booked/prepaid through Citi Travel; unused portion carries within the
+    same calendar year; portal-only (Citi Travel prices can exceed direct). High capture for cardholders
+    who book any qualifying hotel through the portal yearly; zero otherwise.
+- name: Splurge Credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Cardholder activates up to 2 merchants (citi.com/splurgecredit); credits post on purchases at
+    the activated merchant(s) up to $200/year. Special carve-outs for Live Nation/Ticketmaster (US venues,
+    direct only) and American Airlines. Moderate capture for those who set it to a merchant they spend
+    at.
+- name: Blacklane chauffeur credit
+  amount_usd: 100
+  period: semiannual
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Up to $100 per half-year (Jan-Jun, Jul-Dec) on direct Blacklane app/site bookings; unused portion
+    carries within the half. Captured only by cardholders who use Blacklane chauffeur service; worthless
+    otherwise.
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
+    captured by travelers who apply/renew.
+benefits:
+- lounge_access
+- primary_rental_insurance
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,82 @@
+# Citi / AAdvantage Executive World Elite Mastercard (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: aadvantage-executive
+name: Citi / AAdvantage Executive World Elite Mastercard
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 595
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: aa_advantage
+cpp_floor: 0.8
+cpp_optimistic: 1.5
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Only AA purchases billed by American Airlines as merchant of record (excludes AAdvantage status
+    boost/renewal and AA Cargo) — NARROWER than the general travel_flights category, which covers all
+    airlines. Increases to 5X on AA purchases for the rest of the calendar year once this card's spend
+    reaches $150,000 in that calendar year; that spend-progressive boost is not modeled (lowest tier shown
+    per curation conventions) — see card notes.
+- type: category
+  key: travel_hotels
+  rate: 10
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only hotels booked through aadvantagehotels.com (excludes AA Vacations and "Reserve Now, Pay
+    Later"). Portal-only.
+- type: category
+  key: travel_other
+  rate: 10
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only car rentals booked through aadvantagecars.com with US/Mexico/Canada point of sale (excludes
+    Payless and AA Vacations). Portal-only.
+credits:
+- name: Lyft credit
+  amount_usd: 10
+  period: monthly
+  category: transit
+  requires_enrollment: true
+  expires: null
+  notes: Requires 3 Lyft rides paid with the card in the same calendar month (max one $10 credit/month;
+    digital-wallet/virtual-card payments don't qualify; credits expire 30 days after issuance). Captured
+    only by frequent Lyft riders; worthless otherwise.
+- name: Grubhub credit
+  amount_usd: 10
+  period: monthly
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: Up to $10/statement on grubhub.com/seamless.com and their apps (campus dining and gift cards
+    excluded), no minimum spend. Captured only by regular Grubhub/ Seamless users.
+- name: Avis / Budget prepaid car rental credit
+  amount_usd: 120
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: null
+  notes: Only for prepaid bookings made directly via Avis.com/Budget.com (third-party/ travel-agency bookings
+    excluded). Captured only by cardholders who rent from Avis/Budget and prepay directly.
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
+    captured by travelers who apply/renew.
+benefits:
+- lounge_access
+- free_checked_bag
+- priority_boarding
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,35 @@
+# Citi Double Cash (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: double-cash
+name: Citi Double Cash
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: points
+currency_program: citi_typ
+cpp_floor: 1.0
+cpp_optimistic: 1.7
+base_rate: 2
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only hotels booked via Citi Travel (cititravel.com). The 5X already includes the base 1% purchase
+    + 1% payment plus 3 additional points. Portal-only.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only car rentals and attractions booked via Citi Travel. Portal-only; 5X includes the base purchase+payment
+    points.
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

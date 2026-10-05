@@ -1,0 +1,55 @@
+# Capital One Quicksilver Cash Rewards (capital-one)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: quicksilver
+name: Capital One Quicksilver Cash Rewards
+issuer: capital-one
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Applies only to hotels booked through Capital One Travel (issuer portal). Vacation rentals booked
+    via the portal also earn 5% but are not separately modeled (no vacation-rental category key). Per
+    secondary sources. NEEDS human verification.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Rental cars booked through Capital One Travel only. Per secondary sources. NEEDS human verification.
+- type: category
+  key: entertainment
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 'Applies ONLY to purchases made through the Capital One Entertainment platform (issuer ticket
+    marketplace), NOT to general entertainment spend. portal_only flags the issuer-platform scoping. Judgment
+    call: mapped onto the broad `entertainment` category to mirror the house style in venture-x.yaml;
+    a reviewer may prefer to omit it pending a dedicated Capital One Entertainment key. Per secondary
+    sources. NEEDS human verification.'
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 500
+  months: 3
+  notes: '"$200 cash bonus" after "$500 within 3 months of opening your account" (per secondary sources;
+    exact wording to verify). Existing/previous cardmembers ineligible if they received a bonus for this
+    product in the past 48 months. Figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION
+    marker.'
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

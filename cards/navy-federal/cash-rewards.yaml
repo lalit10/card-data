@@ -1,0 +1,27 @@
+# cashRewards (navy-federal)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: cash-rewards
+name: cashRewards
+issuer: navy-federal
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 2500
+  months: 3
+  notes: Spend window is stated as 90 days, recorded as 3 months. Eligible purchases exclude fees, interest,
+    balance transfers, gambling, cash advances, and cash-equivalent transactions.
+benefits:
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

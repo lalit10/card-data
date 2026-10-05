@@ -1,0 +1,69 @@
+# Costco Anywhere Visa Card by Citi (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: costco-anywhere
+name: Costco Anywhere Visa Card by Citi
+issuer: citi
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 4
+  cap_usd: 7000
+  cap_period: annual
+  portal_only: false
+  notes: 4% on eligible gas/EV worldwide (5% specifically at Costco warehouse gas — the higher Costco-gas
+    rate is not separately modeled; both draw on one combined $7,000/year SPEND pool, then 1% thereafter).
+    Excludes gas/EV at some superstores/ supermarkets/warehouse clubs other than Costco and non-automotive
+    fuel.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Restaurants incl. cafes, bars, lounges, fast food. Excludes bakeries, certain in-department-store
+    restaurants, grocery/warehouse-club restaurants (those earn 1%).
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Airfare portion of the 3% eligible-travel rate.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Hotels/Costco Travel portion of the 3% eligible-travel rate. Excludes timeshares, campgrounds,
+    B&Bs (earn 1%).
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Car rentals, travel agencies, cruise lines portion of the 3% eligible-travel rate. Excludes train/commuter
+    travel (earns 1%).
+- type: merchant
+  key: costco
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% on Costco warehouse and Costco.com purchases (other than gas, which earns the elevated gas
+    rate). Costco warehouse gas earns 5% but cannot be distinguished from this 2% merchant bucket in the
+    model — see the gas category note.
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,52 @@
+# United Gateway (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: united-gateway
+name: United Gateway
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: united_mileageplus
+cpp_floor: 0.8
+cpp_optimistic: 1.3
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x applies to purchases made directly with United (tickets, seat upgrades, Economy Plus, inflight
+    food/beverage/WiFi, baggage/other fees) and United Card Events from Chase; excludes United Cruises,
+    MileagePlus X, DIRECTV, Merchandise Awards, and tickets via discount travel sites/third-party packages.
+    Narrower than the general travel_flights category — other airlines' tickets earn only the 1x base
+    rate.
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: transit
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits: []
+signup_bonus:
+  points: 30000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: Bonus miles don't count toward Premier status. Account must stay open 6+ months or miles may
+    be clawed back. A separate 10,000-mile bonus for adding an authorized user in the first 3 months is
+    not modeled as signup value. Not available to current/recent (24-month) cardmembers.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,66 @@
+# Atmos Rewards Summit Visa Infinite (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: atmos-summit
+name: Atmos Rewards Summit Visa Infinite
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 395
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: atmos_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.6
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of the same 3x tier as "foreign transactions" and Alaska/Hawaiian purchases. The "foreign
+    transactions" 3x component has no category key (it is a spend-channel, not a spend category) and is
+    omitted; the airline component has no merchant key (see notes).
+credits:
+- name: Airport Security Statement Credit (TSA PreCheck / Global Entry)
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses the TSA PreCheck (~$78) or Global Entry ($120) application fee once per 4-year cycle.
+    Captured by anyone who applies; otherwise unused.
+- name: Annual Global Companion Award (25,000-point companion certificate)
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: in_kind value is a curator estimate (25,000 atmos points ≈ $250 at the program floor of 1cpp,
+    haircut for the companion-award redemption restriction). Not an issuer valuation. The separate 100,000-point
+    Global Companion Award that unlocks after $60,000+ anniversary spend is NOT modeled (spend threshold
+    is implausibly high for most users) — see card notes. NEEDS human verification.
+- name: Alaska Lounge day passes (8 per year)
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: in_kind value is a curator estimate. Issuer markets the passes at "a $500+ value" and Wi-Fi passes
+    at "$60+"; these are marketing claims, not transcribed values. $200 reflects realistic capture of
+    a per-visit lounge benefit. NEEDS human verification.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 6500
+  months: 3
+  notes: Bonus also includes a 25,000-point Global Companion Award and a 50% flight discount code — both
+    in-kind and not structured into value. Offer file notes a lower targeted offer (80,000 points + companion
+    award after $4,000); the $6,500/100,000 official-page figure is used.
+benefits:
+- lounge_access
+- free_checked_bag
+- no_change_fees
+verified_date: '2026-07-04'
+confidence: low

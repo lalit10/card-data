@@ -1,0 +1,117 @@
+# Delta SkyMiles Platinum American Express Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: delta-platinum
+name: Delta SkyMiles Platinum American Express Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 350
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: delta_skymiles
+cpp_floor: 1.0
+cpp_optimistic: 1.3
+base_rate: 1
+earn:
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US supermarkets only; superstores/convenience stores/warehouse clubs/meal-kit delivery NOT treated
+    as supermarkets.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Restaurants worldwide; excludes restaurants inside another establishment, non-US delivery, bars,
+    nightclubs, cafeterias, convenience stores.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Hotels worldwide, paid directly with the hotel only — NOT prepaid third-party/ OTA bookings or
+    vacation packages. Incidentals count if billed to the room and paid at checkout.
+credits:
+- name: Resy Credit
+  amount_usd: 10
+  period: monthly
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: $10/month at Resy-partnered US restaurants (direct, Resy.com/app, or Resy Pay), enrollment required;
+    monthly forfeit. Captured by people who dine at Resy restaurants monthly; excludes delivery/catering
+    and gift cards.
+- name: Rideshare Credit
+  amount_usd: 10
+  period: monthly
+  category: transit
+  requires_enrollment: true
+  expires: null
+  notes: $10/month on US Uber/Lyft/Curb/Alto rides, enrollment required; monthly forfeit. Excludes delivery,
+    bikeshare, scooter, car rental, transit passes.
+- name: Delta Stays Credit
+  amount_usd: 150
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $150/yr on prepaid bookings via the Delta Stays platform only; captured only by cardholders who
+    book lodging through delta.com/stays.
+- name: 20% Back on In-Flight Purchases
+  amount_usd: 15
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 20% statement credit on Delta in-flight food/beverage (automatic); uncapped but typically small
+    — modeled at ~$15/yr.
+- name: Global Entry or TSA PreCheck Fee Credit
+  amount_usd: 120
+  period: every_4_years
+  category: travel_other
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit every 4 years, up to $120 (Global Entry) or $85 (TSA PreCheck), for whichever
+    you apply to first. Captured once per renewal cycle by travelers who enroll; modeled at the $120 Global
+    Entry ceiling.
+- name: Delta Platinum Companion Certificate
+  amount_usd: 250
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: One round-trip Delta Main companion ticket per year after renewal, to a defined US/Latin America/Caribbean
+    list, excludes codeshares/Basic Economy. Holder pays taxes/fees (up to $80 domestic, $250 intl). Real
+    value only for cardholders who take a second-passenger Delta trip yearly; $250 is a conservative net-of-taxes
+    estimate of a domestic round-trip companion fare, haircut applied by the model.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 80000
+  cash_usd: null
+  spend_usd: 4000
+  months: 6
+  notes: Limited-time offer ending 07/15/2026 (11:59pm MST). Standard evergreen bonus not stated in the
+    offer file — flag for verification.
+benefits:
+- no_foreign_transaction_fee
+- free_checked_bag
+- cell_phone_protection
+- trip_cancellation_insurance
+- no_blackout_dates
+- car_rental_insurance
+- extended_warranty
+verified_date: '2026-07-04'
+confidence: low

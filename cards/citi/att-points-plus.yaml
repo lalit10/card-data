@@ -1,0 +1,44 @@
+# AT&T Points Plus Card from Citi (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: att-points-plus
+name: AT&T Points Plus Card from Citi
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: citi_typ
+cpp_floor: 1.0
+cpp_optimistic: 1.7
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Must use gas/EV station MCC; excludes warehouse clubs, discount stores, and convenience stores
+    not coded as gas/EV.
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Supermarkets, grocery delivery, meat/seafood, dairy, bakeries, food/convenience stores. Excludes
+    general-merchandise/discount superstores, warehouse clubs, candy/nut/confectionery stores.
+credits:
+- name: Recurring statement credit ($1,000/cycle)
+  amount_usd: 20
+  period: monthly
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $20 posts only in billing cycles where net new purchases (spend minus returns) reach $1,000+.
+    Captured only by cardholders who consistently run $1,000+/month through the card; nothing in lighter-spend
+    months.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

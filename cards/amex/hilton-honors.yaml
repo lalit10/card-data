@@ -1,0 +1,61 @@
+# Hilton Honors American Express Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: hilton-honors
+name: Hilton Honors American Express Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: hilton_honors
+cpp_floor: 0.4
+cpp_optimistic: 0.6
+base_rate: 3
+earn:
+- type: category
+  key: dining
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US restaurants only; excludes restaurants inside another establishment (hotel/casino/venue),
+    nightclubs, convenience/grocery stores, and non-US locations of US chains.
+- type: category
+  key: groceries
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US supermarkets only; superstores, warehouse clubs, convenience stores, and meal-kit delivery
+    earn only the 3x base, not the bonus.
+- type: category
+  key: gas
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US gas stations; warehouse-club/superstore fuel earns only the 3x base.
+credits:
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection stadium/arena concessions, enrollment required.
+    Most cardholders attend few/no such events; modeled at ~$25.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 2000
+  months: 6
+  notes: 'Mixed bonus: 100,000 Hilton points plus a $100 statement credit. Offer ends 07/29/2026 per the
+    offer file ("public offer — check for renewal"). Bonus points don''t count toward elite-tier qualification.'
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+- extended_warranty
+- purchase_protection
+verified_date: '2026-07-04'
+confidence: low

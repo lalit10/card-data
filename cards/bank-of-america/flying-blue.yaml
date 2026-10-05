@@ -1,0 +1,43 @@
+# Air France KLM Visa Signature (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: flying-blue
+name: Air France KLM Visa Signature
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 89
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: flying_blue
+cpp_floor: 0.9
+cpp_optimistic: 1.3
+base_rate: 1.5
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Anniversary bonus miles
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Deposited each account anniversary once at least $50 has been spent that year — effectively automatic
+    for any active cardholder. Valued via the flying_blue program.
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 2000
+  months: 3
+  notes: Bonus also grants 100 Experience Points (XP) toward Flying Blue elite status — not structured
+    (elite-status progress is not a scored value). Some third-party reporting cites a 70,000-mile offer;
+    the 50,000 official-page figure is used. NEEDS human verification.
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low

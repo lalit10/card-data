@@ -1,0 +1,79 @@
+# Chase Freedom Flex (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: freedom-flex
+name: Chase Freedom Flex
+issuer: chase
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: points
+currency_program: chase_ur
+cpp_floor: 1.0
+cpp_optimistic: 2.0
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: drugstores
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_flights
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal purchases (cars, cruises, activities, etc.); portal prices may exceed direct
+    booking.
+- type: merchant
+  key: lyft
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Limited-time through 9/30/2027 (excludes gift cards, car rentals, vehicle service centers). Reverts
+    to base earn after the promo; merchant_rewards has no expires field, so the end date is noted here.
+credits:
+- name: DashPass DoorDash quarterly credit
+  amount_usd: 10
+  period: quarterly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires activating the complimentary 6-month DashPass (activation window 2/1/2025-12/31/2027,
+    then auto-renews at the then-current rate) and placing one qualifying DoorDash non-restaurant order
+    each quarter (no rollover). Captured only by active DoorDash users who enroll; worthless otherwise.
+signup_bonus:
+  points: 20000
+  cash_usd: null
+  spend_usd: 500
+  months: 3
+  notes: Marketed as "$200 cash back" (20,000 UR points at 1cpp). Not available to current cardmembers
+    or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

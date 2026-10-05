@@ -1,0 +1,49 @@
+# Royal ONE Visa Signature (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: royal-one
+name: Royal ONE Visa Signature
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: mycruise_points
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Anniversary cruise discount
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: A $100 cruise discount that unlocks only after $10,000 of anniversary-year spend, and is redeemable
+    only against a cruise booking. Captured by cardholders who both hit the spend threshold and sail;
+    near-zero otherwise. in_kind because it is cruise-restricted, not cash.
+signup_bonus:
+  points: 45000
+  cash_usd: null
+  spend_usd: 2000
+  months: 3
+  notes: null
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low

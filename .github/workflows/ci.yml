@@ -1,0 +1,41 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml jsonschema
+      - run: python3 tools/build.py --check
+
+  staleness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Flag cards not verified in 180 days
+        run: |
+          python3 - <<'EOF'
+          import glob, yaml, datetime, os
+          cutoff = (datetime.date.today() - datetime.timedelta(days=180)).isoformat()
+          stale = []
+          for path in glob.glob('cards/*/*.yaml'):
+              doc = yaml.safe_load(open(path)) or {}
+              v = doc.get('verified_date') or ''
+              if v < cutoff:
+                  stale.append((v or 'never', path))
+          # Warning only — never fail the build on staleness.
+          for v, path in sorted(stale):
+              print(f"::warning file={path}::last verified {v or 'never'} — confirm with issuer")
+          print(f"{len(stale)} stale card files (warning only)")
+          EOF

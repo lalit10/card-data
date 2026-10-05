@@ -1,0 +1,124 @@
+# Hilton Honors American Express Aspire Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: hilton-aspire
+name: Hilton Honors American Express Aspire Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 550
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: hilton_honors
+cpp_floor: 0.4
+cpp_optimistic: 0.6
+base_rate: 3
+earn:
+- type: category
+  key: dining
+  rate: 7
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US restaurants only; excludes restaurants inside another establishment, nightclubs, convenience/grocery/supermarkets,
+    and non-US locations of US chains.
+- type: category
+  key: travel_flights
+  rate: 7
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Scheduled-airline airfare (direct or via Amex Travel); excludes charter/private jet.
+- type: category
+  key: travel_other
+  rate: 7
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Select major car rental companies only.
+credits:
+- name: Airline Flight Credit
+  amount_usd: 50
+  period: quarterly
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: $50/quarter ($200/yr) on airfare purchased directly from an airline or via Amex Travel; excludes
+    charter/private jet and vacation packages. Captured by anyone who buys airfare each quarter.
+- name: Hilton Resort Credit
+  amount_usd: 200
+  period: semiannual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $200 twice a year ($400/yr) on purchases made directly with participating Hilton Resorts; excludes
+    Small Luxury Hotels and Advance Purchase/Non-Refundable rates; incidentals must be room-charged and
+    paid with this card. Captured only by guests who stay at participating Hilton resorts.
+- name: Property Credit (Waldorf Astoria / Conrad)
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Up to $100 folio credit per qualifying booking (2-night min) at Waldorf Astoria/ Conrad via a
+    special rate code; forfeited at checkout if unused. Face value is per-booking, but modeled as ~$100/yr
+    since most cardholders make at most one such booking; $0 for those who don't stay at these luxury
+    brands.
+- name: CLEAR Plus Credit
+  amount_usd: 219
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: null
+  notes: Covers an annual CLEAR+ membership (~$219); requires separate CLEAR enrollment. Full value only
+    to CLEAR users.
+- name: Annual Free Night Reward
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: One free standard-room night each card year at most Hilton properties (expires 1 year from issuance,
+    one redemption per year). Value varies hugely by property; a standard Hilton night is estimated at
+    ~$200 (roughly a 40-50k-point redemption at Hilton's ~0.4-0.6cpp), and the model applies a further
+    in-kind capture haircut.
+- name: Free Night Reward ($30k spend)
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Additional standard-room free night earned only after $30,000 calendar-year spend; same redemption
+    terms as the Annual Free Night Reward. Captured only by very heavy spenders who also stay at Hilton.
+- name: Free Night Reward ($60k spend)
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Second additional standard-room free night earned only after $60,000 calendar-year spend; same
+    redemption terms as the Annual Free Night Reward. Captured only by extreme spenders who also stay
+    at Hilton.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 175000
+  cash_usd: null
+  spend_usd: 6000
+  months: 6
+  notes: Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification.
+    Standard evergreen bonus not separately stated.
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+- cell_phone_protection
+- trip_cancellation_insurance
+- car_rental_insurance
+- extended_warranty
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,90 @@
+# Southwest Rapid Rewards Plus (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: southwest-plus
+name: Southwest Rapid Rewards Plus
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 69
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: southwest_rapid_rewards
+cpp_floor: 1.3
+cpp_optimistic: 1.4
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Only purchases made directly with Southwest Airlines (flight, inflight, Southwest gift cards,
+    Getaways by Southwest packages); excludes Southwest Cruises/Charters/Cargo. Narrower than the general
+    travel_flights category — this card does not elevate other airlines' tickets.
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: 5000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $5,000/account-anniversary-year pool shared with groceries; spend above the shared cap
+    earns 1 point/$1.
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: 5000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $5,000/account-anniversary-year pool shared with gas stations; spend above the shared
+    cap earns 1 point/$1.
+- type: merchant
+  key: lyft
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 'Limited-time: 2X on qualifying Lyft rideshare/bike/scooter/subscription purchases through 12/31/2027
+    (excludes gift cards, car rentals, vehicle service centers). Reverts to base earn after the promo;
+    no expires field exists on merchant rewards so the end date is noted here.'
+credits:
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Automatic each account anniversary year while the account is open — full capture for anyone who
+    keeps the card.
+- name: DashPass DoorDash quarterly credit
+  amount_usd: 10
+  period: quarterly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires activating complimentary DashPass and placing one qualifying DoorDash non-restaurant
+    order each quarter (no rollover). Captured only by active DoorDash users who enroll; worthless otherwise.
+- name: Instacart monthly credit
+  amount_usd: 10
+  period: monthly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires an active Instacart+ membership (3 months complimentary, then auto-renews at $99/year)
+    and a qualifying purchase each month (no rollover). After the free window the $99/year membership
+    is a real cost the user must weigh against $120/year of credits — only regular Instacart users net
+    ahead.
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: Not available to current holders of any personal Southwest Rapid Rewards card or previous cardmembers
+    who got a bonus within the last 24 months.
+benefits:
+- free_checked_bag
+- no_change_fees
+- no_blackout_dates
+- companion_pass_qualifying_boost
+verified_date: '2026-07-04'
+confidence: low

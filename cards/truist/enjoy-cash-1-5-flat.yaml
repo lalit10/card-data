@@ -1,0 +1,20 @@
+# Truist Enjoy Cash (1.5% Flat Rewards) (truist)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: enjoy-cash-1-5-flat
+name: Truist Enjoy Cash (1.5% Flat Rewards)
+issuer: truist
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn: []
+credits: []
+benefits:
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

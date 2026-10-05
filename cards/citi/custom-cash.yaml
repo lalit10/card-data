@@ -1,0 +1,28 @@
+# Citi Custom Cash (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: custom-cash
+name: Citi Custom Cash
+issuer: citi
+network: mastercard
+availability: discontinued
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: points
+currency_program: citi_typ
+cpp_floor: 1.0
+cpp_optimistic: 1.7
+base_rate: 1
+earn:
+- type: category
+  key: choice
+  rate: 5
+  cap_usd: 500
+  cap_period: monthly
+  portal_only: false
+  notes: The 5X applies to the first $500 of top-category spend each billing cycle; above that, 1%. Only
+    ONE category earns 5X per cycle (the highest-spend eligible one), which the choice expansion models
+    by selecting a single option per portfolio.
+credits: []
+benefits: []
+verified_date: '2026-07-14'
+confidence: low

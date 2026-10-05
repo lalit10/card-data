@@ -1,0 +1,71 @@
+# Wells Fargo Choice Privileges Select World Elite Mastercard (wells-fargo)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: choice-privileges-select
+name: Wells Fargo Choice Privileges Select World Elite Mastercard
+issuer: wells-fargo
+network: mastercard
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: choice_privileges
+cpp_floor: 0.5
+cpp_optimistic: 0.8
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: utilities
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Covers "phone plan services" only, per the offer file — not utilities broadly. Mapped to the
+    utilities key for lack of a phone-specific key; narrower than this category. NEEDS human verification.
+credits:
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Automatically deposited each account anniversary — captured by essentially all cardholders who
+    keep the account open past the anniversary. Worth roughly 3 Choice reward nights per the product page's
+    framing. NEEDS human verification.
+- name: Trusted Traveler (Global Entry / TSA PreCheck) fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: travel_other
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses Global Entry ($100) or TSA PreCheck (~$78) application fees once every 4 years. Captured
+    only by travelers who actually apply/renew; worthless to everyone else. NEEDS human verification.
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: null
+benefits:
+- cell_phone_protection
+- complimentary_elite_status
+- world_elite_mastercard
+- car_rental_insurance
+- trip_cancellation_insurance
+- lost_baggage_reimbursement
+- travel_accident_insurance
+verified_date: '2026-07-04'
+confidence: low

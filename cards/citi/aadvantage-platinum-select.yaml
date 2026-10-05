@@ -1,0 +1,64 @@
+# Citi / AAdvantage Platinum Select World Elite Mastercard (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: aadvantage-platinum-select
+name: Citi / AAdvantage Platinum Select World Elite Mastercard
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 99
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: aa_advantage
+cpp_floor: 0.8
+cpp_optimistic: 1.5
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Only AA purchases billed by AA as merchant of record (excludes car rentals, hotel reservations,
+    AAdvantage status boost/renewal, AA Cargo) — narrower than the general travel_flights category. Admirals
+    Club food/beverage earns 2X here.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Restaurants incl. cafes, bars, lounges, fast food. Excludes supercenters, warehouse clubs, discount
+    stores, restaurants inside department stores, bowling alleys, golf/country clubs, convenience stores,
+    movie theaters, caterers, meal-kit delivery.
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Gas stations; excludes warehouse clubs not coding as gas, discount stores, department stores,
+    convenience stores. Not a shared cap with dining — both are uncapped 2X.
+credits:
+- name: American Airlines Flight Discount certificate
+  amount_usd: 125
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: in_kind valued at its $125 face; realizing it requires reaching the $20k spend threshold and
+    flying paid AA.
+- name: Turo credit (limited-time)
+  amount_usd: 180
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: '2026-10-18'
+  notes: 'Limited-time (Oct 19, 2025 - Oct 18, 2026): $30 per completed Turo trip, up to 6, requires linking
+    the card to a Turo account (digital-wallet payments excluded). Captured only by Turo renters during
+    the promo window.'
+benefits:
+- free_checked_bag
+- preferred_boarding
+verified_date: '2026-07-04'
+confidence: low

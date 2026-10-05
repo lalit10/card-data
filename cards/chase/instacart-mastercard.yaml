@@ -1,0 +1,61 @@
+# Instacart Mastercard (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: instacart-mastercard
+name: Instacart Mastercard
+issuer: chase
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: streaming
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_flights
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal only.
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal only.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal purchases (cars, cruises, activities, etc.).
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

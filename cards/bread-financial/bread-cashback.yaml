@@ -1,0 +1,24 @@
+# Bread Cashback American Express Card (bread-financial)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: bread-cashback
+name: Bread Cashback American Express Card
+issuer: bread-financial
+network: amex
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 2
+earn: []
+credits: []
+benefits:
+- amex_offers
+- car_rental_insurance
+- purchase_protection
+- zero_fraud_liability
+- id_theft_insurance
+verified_date: '2026-07-04'
+confidence: low

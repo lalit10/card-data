@@ -1,0 +1,70 @@
+# Atmos Rewards Ascent Visa Signature (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: atmos-ascent
+name: Atmos Rewards Ascent Visa Signature
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: atmos_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.6
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of a single 2x tier the issuer defines as "gas, EV charging, cable, streaming services,
+    and local transit (including rideshare)". Gas + EV charging map here.
+- type: category
+  key: streaming
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: transit
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Same 2x tier as gas/streaming; covers local transit including rideshare. The issuer's "cable"
+    component of this tier is omitted — mapping it to the broad 'utilities' key would wrongly award 2x
+    on all utilities/phone spend. See notes.
+credits:
+- name: Alaska Lounge+ Membership discount
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Captured only by cardholders who actually buy an Alaska Lounge+ membership (list price several
+    hundred dollars) with the card each year; worthless to everyone else. Most cardholders capture $0.
+- name: Annual Companion Fare ($99 companion fare)
+  amount_usd: 150
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: in_kind value is a curator estimate. A companion fare's savings equal (second-ticket price −
+    $99 − taxes); $150 is a conservative net estimate for a typical short/medium-haul coach fare. Not
+    an issuer valuation. NEEDS human verification.
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 2000
+  months: 3
+  notes: Offer also includes a "buy one ticket, get one for just the taxes and fees" companion award ($0
+    fare plus taxes and fees from $23). That in-kind BOGO is not structured into value — it is a one-time
+    award whose worth depends on the fare booked. Described here for the reviewer.
+benefits:
+- free_checked_bag
+- no_blackout_dates
+verified_date: '2026-07-04'
+confidence: low

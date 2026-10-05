@@ -1,0 +1,42 @@
+# SoFi Unlimited 2% Credit Card (sofi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: credit-card
+name: SoFi Unlimited 2% Credit Card
+issuer: sofi
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: sofi_points
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 2
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 3 pts/$1 (3% value) only on flights booked through the SoFi Travel portal, not on airfare bought
+    directly. Portal pricing may differ from booking direct. Offer file line 14.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 3 pts/$1 (3% value) only on hotels booked through the SoFi Travel portal. Offer file line 14.
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 3 pts/$1 (3% value) on other SoFi Travel portal bookings (e.g. car rentals). Offer file line
+    14.
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

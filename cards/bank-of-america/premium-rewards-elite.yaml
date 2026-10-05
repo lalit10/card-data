@@ -1,0 +1,81 @@
+# Premium Rewards Elite (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: premium-rewards-elite
+name: Premium Rewards Elite
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 550
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: bofa_premium_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_hotels
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Airline Incidental Statement Credit
+  amount_usd: 300
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses airline incidentals (seat upgrades, baggage fees, lounge fees, in-flight services)
+    up to $300/year. Airfare itself usually does NOT qualify; a frequent flyer who checks bags or buys
+    upgrades captures most of it, an infrequent flyer little to none.
+- name: Lifestyle Conveniences Statement Credit
+  amount_usd: 150
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses video streaming, food delivery, fitness subscriptions, and rideshare up to $150/year.
+    Broad enough that most active cardholders capture the full amount.
+- name: Airport Security Statement Credit (TSA PreCheck / Global Entry)
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses the TSA PreCheck (~$78) or Global Entry ($120) application fee once per 4-year cycle.
+    Captured by anyone who applies; otherwise unused.
+signup_bonus:
+  points: 75000
+  cash_usd: null
+  spend_usd: 5000
+  months: 3
+  notes: null
+benefits:
+- lounge_access
+- no_foreign_transaction_fee
+- concierge_service
+verified_date: '2026-07-04'
+confidence: low

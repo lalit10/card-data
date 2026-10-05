@@ -1,0 +1,89 @@
+# Wells Fargo Autograph (wells-fargo)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: autograph
+name: Wells Fargo Autograph
+issuer: wells-fargo
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: wells_fargo_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.3
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: transit
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: utilities
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Covers "phone plans" only, per the offer file — not utilities broadly. Mapped to the utilities
+    key (labeled "Utilities & phone") for lack of a phone-specific key; the issuer's 3X is narrower than
+    this category. NEEDS human verification.
+credits: []
+signup_bonus:
+  points: 20000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- cell_phone_protection
+- car_rental_insurance
+- visa_signature
+- concierge
+- zero_fraud_liability
+- free_fico_score
+verified_date: '2026-07-04'
+confidence: low

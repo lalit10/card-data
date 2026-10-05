@@ -1,0 +1,80 @@
+# Prime Visa (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: prime-visa
+name: Prime Visa
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: transit
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_flights
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal only; not earned on direct bookings. 3% without Prime, but Prime is required
+    to hold this card.
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal only; not earned on direct hotel bookings.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal purchases (cars, cruises, activities); not earned on direct bookings.
+- type: merchant
+  key: amazon
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5% at Amazon.com incl. digital downloads, gift cards, Amazon Fresh, Prime subscriptions, third-party
+    marketplace, participating Amazon stores. Excludes Amazon Pay at other merchants and international
+    Amazon sites. 3% without Prime, but Prime is required to hold this card. Periodic "Prime Card Bonus"
+    promos add extra % on eligible Amazon.com purchases (noted, not modeled).
+- type: merchant
+  key: whole_foods
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5% at Whole Foods Market (US physical stores + wholefoodsmarket.com). Excludes WF via third-party
+    sites (Instacart/Shipt), online WF gift cards/tickets/classes, certain third-party WF vendors, massage/Spa@Ink.
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

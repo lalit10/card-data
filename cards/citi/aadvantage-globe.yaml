@@ -1,0 +1,108 @@
+# Citi / AAdvantage Globe Mastercard (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: aadvantage-globe
+name: Citi / AAdvantage Globe Mastercard
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 350
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: aa_advantage
+cpp_floor: 0.8
+cpp_optimistic: 1.5
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Only AA purchases billed by AA as merchant of record (excludes AAdvantage status boost/renewal
+    and AA Cargo) — narrower than the general travel_flights category. Admirals Club food/beverage earns
+    3X under this AA rate.
+- type: category
+  key: travel_hotels
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Only hotels booked through aadvantagehotels.com (excludes AA Vacations and "Reserve Now, Pay
+    Later"). Portal-only.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Restaurants incl. cafes, bars, lounges, fast food, delivery, takeout. Excludes supercenters,
+    warehouse clubs, discount stores, restaurants inside department stores, bowling alleys, golf/country
+    clubs, convenience stores, movie theaters, caterers, meal-kit delivery.
+- type: category
+  key: transit
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: '"Rides and Rails": ferries, commuter rail, subway, taxi/limo/rideshare, passenger rail, tolls,
+    parking, buses. Excludes charter/tour buses, car-rental agencies, RV rentals.'
+credits:
+- name: AA inflight purchase credit
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $100/year on American Airlines inflight purchases (domestic AA/American Eagle-operated
+    flights only; excludes codeshares). Captured only by cardholders who buy inflight food/beverage/wifi;
+    annual ceiling rarely fully used.
+- name: American Airlines Companion Certificate
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 'in_kind value estimated at ~$100: a companion flies for $99 + taxes where a paid domestic economy
+    ticket typically runs $150-300, so net savings roughly offset by the $99 fare — conservative estimate,
+    not an issuer-stated value.'
+- name: Admirals Club Globe Passes
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 'in_kind value estimated at ~$100/year: an Admirals Club day pass has ~$79 face value but most
+    of the four passes go unused and access is gated to travel days — conservative annual estimate, not
+    an issuer-stated value.'
+- name: Turo credit
+  amount_usd: 240
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: null
+  notes: $30 statement credit per completed Turo trip, up to 8 trips/year, direct turo.com/ app bookings
+    with the card linked to the Turo account (digital-wallet payments excluded). Captured only by regular
+    Turo renters.
+- name: Splurge Credit
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Cardholder activates up to 2 merchants (citi.com/splurgecredit); credits post on purchases at
+    the activated merchant(s) up to $100/year total. Activation is time-of-purchase sensitive and the
+    merchant list changes; moderate capture.
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
+    captured by travelers who apply/renew.
+benefits:
+- free_checked_bag
+- preferred_boarding
+verified_date: '2026-07-04'
+confidence: low

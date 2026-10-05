@@ -1,0 +1,57 @@
+# DoorDash Rewards Mastercard (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: doordash-rewards
+name: DoorDash Rewards Mastercard
+issuer: chase
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Dining purchased directly from a restaurant (DoorDash/Caviar orders earn the omitted 4% rate
+    — see notes).
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: DoorDash monthly 10%-off order credit
+  amount_usd: 15
+  period: monthly
+  category: null
+  requires_enrollment: false
+  expires: '2026-12-31'
+  notes: 10% off one qualifying DoorDash (not Caviar) Convenience/Grocery/Alcohol/Retail/ DashMart order
+    per month, capped at $15/month, through 12/31/2026. Face value shown is the monthly cap; actual capture
+    depends on placing a ~$150 qualifying order each month (no rollover) — realistic capture is a fraction
+    of $15 for most users.
+- name: DashPass complimentary membership
+  amount_usd: 96
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 12 months of complimentary DashPass for the primary cardmember (auto-activated on approval) +
+    up to 1 authorized user; renews for another 12 months in any Anniversary Year with $10,000+ card spend,
+    otherwise auto-enrolls in the paid DashPass Annual Plan. Value estimated at the ~$96/yr annual-plan
+    price; captured only by regular DoorDash users (waived delivery fees + reduced service fees). amount_usd
+    is a curator estimate (issuer states no dollar value) — NEEDS human verification.
+benefits:
+- cell_phone_protection
+- concierge
+verified_date: '2026-07-04'
+confidence: low

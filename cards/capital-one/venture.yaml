@@ -1,0 +1,65 @@
+# Capital One Venture Rewards (capital-one)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: venture
+name: Capital One Venture Rewards
+issuer: capital-one
+network: visa
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: capital_one_miles
+cpp_floor: 0.5
+cpp_optimistic: 1.7
+base_rate: 2
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Applies only to hotels booked through Capital One Travel (issuer portal), not to hotel spend
+    booked directly. Vacation rentals booked via Capital One Travel also earn 5X but are not separately
+    modeled (no vacation-rental category key). NEEDS human verification.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Rental cars booked through Capital One Travel only. NEEDS human verification.
+- type: category
+  key: entertainment
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 'Applies ONLY to purchases made through the Capital One Entertainment platform (issuer ticket
+    marketplace), NOT to general entertainment spend. portal_only flags the issuer-platform scoping. Judgment
+    call: mapped onto the broad `entertainment` category to mirror the house style in venture-x.yaml;
+    a reviewer may prefer to omit it pending a dedicated Capital One Entertainment key. NEEDS human verification.'
+credits:
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: '"Global Entry/TSA PreCheck: up to a $120 statement credit." The offer file does not state the
+    cadence; every_4_years inferred from the standard Global Entry 4-year renewal cycle. NEEDS human verification.'
+signup_bonus:
+  points: 75000
+  cash_usd: null
+  spend_usd: 4000
+  months: 3
+  notes: '"Earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months from account
+    opening." Figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
+benefits:
+- auto_rental_cdw
+- extended_warranty
+- travel_accident_insurance
+- no_foreign_transaction_fee
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

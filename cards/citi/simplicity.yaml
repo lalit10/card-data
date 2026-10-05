@@ -1,0 +1,19 @@
+# Citi Simplicity Card (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: simplicity
+name: Citi Simplicity Card
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 0
+earn: []
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

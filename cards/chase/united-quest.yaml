@@ -1,0 +1,128 @@
+# United Quest (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: united-quest
+name: United Quest
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 350
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: united_mileageplus
+cpp_floor: 0.8
+cpp_optimistic: 1.3
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 4x applies to purchases made directly with United (tickets, seat upgrades, Economy Plus, inflight
+    food/beverage/WiFi, baggage/other fees) and United Card Events from Chase. Modeled at the co-brand
+    rate; other airlines' tickets fall under the card's general 2x travel category (see travel_other)
+    rather than this line.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: streaming
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Select streaming services only (issuer-defined list).
+- type: category
+  key: travel_hotels
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of the card's broad 2x "travel" category. Hotel purchases at Renowned Hotels and Resorts
+    booked via Chase Travel earn 5x (portal-only) — that niche portal rate is noted in the card notes
+    rather than modeled as a second travel_hotels entry.
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of the card's broad 2x "travel" category (excludes United purchases earning 4x).
+credits:
+- name: United TravelBank credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $200 of TravelBank cash auto-added each cardmember anniversary (no spend gate); usable toward
+    United airfare, expires per TravelBank terms. Near-full capture for anyone who flies United at least
+    once a year; worthless to non-United travelers.
+- name: Renowned Hotels credit
+  amount_usd: 150
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $150/year on Renowned Hotels and Resorts bookings (via Chase Travel). Scoped to that portal/program
+    — captured only by those who book qualifying luxury stays that way.
+- name: Rideshare credit
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $8/month Jan-Nov and $12 in December, up to $100/year in rideshare statement credits. Captured
+    only by regular rideshare users; monthly amounts don't roll over.
+- name: Avis/Budget credit
+  amount_usd: 80
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $40 each on the first two qualifying Avis/Budget rentals via cars.united.com with discount codes,
+    up to $80/year. Scoped to that booking channel — car renters only.
+- name: JSX credit
+  amount_usd: 150
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $150/year toward JSX (a semi-private carrier serving limited routes). Captured only by the small
+    set of flyers with JSX access; near-zero for most cardholders.
+- name: Global Entry / TSA PreCheck / NEXUS fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit up to $120 per 4-year cycle covering a trusted-traveler application fee.
+    Captured only by travelers who apply/renew.
+- name: Instacart monthly credit
+  amount_usd: 10
+  period: monthly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Offer file states $10 + $5 monthly Instacart credits while an Instacart+ membership is active
+    (3 months complimentary, then 50% off through 12/31/2027, then full price). Modeled conservatively
+    at the $10 monthly credit; the additional $5 is not separately modeled. Only regular Instacart users
+    net ahead after the free window.
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 4000
+  months: 3
+  notes: Bonus miles don't count toward Premier status. The offer also grants 500 additional PQP after
+    the same $4,000/3-month spend (status-qualifying, not redeemable) and a 10,000-mile authorized-user
+    bonus — neither is modeled as signup value. Not available to current/recent (24-month) cardmembers.
+benefits:
+- free_checked_bag
+- visa_signature
+verified_date: '2026-07-04'
+confidence: low

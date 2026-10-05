@@ -1,0 +1,49 @@
+# Verizon Visa Card (synchrony)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: verizon-visa
+name: Verizon Visa Card
+issuer: synchrony
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: verizon_dollars
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: groceries
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: gas
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 0
+  months: 3
+  notes: 'Two-part welcome offer within the same 90-day window: $50 after the first purchase, plus $100
+    more after $1,500 total spend ($150 total). First tranche''s spend_requirement is nominal ($0 = "make
+    a purchase"). No stated end date, so `expires` is omitted; offer-currency NEEDS human verification.'
+benefits:
+- special_financing
+verified_date: '2026-07-04'
+confidence: low

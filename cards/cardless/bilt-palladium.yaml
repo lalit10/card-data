@@ -1,0 +1,72 @@
+# Bilt Palladium Card (cardless)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: bilt-palladium
+name: Bilt Palladium Card
+issuer: cardless
+network: mastercard
+availability: active
+annual_fee_usd: 495
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: bilt_points
+cpp_floor: 0.55
+cpp_optimistic: 1.9
+base_rate: 2
+earn:
+- type: category
+  key: housing
+  rate: 1.25
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Bilt Housing Payments (rent/mortgage/HOA dues/utilities/property tax paid via the Bilt app, no
+    transaction fee, no cap). Earn is a variable 0x-1.25x per billing cycle set by the "Everyday Spend
+    Ratio" = Everyday Spend ÷ Housing Payment (25-49%=0.5x, 50-74%=0.75x, 75-99%=1x, 100%+=1.25x; 250-pt/cycle
+    floor below 25%). The optimizer resolves the tier from how much everyday spend it routes onto this
+    card (earn_ratio steering pass).
+- type: merchant
+  key: lyft
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: User-reported 4x on Lyft rideshare, not stated in the offer file terms sheet (which only says
+    partner rates "vary by partner/merchant, set in the Bilt app"). Offer file states partner earning
+    "stacks with base rate" — modeled here as the merchant rate itself (4x), not on top of base; confirm
+    stacking behavior against the Bilt app before treating as high confidence.
+credits:
+- name: Annual Bilt Cash Credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Auto-credited each Jan 1 (and at account open) while the account is open and in good standing;
+    no enrollment or spend required, so near-100% capture for any active cardholder. Only lost if the
+    account is not in good standing on the credit date (no proration in that case).
+- name: Bilt Travel Hotel Credit
+  amount_usd: 200
+  period: semiannual
+  category: travel_hotels
+  requires_enrollment: true
+  expires: null
+  notes: Captured only by users who book 2+ night hotel stays through the Bilt Travel Portal each half-year
+    and opt in at checkout; does not roll over between halves and is forfeited if a non-refundable booking
+    is canceled. Portal-only + opt-in + 2-night-minimum + biannual-forfeit mechanics mean most cardholders
+    capture less than the full $400/yr face value.
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 0
+  months: 3
+  notes: 'Bonus modeled as two tranches within the same ~90-day window: $300 Bilt Cash credited immediately
+    at account opening (no spend, base value), PLUS 50,000 points after $4,000 Everyday Spend (tier).
+    ALSO grants Bilt Gold Elite Status (unscored, see benefit_flags) lasting through Jan 15 of the second
+    following year — not represented as a bonus value. Window is 90 days (97 days for accounts opened
+    2/7/2026); offer file gives a relative window, so window_months is approximate. Not available if you
+    currently/previously held or already received a Welcome Bonus for any Bilt Card 2.0.'
+benefits:
+- lounge_access
+- elite_status
+verified_date: '2026-07-04'
+confidence: low

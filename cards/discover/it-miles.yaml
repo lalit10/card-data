@@ -1,0 +1,27 @@
+# Discover it Miles (discover)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: it-miles
+name: Discover it Miles
+issuer: discover
+network: discover
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: discover_cashback
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: null
+benefits:
+- zero_fraud_liability
+- free_fico_score
+verified_date: '2026-07-04'
+confidence: low

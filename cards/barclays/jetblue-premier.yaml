@@ -1,0 +1,87 @@
+# JetBlue Premier Card (barclays)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: jetblue-premier
+name: JetBlue Premier Card
+issuer: barclays
+network: mastercard
+availability: active
+annual_fee_usd: 499
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: jetblue_trueblue
+cpp_floor: 1.2
+cpp_optimistic: 1.35
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: '"Eligible grocery stores" — superstores/warehouse clubs may be excluded (not stated). NEEDS
+    human verification.'
+credits:
+- name: TrueBlue Travel statement credit
+  amount_usd: 300
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: Up to $300/calendar year automatically credited against eligible TrueBlue Travel purchases. Easily
+    captured by anyone who spends $300+/year on JetBlue/TrueBlue travel; worthless to non-JetBlue flyers.
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Automatic 5,000 TrueBlue points each year after the account anniversary; captured by every cardholder
+    who keeps the card open.
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit up to $120 per 4-year cycle for a Global Entry/TSA PreCheck fee. Captured
+    only by travelers who apply/renew.
+- name: Companion Pass credit — first tranche
+  amount_usd: 500
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One-time $500 statement credit once $15,000 in total net purchases posts in a calendar year;
+    reached only by fairly heavy spenders. Marketed as offsetting a JetBlue Companion Pass.
+- name: Companion Pass credit — second tranche
+  amount_usd: 1500
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Additional one-time $1,500 statement credit once cumulative total net purchases reach $75,000
+    in the same calendar year; reachable only by very high spenders.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 5000
+  months: 3
+  notes: Also requires paying the annual fee in full within the first 90 days.
+benefits:
+- lounge_access
+- free_checked_bag
+- complimentary_elite_status
+- no_blackout_dates
+- priority_boarding
+- no_foreign_transaction_fee
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

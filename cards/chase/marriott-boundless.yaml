@@ -1,0 +1,92 @@
+# Marriott Bonvoy Boundless (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: marriott-boundless
+name: Marriott Bonvoy Boundless
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: marriott_bonvoy
+cpp_floor: 0.6
+cpp_optimistic: 0.9
+base_rate: 2
+earn:
+- type: category
+  key: travel_hotels
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 6x applies to Marriott-brand hotel stays. This is the card's earn only — Marriott program base
+    points (10 base pts/$1 + Silver 10% bonus) post separately to the Marriott account and are not included
+    here.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $6,000/account-anniversary-year pool shared with groceries and dining; combined spend
+    above the cap earns 2 points/$1 (no maximum).
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $6,000/account-anniversary-year pool shared with gas and dining; combined spend above
+    the cap earns 2 points/$1.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $6,000/account-anniversary-year pool shared with gas and groceries; combined spend above
+    the cap earns 2 points/$1.
+credits:
+- name: Anniversary Free Night Award
+  amount_usd: 150
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: 'Automatic each cardmember anniversary, valid 12 months, resort fees still apply. Captured by
+    anyone who takes one Marriott stay a year. Estimated at ~$150: the award caps at a 35,000-point redemption
+    ceiling and Marriott points realistically redeem near 0.6-0.9 cents (~$210-315 at the ceiling), haircut
+    toward $150 for the ceiling not always being reachable, resort fees, and availability friction.'
+- name: Airline purchase credit
+  amount_usd: 50
+  period: semiannual
+  category: travel_flights
+  requires_enrollment: true
+  expires: null
+  notes: $50 per half-year (up to $100/year) after $250+ in direct airline spend that half; the $250 airline
+    trigger is scoped spend (not total card spend), and existing cardmembers must activate. Captured only
+    by cardholders who buy airfare directly each half and enroll; terms/dates differ for existing vs new
+    cardmembers.
+- name: DashPass DoorDash quarterly credit
+  amount_usd: 10
+  period: quarterly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each
+    quarter (no rollover). Active DoorDash users only.
+signup_bonus:
+  points: 125000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: The public offer also includes 1 Free Night Award (redemption level up to 50,000 points, 12-month
+    expiry) after the same $3,000/3-month spend — an in-kind item that cannot be expressed in the points/usd
+    bonus value, so it is noted here unscored (estimated cash value ~$200-350, not modeled). Account must
+    stay open 6+ months or points may be clawed back. Extensive Marriott/Amex cross-product exclusions
+    apply.
+benefits:
+- complimentary_elite_status
+- concierge
+verified_date: '2026-07-04'
+confidence: low

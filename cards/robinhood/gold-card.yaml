@@ -1,0 +1,43 @@
+# Robinhood Gold Card (robinhood)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: gold-card
+name: Robinhood Gold Card
+issuer: robinhood
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: robinhood_points
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 3
+earn:
+- type: category
+  key: travel_flights
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
+    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
+    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
+    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

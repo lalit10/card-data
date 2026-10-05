@@ -1,0 +1,43 @@
+# JetBlue Card (barclays)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: jetblue
+name: JetBlue Card
+issuer: barclays
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: jetblue_trueblue
+cpp_floor: 1.2
+cpp_optimistic: 1.35
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: '"Eligible grocery stores" — superstores/warehouse clubs may be excluded (not stated in the offer
+    file). NEEDS human verification.'
+credits: []
+signup_bonus:
+  points: 10000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- no_blackout_dates
+- no_foreign_transaction_fee
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

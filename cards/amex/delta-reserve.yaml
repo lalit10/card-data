@@ -1,0 +1,93 @@
+# Delta SkyMiles Reserve American Express Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: delta-reserve
+name: Delta SkyMiles Reserve American Express Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 650
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: delta_skymiles
+cpp_floor: 1.0
+cpp_optimistic: 1.3
+base_rate: 1
+earn: []
+credits:
+- name: Resy Credit
+  amount_usd: 20
+  period: monthly
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: $20/month at Resy-bookable US restaurants (direct, Resy.com/app, or Resy Pay), enrollment required;
+    monthly forfeit. Captured by frequent Resy diners; excludes delivery/catering, gift cards, third-party-processed
+    event sales.
+- name: 20% Back on In-Flight Purchases
+  amount_usd: 15
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 20% statement credit on Delta in-flight food/beverage (automatic); uncapped but typically small
+    — modeled at ~$15/yr.
+- name: Rideshare Credit
+  amount_usd: 10
+  period: monthly
+  category: transit
+  requires_enrollment: true
+  expires: null
+  notes: $10/month on US Uber/Lyft/Curb/Alto rides, enrollment required; monthly forfeit. Excludes delivery,
+    bikeshare, scooter, car rental, transit, memberships.
+- name: Delta Stays Credit
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $200/yr on new prepaid Delta Stays bookings (delta.com/stays) only; excludes cancellation/property/resort
+    fees and Delta Vacations. Captured only by Delta Stays bookers.
+- name: Global Entry or TSA PreCheck Fee Credit
+  amount_usd: 120
+  period: every_4_years
+  category: travel_other
+  requires_enrollment: false
+  expires: null
+  notes: One credit every 4 years, up to $120 (Global Entry) or $85 (TSA PreCheck). Modeled at the $120
+    ceiling; captured once per renewal cycle by enrollees.
+- name: Delta Companion Certificate
+  amount_usd: 350
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: One round-trip companion ticket/year (up through First class) to a US/Mexico/ Caribbean/Central
+    America list, holder pays taxes/fees (up to $80 domestic, $250 intl); excludes Delta One/Basic Economy.
+    Real value only for those who fly a second passenger yearly; $350 is a conservative estimate reflecting
+    the higher eligible cabins vs the Platinum cert, model applies a further haircut.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 6000
+  months: 6
+  notes: Offer ends 07/15/2026 per the offer file ("public offer — check for renewal"). Standard evergreen
+    bonus not stated in the offer file.
+benefits:
+- no_foreign_transaction_fee
+- lounge_access
+- free_checked_bag
+- cell_phone_protection
+- trip_cancellation_insurance
+- no_blackout_dates
+- car_rental_insurance
+- extended_warranty
+verified_date: '2026-07-04'
+confidence: low

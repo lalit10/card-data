@@ -1,0 +1,32 @@
+# Apple Card (goldman-sachs)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: apple-card
+name: Apple Card
+issuer: goldman-sachs
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: merchant
+  key: uber
+  rate: 1
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% Daily Cash applies at Uber only when paid via Apple Pay. Apple's 3% partner list changes over
+    time (offer file names Nike, Uber, Walgreens, Booking.com, Exxon Mobil, ChargePoint, Hertz, Duane
+    Reade, Ace Hardware as examples) — Uber is modeled here because it is the only listed partner with
+    a registry key; the rest are omitted (no merchant key). Also, all purchases made directly from Apple
+    (Apple Store, apple.com, App Store, Apple services) earn 3%, but there is no 'apple' merchant key,
+    so that is captured only in the card notes below. NEEDS human verification of the current partner
+    list (support.apple.com/en-us/120400).
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

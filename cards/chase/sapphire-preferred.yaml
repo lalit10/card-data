@@ -1,0 +1,99 @@
+# Chase Sapphire Preferred (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: sapphire-preferred
+name: Chase Sapphire Preferred
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: chase_ur
+cpp_floor: 1.0
+cpp_optimistic: 2.0
+base_rate: 1
+earn:
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Chase Travel portal purchases of any travel type (flights, hotels, cars, cruises, activities).
+    Modeled on travel_other as the portal channel; direct flight/hotel bookings earn 2x (see travel_flights/travel_hotels).
+    Excludes bookings through FROSCH/Valerie Wilson/Frosch International by Chase Travel. Portal prices
+    may exceed direct booking.
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Direct (non-portal) airfare; the same spend booked through the Chase Travel portal earns 5x (see
+    travel_other).
+- type: category
+  key: travel_hotels
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Direct (non-portal) hotels earn 2x. "Vacation homes at top brands" earn 3x (a narrow subset not
+    separately modeled). Portal hotel bookings earn 5x (see travel_other).
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: merchant
+  key: lyft
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Limited-time through 9/30/2027 (excludes gift cards, car rentals, vehicle service centers). Reverts
+    to base earn after the promo; merchant_rewards has no expires field, so the end date is noted here.
+credits:
+- name: Annual Chase Travel Hotel Credit
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Automatic statement credit on the first $100/year of hotel purchases booked through Chase Travel
+    (year = account anniversary cycle). Easy full capture for anyone who books at least one hotel through
+    the portal; the first $100 of such hotel spend does NOT also earn points.
+- name: Global Entry / TSA PreCheck / NEXUS application fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $120 once every 4 years for an application fee charged directly by DHS/CBP/TSA or authorized
+    enrollment providers (not travel agencies/third-party services). Captured only by travelers who enroll
+    in a trusted-traveler program.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 5000
+  months: 3
+  notes: Not available to current cardmembers or previous cardmembers who received a bonus for this card.
+    Allow 6-8 weeks to post.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

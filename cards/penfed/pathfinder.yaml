@@ -1,0 +1,75 @@
+# Pathfinder Rewards Visa Signature (penfed)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: pathfinder
+name: Pathfinder Rewards Visa Signature
+issuer: penfed
+network: visa
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: penfed_points
+cpp_floor: 0.85
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of PenFed's single "travel" bonus bucket (airfare). No spending cap was found in available
+    sources; the official rewards T&C PDF could not be fetched — NEEDS human verification of whether a
+    bonus-category cap exists.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of PenFed's single "travel" bonus bucket (hotels). No cap found in sources.
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of PenFed's single "travel" bonus bucket (car rentals, cruises, tolls, bus lines). No cap
+    found in sources.
+- type: category
+  key: transit
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of PenFed's single "travel" bonus bucket (taxi/rideshare). No cap found in sources.
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Dining earn (2X standard / 3X Honors Advantage) is reported only by secondary sources that vary
+    on the exact framing; NOT independently confirmed against official page text — NEEDS human verification.
+credits:
+- name: Global Entry / TSA PreCheck application fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Figure not confirmed against penfed.org (fetches blocked); most consistently repeated figures
+    are $120 Global Entry / $85 TSA PreCheck.
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: Currently advertised offer per search-indexed penfed.org content; not confirmed by a direct read
+    of the application page. The 90-day window is a relative period, not a fixed calendar end date, so
+    no `expires` is set. NEEDS human verification.
+benefits:
+- lounge_access
+verified_date: '2026-07-04'
+confidence: low

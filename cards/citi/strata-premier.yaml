@@ -1,0 +1,81 @@
+# Citi Strata Premier (citi)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: strata-premier
+name: Citi Strata Premier
+issuer: citi
+network: mastercard
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: citi_typ
+cpp_floor: 1.0
+cpp_optimistic: 1.7
+base_rate: 1
+earn:
+- type: category
+  key: travel_hotels
+  rate: 10
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Hotels booked through Citi Travel (cititravel.com). Portal-only. Hotels booked direct earn 3X
+    (separate entry below).
+- type: category
+  key: travel_other
+  rate: 10
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Car rentals and attractions booked through Citi Travel. Portal-only.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 'Hotels booked direct (not via Citi Travel) — the non-portal 3X rate. Two travel_hotels entries
+    exist: 10X portal-only and this 3X direct.'
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Air travel (airlines direct or travel agencies).
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Excludes bakeries, caterers, and restaurants inside another business (hotel, store, stadium,
+    grocery store, warehouse club).
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Supermarket MCC only; excludes discount superstores, convenience stores, drugstores, warehouse
+    clubs, specialty food markets, bakeries, candy/nut stores, meal-kit delivery.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Excludes warehouse clubs, discount/department stores, and convenience stores not coded as gas/EV.
+credits:
+- name: Annual hotel benefit (Citi Travel)
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Once per calendar year, $100 off a single $500+ hotel stay booked and prepaid via Citi Travel
+    (portal-only; points not earned on the discounted portion). Captured only by cardholders who book
+    a qualifying $500+ hotel stay through the portal each year.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

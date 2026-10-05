@@ -1,0 +1,71 @@
+# Marriott Bonvoy Bountiful (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: marriott-bountiful
+name: Marriott Bonvoy Bountiful
+issuer: chase
+network: visa
+availability: active
+annual_fee_usd: 250
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: marriott_bonvoy
+cpp_floor: 0.6
+cpp_optimistic: 0.9
+base_rate: 2
+earn:
+- type: category
+  key: travel_hotels
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 6x applies to Marriott-brand hotel stays. This is the card's earn only — Marriott program base
+    points (10 base pts/$1 + Gold 25% bonus) post separately to the Marriott account and are not included
+    here.
+- type: category
+  key: groceries
+  rate: 4
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $6,000/account-anniversary-year pool shared with dining; combined spend above the cap
+    earns 2 points/$1 (no maximum).
+- type: category
+  key: dining
+  rate: 4
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: Combined $6,000/account-anniversary-year pool shared with groceries; combined spend above the
+    cap earns 2 points/$1.
+credits:
+- name: Free Night Award ($15k spend)
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: 'Earned each calendar year only after $15,000 of card spend; valid 12 months, resort fees still
+    apply. Estimated at ~$200: caps at a 50,000-point redemption ceiling and Marriott points realistically
+    redeem near 0.6-0.9 cents (~$300-450 at the ceiling), haircut toward $200 for the spend gate, ceiling
+    reachability, resort fees, and availability. Captured only by heavy spenders who take a Marriott stay.'
+- name: DashPass DoorDash quarterly credit
+  amount_usd: 10
+  period: quarterly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each
+    quarter (no rollover). Active DoorDash users only.
+signup_bonus:
+  points: 85000
+  cash_usd: null
+  spend_usd: 4000
+  months: 3
+  notes: Account must stay open 6+ months or points may be clawed back. Marriott/Amex cross-product exclusions
+    apply (see offer file).
+benefits:
+- complimentary_elite_status
+- concierge
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,78 @@
+# Royal ONE Plus Visa Signature (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: royal-one-plus
+name: Royal ONE Plus Visa Signature
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 99
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: mycruise_points
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_hotels
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: gas
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Anniversary Reward
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Offer file states "$200 anniversary reward after qualifying annual spend" without naming the
+    spend requirement. Redemption is cruise-related (onboard credit / cruise discount), not cash. NEEDS
+    human verification of the spend threshold.
+- name: Airport Security Statement Credit (TSA PreCheck / Global Entry)
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Reimburses the TSA PreCheck (~$78) or Global Entry ($120) application fee once per 4-year cycle.
+    Captured by anyone who applies; otherwise unused.
+signup_bonus:
+  points: 70000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: null
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low

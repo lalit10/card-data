@@ -1,0 +1,109 @@
+# American Express Gold Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: gold
+name: American Express Gold Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 325
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: amex_mr
+cpp_floor: 0.6
+cpp_optimistic: 1.9
+base_rate: 1
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Prepaid hotels booked through American Express Travel only.
+- type: category
+  key: dining
+  rate: 4
+  cap_usd: 50000
+  cap_period: annual
+  portal_only: false
+  notes: Restaurants worldwide. Excludes restaurants inside another establishment, event tickets, non-US
+    third-party delivery, bars/nightclubs/cafeterias/ caterers/breweries/bakeries.
+- type: category
+  key: groceries
+  rate: 4
+  cap_usd: 25000
+  cap_period: annual
+  portal_only: false
+  notes: US supermarkets only. Excludes superstores, convenience stores, warehouse clubs, meal-kit delivery.
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Scheduled-airline airfare booked directly or via Amex Travel; excludes charter/private jet.
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 2x on prepaid car rentals and cruise reservations via Amex Travel, and on other Amex Travel portal
+    purchases generally (1 base + 1 bonus). Does not stack with the category bonuses above.
+credits:
+- name: Resy Credit
+  amount_usd: 50
+  period: semiannual
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: $50 twice a year ($100/yr) at Resy-bookable US restaurants; enrollment required; does not roll
+    over between halves. Captured by people who dine at Resy restaurants; excludes delivery/catering,
+    gift cards, Resy software.
+- name: Dining Credit
+  amount_usd: 10
+  period: monthly
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: Usable only at select partners (Grubhub/Seamless, Buffalo Wild Wings, Five Guys, The Cheesecake
+    Factory, Wonder).
+- name: Uber Cash
+  amount_usd: 10
+  period: monthly
+  category: transit
+  requires_enrollment: true
+  expires: null
+  notes: $10/month in Uber Cash (US), requires the card added as an Uber payment method; usable on Uber
+    rides and Uber Eats; expires monthly, no rollover. Captured by regular Uber/Uber Eats users only.
+- name: Dunkin' Credit
+  amount_usd: 7
+  period: monthly
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: $7/month at US Dunkin' locations; enrollment required; monthly forfeit. Excludes gift cards,
+    delivery apps, and Dunkin' products at other retailers. Only worth it to regular Dunkin' customers.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 100000
+  cash_usd: null
+  spend_usd: 8000
+  months: 6
+  notes: Offer file states "up to 100,000"; exact welcome amount disclosed at approval and may be lower.
+    Standard evergreen bonus not separately stated.
+benefits:
+- no_foreign_transaction_fee
+- car_rental_insurance
+- extended_warranty
+- purchase_protection
+- trip_cancellation_insurance
+verified_date: '2026-07-04'
+confidence: low

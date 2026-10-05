@@ -1,0 +1,71 @@
+# Aeroplan (chase)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: aeroplan
+name: Aeroplan
+issuer: chase
+network: mastercard
+availability: active
+annual_fee_usd: 95
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: aeroplan
+cpp_floor: 1.0
+cpp_optimistic: 1.4
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Only purchases made directly with Air Canada (excludes gift cards, car rentals, hotel bookings
+    and other third-party partner products via aircanada.com, onboard WiFi, and tickets booked via travel
+    agencies/discount sites/vacation clubs/tour operators/non-airline packages). Narrower than the general
+    travel_flights category — other airlines' tickets earn only the 1x base rate. Modeled at the co-brand
+    rate; cannot split airline within the category.
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Global Entry / TSA PreCheck / NEXUS fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit up to $120 per 4-year cycle covering a Global Entry/TSA PreCheck/NEXUS application
+    fee. Captured only by travelers who apply/renew; worthless to those who never enroll.
+- name: DashPass DoorDash quarterly credit
+  amount_usd: 10
+  period: quarterly
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: Requires activating complimentary DashPass (12 months free 2/1/2025-12/31/2027, then auto-renews)
+    and one qualifying DoorDash non-restaurant order each quarter (no rollover). Captured only by active
+    DoorDash users; worthless otherwise.
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: Not available to current cardmembers of this card or previous cardmembers who received a bonus
+    for this card within the last 24 months. Allow 6-8 weeks to post.
+benefits:
+- free_checked_bag
+- complimentary_elite_status
+- concierge
+verified_date: '2026-07-04'
+confidence: low

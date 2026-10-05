@@ -1,0 +1,26 @@
+# Unlimited Cash Rewards (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: unlimited-cash
+name: Unlimited Cash Rewards
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

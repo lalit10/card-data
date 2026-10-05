@@ -1,0 +1,27 @@
+# GM Rewards Mastercard (barclays)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: my-gm-rewards
+name: GM Rewards Mastercard
+issuer: barclays
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: points
+currency_program: gm_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 3
+earn: []
+credits: []
+signup_bonus:
+  points: 30000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- zero_fraud_liability
+- free_fico_score
+verified_date: '2026-07-04'
+confidence: low

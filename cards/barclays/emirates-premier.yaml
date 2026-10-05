@@ -1,0 +1,70 @@
+# Emirates Skywards Premium World Elite Mastercard (barclays)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: emirates-premier
+name: Emirates Skywards Premium World Elite Mastercard
+issuer: barclays
+network: mastercard
+availability: active
+annual_fee_usd: 499
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: emirates_skywards
+cpp_floor: 0.8
+cpp_optimistic: 1.2
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: '"Eligible travel purchases" — the issuer''s broad travel definition. Modeled across the three
+    travel sub-categories at 2x; exact merchant-category-code scope not stated in the offer file. NEEDS
+    human verification.'
+- type: category
+  key: travel_hotels
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_5_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit up to $120 per 5-year cycle for a Global Entry/TSA PreCheck application
+    fee. Captured only by travelers who apply/renew; worthless to those who never enroll.
+- name: Anniversary bonus Skywards Miles
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Requires $30,000 of total card spend in the cardmembership year; captured only by heavy spenders.
+    Valued via the card's Emirates Skywards program.
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: null
+benefits:
+- lounge_access
+- complimentary_elite_status
+- world_elite_mastercard
+- no_foreign_transaction_fee
+- free_fico_score
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

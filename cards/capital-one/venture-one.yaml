@@ -1,0 +1,43 @@
+# Capital One VentureOne Rewards (capital-one)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: venture-one
+name: Capital One VentureOne Rewards
+issuer: capital-one
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: capital_one_miles
+cpp_floor: 0.5
+cpp_optimistic: 1.7
+base_rate: 1.25
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Applies only to hotels booked through Capital One Travel (issuer portal). Vacation rentals booked
+    via the portal also earn 5X but are not separately modeled (no vacation-rental category key). Per
+    secondary sources. NEEDS human verification.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Rental cars booked through Capital One Travel only. Per secondary sources. NEEDS human verification.
+credits: []
+signup_bonus:
+  points: 20000
+  cash_usd: null
+  spend_usd: 500
+  months: 3
+  notes: '"20,000 bonus miles (a $200 travel value) after spending $500 in the first 3 months." Per secondary
+    sources — figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low

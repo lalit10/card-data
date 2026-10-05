@@ -1,0 +1,51 @@
+# Wells Fargo Choice Privileges Mastercard (wells-fargo)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: choice-privileges
+name: Wells Fargo Choice Privileges Mastercard
+issuer: wells-fargo
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: choice_privileges
+cpp_floor: 0.5
+cpp_optimistic: 0.8
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: utilities
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Covers "phone plan services" only, per the offer file — not utilities broadly. Mapped to the
+    utilities key for lack of a phone-specific key; narrower than this category. NEEDS human verification.
+credits: []
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- cell_phone_protection
+- complimentary_elite_status
+- world_elite_mastercard
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

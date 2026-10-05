@@ -1,0 +1,83 @@
+# Hilton Honors American Express Surpass Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: hilton-surpass
+name: Hilton Honors American Express Surpass Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 150
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: hilton_honors
+cpp_floor: 0.4
+cpp_optimistic: 0.6
+base_rate: 3
+earn:
+- type: category
+  key: dining
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US restaurants only (physically in the US); excludes nightclubs, convenience/ grocery stores,
+    and restaurants inside another establishment (hotel/casino).
+- type: category
+  key: groceries
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US supermarkets; excludes superstores and warehouse clubs.
+- type: category
+  key: gas
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: US gas stations; excludes superstores and warehouse clubs.
+- type: category
+  key: online_shopping
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Online retail from US merchants selling physical goods, purchased online (in-app/browser, not
+    in-store mobile wallet). Excludes restaurants, supermarkets, gas, auto dealers, and travel/entertainment/services.
+credits:
+- name: Hilton Statement Credit
+  amount_usd: 50
+  period: quarterly
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $50/quarter on purchases made directly with a Hilton portfolio property (bookings + room-charged
+    incidentals via Hilton-direct channel only, not OTAs). Easy for regular Hilton-direct guests; useless
+    for OTA bookers or non-Hilton stays.
+- name: Free Night Reward ($15k spend)
+  amount_usd: 200
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: in_kind value is a curator estimate (~$200, matching the identical cert on hilton-aspire), not
+    an issuer-stated figure.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 130000
+  cash_usd: null
+  spend_usd: 3000
+  months: 6
+  notes: Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification.
+    Standard evergreen bonus not separately stated.
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+verified_date: '2026-07-04'
+confidence: low

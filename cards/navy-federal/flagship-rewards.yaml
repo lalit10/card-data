@@ -1,0 +1,76 @@
+# Visa Signature Flagship Rewards (navy-federal)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: flagship-rewards
+name: Visa Signature Flagship Rewards
+issuer: navy-federal
+network: visa
+availability: active
+annual_fee_usd: 49
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: navy_federal_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 2
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of NFCU's single broad travel bonus (airlines). No spending cap; the same 3x also applies
+    to hotels, other travel, and transit/rideshare (see sibling entries). Mapping of NFCU's broad travel
+    definition onto our split travel keys is an interpretation.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of NFCU's single broad 3x travel bonus (hotels, campgrounds). Uncapped.
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of NFCU's single broad 3x travel bonus (car rentals, cruises, campgrounds, other travel).
+    Uncapped.
+- type: category
+  key: transit
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of NFCU's single broad 3x travel bonus (ride-sharing, tolls). Uncapped.
+credits:
+- name: Global Entry / TSA PreCheck application fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Captured only by cardholders who apply/reapply for Global Entry or TSA PreCheck within the 4-year
+    window; worth ~$100-$120 (application fees) to travelers, $0 to those who don't enroll. Automatic
+    statement credit on the application charge.
+signup_bonus:
+  points: 35000
+  cash_usd: null
+  spend_usd: 3500
+  months: 3
+  notes: Spend window is 90 days, recorded as 3 months; points post up to 8 weeks after the 90-day period
+    ends. Offer window is 07/01/2026-01/03/2027 and the offer file notes it will roll over, so `expires`
+    marks a re-check date, not necessarily a real expiration. Eligible purchases exclude fees, interest,
+    balance transfers, gambling, convenience checks, cash advances, and cash-equivalents. The offer ALSO
+    bundles a complimentary one-year Amazon Prime membership (NFCU-marketed value $139) — this in-kind
+    perk is noted but NOT structured/scored here (it is a one-time item, not a recurring credit, and requires
+    manual enrollment). Limited to one bonus per new account.
+benefits:
+- zero_fraud_liability
+- visa_signature
+- concierge
+- car_rental_insurance
+- travel_accident_insurance
+verified_date: '2026-07-04'
+confidence: low

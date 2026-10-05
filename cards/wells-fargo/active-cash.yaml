@@ -1,0 +1,30 @@
+# Wells Fargo Active Cash (wells-fargo)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: active-cash
+name: Wells Fargo Active Cash
+issuer: wells-fargo
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 2
+earn: []
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 500
+  months: 3
+  notes: null
+benefits:
+- cell_phone_protection
+- car_rental_insurance
+- visa_signature
+- zero_fraud_liability
+- free_fico_score
+verified_date: '2026-07-04'
+confidence: low

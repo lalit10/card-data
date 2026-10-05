@@ -1,0 +1,57 @@
+# Platinum Rewards Visa Signature (penfed)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: platinum-rewards
+name: Platinum Rewards Visa Signature
+issuer: penfed
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: penfed_points
+cpp_floor: 0.85
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Applies to gas "paid at the pump". No spending cap was found in available sources, but the official
+    terms PDF could not be fetched to confirm the absence — NEEDS human verification.
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: No cap found in sources; terms PDF could not be fetched to confirm.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: No cap found in sources; terms PDF could not be fetched to confirm.
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: PenFed's category is "cable/streaming services" — mapped to the streaming key; it also covers
+    cable TV, which is slightly broader than our streaming label. No cap found.
+credits: []
+signup_bonus:
+  points: 15000
+  cash_usd: null
+  spend_usd: 1500
+  months: 3
+  notes: Per search-indexed penfed.org content; not confirmed by a direct read of the application page.
+    The 90-day window is a relative period, not a fixed calendar end date, so no `expires` is set. NEEDS
+    human verification.
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

@@ -1,0 +1,25 @@
+# Upgrade Cash Rewards Visa (upgrade)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: upgrade-cash-rewards
+name: Upgrade Cash Rewards Visa
+issuer: upgrade
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn: []
+credits: []
+benefits:
+- visa_signature
+- extended_warranty
+- price_protection
+- roadside_dispatch
+- travel_emergency_assistance
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

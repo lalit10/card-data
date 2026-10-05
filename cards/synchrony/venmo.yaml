@@ -1,0 +1,26 @@
+# Venmo Credit Card (synchrony)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: venmo
+name: Venmo Credit Card
+issuer: synchrony
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: choice
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits: []
+benefits: []
+verified_date: '2026-07-04'
+confidence: low

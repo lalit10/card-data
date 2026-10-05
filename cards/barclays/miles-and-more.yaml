@@ -1,0 +1,46 @@
+# Miles & More World Elite Mastercard (barclays)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: miles-and-more
+name: Miles & More World Elite Mastercard
+issuer: barclays
+network: mastercard
+availability: active
+annual_fee_usd: 89
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: miles_and_more
+cpp_floor: 0.7
+cpp_optimistic: 1.2
+base_rate: 1
+earn: []
+credits:
+- name: Lufthansa Business Lounge vouchers
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: No issuer dollar value stated; $100/year is a curator estimate (2 vouchers x ~$50). A reviewer
+    may adjust or convert to a benefit_flag.
+- name: Annual Companion Ticket
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 'in_kind value is a curator estimate: savings equal the companion base fare minus taxes/fees/surcharges;
+    $200 is a conservative net figure for a typical economy itinerary after Lufthansa''s high surcharges,
+    NEEDS human verification. Mirrors the atmos-ascent/atmos-summit companion-certificate modeling convention.'
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 3000
+  months: 3
+  notes: Also requires paying the annual fee in full within the first 90 days.
+benefits:
+- companion_certificate
+- lounge_access
+- world_elite_mastercard
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low

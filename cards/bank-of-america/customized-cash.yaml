@@ -1,0 +1,45 @@
+# Customized Cash Rewards (bank-of-america)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: customized-cash
+name: Customized Cash Rewards
+issuer: bank-of-america
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 3
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: choice
+  rate: 3
+  cap_usd: 2500
+  cap_period: quarterly
+  portal_only: false
+  notes: 'The 3% (choice) and 2% (groceries/warehouse clubs) rates share ONE combined $2,500/quarter spend
+    pool; spend above the pool earns 1%. Offer file: "6% and 2% rates apply to the first $2,500 in combined
+    purchases each quarter ... once the quarterly cap is reached, those purchases earn 1%." The 6% first-year
+    promo rate is noted at card level; 3% is the ongoing rate.'
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: 2500
+  cap_period: quarterly
+  portal_only: false
+  notes: Automatic (no selection). Covers grocery stores and wholesale/warehouse clubs. Shares the single
+    $2,500/quarter combined pool with the 3% choice category (see the choice entry); combined spend above
+    $2,500 earns 1% for the rest of the quarter.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: null
+benefits:
+- zero_fraud_liability
+verified_date: '2026-07-04'
+confidence: low

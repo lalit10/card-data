@@ -1,0 +1,80 @@
+# American Express Green Card (amex)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: green
+name: American Express Green Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 150
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: amex_mr
+cpp_floor: 0.6
+cpp_optimistic: 1.9
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of Amex's broad "travel" bonus (airfare, hotels, cruises, tours, car rentals, campgrounds,
+    vacation rentals, third-party travel sites, Amex Travel). Excludes timeshare purchases.
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of the broad Amex "travel" bonus (see travel_flights notes).
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Part of the broad Amex "travel" bonus (cruises, tours, car rentals, vacation rentals, etc.).
+- type: category
+  key: transit
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Trains, taxis, rideshare, ferries, tolls, parking, buses, subways.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Excludes restaurants inside another establishment, non-US third-party delivery, bars/nightclubs/cafeterias/convenience
+    stores.
+credits:
+- name: CLEAR Plus Credit
+  amount_usd: 219
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: null
+  notes: Covers an annual CLEAR+ membership (~$219). Requires separate CLEAR enrollment; full value only
+    to travelers who use CLEAR at airports/venues, $0 to everyone else.
+- name: American Express Venue Collection Concessions Credit
+  amount_usd: 25
+  period: annual
+  category: entertainment
+  requires_enrollment: true
+  expires: '2026-12-31'
+  notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
+    is a small fraction — modeled at ~$25.
+signup_bonus:
+  points: 40000
+  cash_usd: null
+  spend_usd: 3000
+  months: 6
+  notes: null
+benefits:
+- no_foreign_transaction_fee
+- trip_cancellation_insurance
+verified_date: '2026-07-04'
+confidence: low

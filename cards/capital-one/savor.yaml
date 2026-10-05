@@ -1,0 +1,72 @@
+# Capital One Savor Rewards (capital-one)
+# Edit freely; set verified_date when you confirm figures with the issuer.
+id: savor
+name: Capital One Savor Rewards
+issuer: capital-one
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: entertainment
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Grocery category excludes superstores like Walmart and Target (stated in the offer file).
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Applies only to hotels booked through Capital One Travel (issuer portal). Vacation rentals booked
+    via the portal also earn 5% but are not separately modeled (no vacation-rental category key). NEEDS
+    human verification.
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: Rental cars booked through Capital One Travel only. NEEDS human verification.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: 500
+  months: 3
+  notes: '"Earn a one-time $250 cash bonus once you spend $500 on purchases within the first 3 months."
+    Marked limited-time in the offer file. Existing cardmembers ineligible if they received a bonus in
+    the past 48 months. Figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
+benefits:
+- no_foreign_transaction_fee
+verified_date: '2026-07-04'
+confidence: low
