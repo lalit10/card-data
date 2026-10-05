@@ -1,8 +1,8 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "see LICENSE; card facts compiled from public issuer sources",
-  "fetched_at": "2026-10-05T23:00:10Z",
-  "card_count": 136,
+  "fetched_at": "2026-10-05T23:00:26Z",
+  "card_count": 137,
   "valuations": {
     "aa_advantage": {
       "floor_cpp": 0.8,
@@ -540,6 +540,34 @@
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
+    },
+    {
+      "id": "alliant-alliant-platinum",
+      "name": "Alliant Visa Platinum Card",
+      "issuer": "alliant",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1,
+      "earn": [],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "No welcome offer stated. Low-APR card: 0% intro APR 12 months on purchases and balance transfers, then 14.49%-26.49% variable. 2% balance transfer fee."
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "bank-of-america-allegiant",

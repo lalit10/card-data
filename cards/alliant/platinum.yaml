@@ -19,8 +19,8 @@ signup_bonus:
   cash_usd: null
   spend_usd: null
   months: null
-  notes: No welcome offer stated. Low-APR card: 0% intro APR 12 months on purchases
-    and balance transfers, then 14.49%-26.49% variable. 2% balance transfer fee.
+  notes: 'No welcome offer stated. Low-APR card: 0% intro APR 12 months on purchases
+    and balance transfers, then 14.49%-26.49% variable. 2% balance transfer fee.'
 benefits:
 - zero_fraud_liability
 verified_date: '2026-10-05'
