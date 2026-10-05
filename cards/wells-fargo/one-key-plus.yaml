@@ -1,0 +1,71 @@
+# Wells Fargo One Key+ Card (wells-fargo)
+# Verified against creditcards.wellsfargo.com 2026-10-05.
+id: one-key-plus
+name: Wells Fargo One Key+ Card
+issuer: wells-fargo
+network: visa
+availability: active
+annual_fee_usd: 99
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: wells_onekey
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 2
+earn:
+- type: merchant
+  key: expedia_group
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash on Expedia, Hotels.com, and Vrbo (US versions only); 2% base + 1% bonus.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash at gas stations.
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash at grocery stores.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash on dining.
+credits:
+- name: Anniversary OneKeyCash bonus
+  amount_usd: 100
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $100 in OneKeyCash each anniversary year; expires 12 months after issuance.
+- name: Global Entry or TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $120 every 4 years for a Global Entry or TSA PreCheck application or renewal fee.
+signup_bonus:
+  points: null
+  cash_usd: 350
+  spend_usd: 3000
+  months: 3
+  notes: $350 in OneKeyCash after $3,000 in net purchases in the first 3 months. Not eligible if you
+    opened a One Key, One Key+, or Hotels.com card in the last 48 months.
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+- cell_phone_protection
+verified_date: '2026-10-05'
+confidence: high

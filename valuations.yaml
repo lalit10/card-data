@@ -154,3 +154,7 @@ programs:
     floor_cpp: 0.7
     label: Wyndham Rewards
     optimistic_cpp: 1.1
+  wells_onekey:
+    floor_cpp: 1.0
+    label: Wells Fargo OneKeyCash
+    optimistic_cpp: 1.0

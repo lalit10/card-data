@@ -1,0 +1,57 @@
+# Wells Fargo One Key Card (wells-fargo)
+# Verified against creditcards.wellsfargo.com 2026-10-05.
+id: one-key
+name: Wells Fargo One Key Card
+issuer: wells-fargo
+network: visa
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: wells_onekey
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.5
+earn:
+- type: merchant
+  key: expedia_group
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash on Expedia, Hotels.com, and Vrbo (US versions only); 1.5% base + 1.5% bonus.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash at gas stations.
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash at grocery stores.
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% in OneKeyCash on dining.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 250
+  spend_usd: 1000
+  months: 3
+  notes: $250 in OneKeyCash after $1,000 in net purchases in the first 3 months. Not eligible if you
+    opened a One Key, One Key+, or Hotels.com card in the last 48 months.
+benefits:
+- no_foreign_transaction_fee
+- elite_status
+- cell_phone_protection
+verified_date: '2026-10-05'
+confidence: high

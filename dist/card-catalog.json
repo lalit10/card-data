@@ -1,8 +1,8 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T20:28:47Z",
-  "card_count": 121,
+  "fetched_at": "2026-10-05T20:31:36Z",
+  "card_count": 123,
   "valuations": {
     "aa_advantage": {
       "floor_cpp": 0.8,
@@ -155,6 +155,10 @@
     "wyndham_rewards": {
       "floor_cpp": 0.7,
       "optimistic_cpp": 1.1
+    },
+    "wells_onekey": {
+      "floor_cpp": 1.0,
+      "optimistic_cpp": 1.0
     }
   },
   "cards": [
@@ -8496,6 +8500,159 @@
         "trip_cancellation_insurance",
         "lost_baggage_reimbursement",
         "travel_accident_insurance"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
+      "id": "wells-fargo-one-key",
+      "name": "Wells Fargo One Key Card",
+      "issuer": "wells-fargo",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "wells_onekey",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1.5,
+      "earn": [
+        {
+          "type": "merchant",
+          "key": "expedia_group",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash on Expedia, Hotels.com, and Vrbo (US versions only); 1.5% base + 1.5% bonus."
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash at gas stations."
+        },
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash at grocery stores."
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash on dining."
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 250,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "$250 in OneKeyCash after $1,000 in net purchases in the first 3 months. Not eligible if you opened a One Key, One Key+, or Hotels.com card in the last 48 months."
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "elite_status",
+        "cell_phone_protection"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
+      "id": "wells-fargo-one-key-plus",
+      "name": "Wells Fargo One Key+ Card",
+      "issuer": "wells-fargo",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 99,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "wells_onekey",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 2,
+      "earn": [
+        {
+          "type": "merchant",
+          "key": "expedia_group",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash on Expedia, Hotels.com, and Vrbo (US versions only); 2% base + 1% bonus."
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash at gas stations."
+        },
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash at grocery stores."
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% in OneKeyCash on dining."
+        }
+      ],
+      "credits": [
+        {
+          "name": "Anniversary OneKeyCash bonus",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100 in OneKeyCash each anniversary year; expires 12 months after issuance."
+        },
+        {
+          "name": "Global Entry or TSA PreCheck fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $120 every 4 years for a Global Entry or TSA PreCheck application or renewal fee."
+        }
+      ],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 350,
+        "spend_usd": 3000,
+        "months": 3,
+        "notes": "$350 in OneKeyCash after $3,000 in net purchases in the first 3 months. Not eligible if you opened a One Key, One Key+, or Hotels.com card in the last 48 months."
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "elite_status",
+        "cell_phone_protection"
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
