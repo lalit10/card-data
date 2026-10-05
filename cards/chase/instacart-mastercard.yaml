@@ -6,13 +6,20 @@ issuer: chase
 network: mastercard
 availability: active
 annual_fee_usd: 0
-foreign_transaction_pct: 3
+foreign_transaction_pct: 0
 currency_type: cash
 currency_program: cash
 cpp_floor: 1.0
 cpp_optimistic: 1.0
 base_rate: 1
 earn:
+- type: merchant
+  key: instacart
+  rate: 5
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: 5% back on qualifying Instacart.com and Instacart app purchases on the first $6,000 annually.
 - type: category
   key: gas
   rate: 2
@@ -56,6 +63,12 @@ earn:
   portal_only: true
   notes: Chase Travel portal purchases (cars, cruises, activities, etc.).
 credits: []
+signup_bonus:
+  points: null
+  cash_usd: 50
+  spend_usd: null
+  months: null
+  notes: $50 Instacart credit automatically loaded to the Instacart.com account on approval.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

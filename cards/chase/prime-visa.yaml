@@ -75,6 +75,12 @@ earn:
   notes: 5% at Whole Foods Market (US physical stores + wholefoodsmarket.com). Excludes WF via third-party
     sites (Instacart/Shipt), online WF gift cards/tickets/classes, certain third-party WF vendors, massage/Spa@Ink.
 credits: []
+signup_bonus:
+  points: null
+  cash_usd: 150
+  spend_usd: null
+  months: null
+  notes: $150 Amazon gift card instantly loaded to the Amazon account gift card balance on approval.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

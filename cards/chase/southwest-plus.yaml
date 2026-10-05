@@ -5,7 +5,7 @@ name: Southwest Rapid Rewards Plus
 issuer: chase
 network: visa
 availability: active
-annual_fee_usd: 69
+annual_fee_usd: 99
 foreign_transaction_pct: 0
 currency_type: points
 currency_program: southwest_rapid_rewards
@@ -86,5 +86,5 @@ benefits:
 - no_change_fees
 - no_blackout_dates
 - companion_pass_qualifying_boost
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

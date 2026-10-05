@@ -70,6 +70,12 @@ earn:
   portal_only: false
   notes: null
 credits: []
+signup_bonus:
+  points: null
+  cash_usd: 50
+  spend_usd: null
+  months: null
+  notes: $50 Amazon gift card instantly loaded to the Amazon account gift card balance on approval.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

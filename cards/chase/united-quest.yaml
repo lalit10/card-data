@@ -15,7 +15,7 @@ base_rate: 1
 earn:
 - type: category
   key: travel_flights
-  rate: 4
+  rate: 6
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -114,15 +114,15 @@ credits:
     at the $10 monthly credit; the additional $5 is not separately modeled. Only regular Instacart users
     net ahead after the free window.
 signup_bonus:
-  points: 60000
+  points: 90000
   cash_usd: null
-  spend_usd: 4000
-  months: 3
+  spend_usd: null
+  months: null
   notes: Bonus miles don't count toward Premier status. The offer also grants 500 additional PQP after
     the same $4,000/3-month spend (status-qualifying, not redeemable) and a 10,000-mile authorized-user
     bonus — neither is modeled as signup value. Not available to current/recent (24-month) cardmembers.
 benefits:
 - free_checked_bag
 - visa_signature
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

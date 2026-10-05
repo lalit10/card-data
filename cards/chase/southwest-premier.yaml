@@ -5,7 +5,7 @@ name: Southwest Rapid Rewards Premier
 issuer: chase
 network: visa
 availability: active
-annual_fee_usd: 99
+annual_fee_usd: 149
 foreign_transaction_pct: 0
 currency_type: points
 currency_program: southwest_rapid_rewards
@@ -87,5 +87,5 @@ benefits:
 - no_blackout_dates
 - companion_pass_qualifying_boost
 - visa_signature
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

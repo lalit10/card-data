@@ -1,7 +1,7 @@
 # IHG One Rewards Traveler (chase)
 # Edit freely; set verified_date when you confirm figures with the issuer.
 id: ihg-traveler
-name: IHG One Rewards Traveler
+name: IHG One Rewards Credit Card
 issuer: chase
 network: mastercard
 availability: active
@@ -15,7 +15,7 @@ base_rate: 2
 earn:
 - type: category
   key: travel_hotels
-  rate: 5
+  rate: 17
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -77,7 +77,7 @@ credits:
     and a qualifying purchase each month (no rollover). Only regular Instacart users net ahead after the
     free window.
 signup_bonus:
-  points: 80000
+  points: 135000
   cash_usd: null
   spend_usd: 2000
   months: 3
@@ -88,5 +88,5 @@ signup_bonus:
 benefits:
 - complimentary_elite_status
 - fourth_night_free_award
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

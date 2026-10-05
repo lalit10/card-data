@@ -5,7 +5,7 @@ name: United Club
 issuer: chase
 network: visa
 availability: active
-annual_fee_usd: 525
+annual_fee_usd: 695
 foreign_transaction_pct: 0
 currency_type: points
 currency_program: united_mileageplus
@@ -15,7 +15,7 @@ base_rate: 1
 earn:
 - type: category
   key: travel_flights
-  rate: 5
+  rate: 11
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -97,7 +97,7 @@ credits:
     period, then $99/year auto-renewal). Modeled conservatively at $10/month; the second $10 credit is
     not separately modeled. Only regular Instacart users net ahead after the free window.
 signup_bonus:
-  points: 80000
+  points: 100000
   cash_usd: null
   spend_usd: 5000
   months: 3
@@ -108,5 +108,5 @@ benefits:
 - lounge_access
 - free_checked_bag
 - complimentary_elite_status
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

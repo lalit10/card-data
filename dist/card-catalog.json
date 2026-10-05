@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T18:45:39Z",
+  "fetched_at": "2026-10-05T18:56:04Z",
   "card_count": 115,
   "valuations": {
     "aa_advantage": {
@@ -272,8 +272,8 @@
         "priority_boarding",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-aeroplan",
@@ -292,7 +292,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 3,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -338,9 +338,9 @@
         }
       ],
       "signup_bonus": {
-        "points": 60000,
+        "points": 75000,
         "cash_usd": null,
-        "spend_usd": 3000,
+        "spend_usd": 4000,
         "months": 3,
         "notes": "Not available to current cardmembers of this card or previous cardmembers who received a bonus for this card within the last 24 months. Allow 6-8 weeks to post."
       },
@@ -349,8 +349,8 @@
         "complimentary_elite_status",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-flying-blue",
@@ -526,10 +526,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 50,
+        "spend_usd": null,
+        "months": null,
+        "notes": "$50 Amazon gift card instantly loaded to the Amazon account gift card balance on approval."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-aadvantage-mileup",
@@ -1414,8 +1420,8 @@
         "companion_certificate",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-capital-one-platinum",
@@ -1843,7 +1849,7 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
+      "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "chase_ur",
       "cpp_floor": 1.0,
@@ -1853,7 +1859,7 @@
         {
           "type": "category",
           "key": "dining",
-          "rate": 3,
+          "rate": 4.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -1862,7 +1868,7 @@
         {
           "type": "category",
           "key": "drugstores",
-          "rate": 3,
+          "rate": 4.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -1871,7 +1877,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -1880,7 +1886,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -1889,7 +1895,7 @@
         {
           "type": "category",
           "key": "travel_other",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -1917,15 +1923,15 @@
         }
       ],
       "signup_bonus": {
-        "points": 20000,
+        "points": 25000,
         "cash_usd": null,
         "spend_usd": 500,
         "months": 3,
-        "notes": "Marketed as \"$200 cash back\" (20,000 UR points at 1cpp). Not available to current cardmembers or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post."
+        "notes": "Marketed as \"$250 cash back\" (25,000 UR points at 1cpp). All Cards listing shows NEW $250; detail page hero still showed $200 as of 2026-10-05. Not available to current cardmembers or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-freedom-rise",
@@ -1934,7 +1940,7 @@
       "network": "visa",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
+      "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "chase_ur",
       "cpp_floor": 1.0,
@@ -1964,16 +1970,16 @@
       ],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
-        "spend_usd": 0,
+        "cash_usd": 25,
+        "spend_usd": null,
         "months": 3,
-        "notes": "The $25 is enrollment-gated, not spend-gated: requires enrolling in autopay within the first 3 months and staying enrolled 90+ consecutive days (allow 6-8 weeks to post). SEPARATELY, the card offers an intro elevated rate of 3% total on dining (incl. takeout/delivery) for the first 6 months or until $6,000 in dining spend, whichever comes first \u2014 this year-one intro boost is described here rather than as a permanent category reward (the standing dining rate is the 1.5% base). Not available to current cardmembers or those who got a bonus for this card in the last 24 months."
+        "notes": "$25 statement credit after making 10 purchases within the first 3 months. 1.5% cash back on all purchases. Credit-building focused card."
       },
       "benefits": [
         "free_credit_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-freedom-unlimited",
@@ -1982,7 +1988,7 @@
       "network": "visa",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
+      "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "chase_ur",
       "cpp_floor": 1.0,
@@ -1992,7 +1998,7 @@
         {
           "type": "category",
           "key": "dining",
-          "rate": 3,
+          "rate": 4.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2001,7 +2007,7 @@
         {
           "type": "category",
           "key": "drugstores",
-          "rate": 3,
+          "rate": 4.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2010,7 +2016,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2019,7 +2025,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2028,7 +2034,7 @@
         {
           "type": "category",
           "key": "travel_other",
-          "rate": 5,
+          "rate": 6.5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2060,11 +2066,11 @@
         "cash_usd": null,
         "spend_usd": 500,
         "months": 3,
-        "notes": "Marketed as \"$200 cash back\" (20,000 UR points at 1cpp). Not available to current cardmembers or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post; account must be open and not in default at fulfillment."
+        "notes": "Marketed as \"$200 cash back\" (20,000 UR points at 1cpp). Limited-time offer, ends soon. Not available to current cardmembers or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post; account must be open and not in default at fulfillment."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-sapphire-preferred",
@@ -2146,6 +2152,33 @@
       ],
       "credits": [
         {
+          "name": "DoorDash promo credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": "dining",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$10/month ($120/yr) DoorDash promo; monthly forfeit."
+        },
+        {
+          "name": "DashPass membership credit",
+          "amount_usd": 120,
+          "period": "annual",
+          "category": "dining",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "12-month DashPass membership ($120 value); enrollment required."
+        },
+        {
+          "name": "Apple TV credit",
+          "amount_usd": 156,
+          "period": "annual",
+          "category": "streaming",
+          "requires_enrollment": true,
+          "expires": "2026-12-31",
+          "notes": "1 year complimentary Apple TV ($156 value); must activate by 12/31/2026."
+        },
+        {
           "name": "Annual Chase Travel Hotel Credit",
           "amount_usd": 100,
           "period": "annual",
@@ -2165,15 +2198,15 @@
         }
       ],
       "signup_bonus": {
-        "points": 100000,
+        "points": 75000,
         "cash_usd": null,
         "spend_usd": 5000,
         "months": 3,
         "notes": "Not available to current cardmembers or previous cardmembers who received a bonus for this card. Allow 6-8 weeks to post."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-sapphire-reserve",
@@ -2236,6 +2269,33 @@
         }
       ],
       "credits": [
+        {
+          "name": "Apple TV and Apple Music credit",
+          "amount_usd": 24,
+          "period": "monthly",
+          "category": "streaming",
+          "requires_enrollment": true,
+          "expires": "2027-06-22",
+          "notes": "Up to $24/month ($288/yr) toward Apple TV and Apple Music subscriptions, through 6/22/2027; enrollment required; monthly forfeit."
+        },
+        {
+          "name": "DashPass membership credit",
+          "amount_usd": 120,
+          "period": "annual",
+          "category": "dining",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "12-month DashPass membership ($120 value); enrollment required."
+        },
+        {
+          "name": "DoorDash promo credit",
+          "amount_usd": 25,
+          "period": "monthly",
+          "category": "dining",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $25/month ($300/yr) in DoorDash promos \u2014 $5 monthly promo plus two $10 promos; monthly forfeit."
+        },
         {
           "name": "Annual Travel Credit",
           "amount_usd": 300,
@@ -2337,8 +2397,8 @@
       "benefits": [
         "lounge_access"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-aadvantage-executive",
@@ -3687,13 +3747,22 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
+      "foreign_transaction_pct": 0,
       "currency_type": "cash",
       "currency_program": "cash",
       "cpp_floor": 1.0,
       "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
+        {
+          "type": "merchant",
+          "key": "doordash",
+          "rate": 4,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "4% back on DoorDash and Caviar orders."
+        },
         {
           "type": "category",
           "key": "dining",
@@ -3733,13 +3802,19 @@
           "notes": "12 months of complimentary DashPass for the primary cardmember (auto-activated on approval) + up to 1 authorized user; renews for another 12 months in any Anniversary Year with $10,000+ card spend, otherwise auto-enrolls in the paid DashPass Annual Plan. Value estimated at the ~$96/yr annual-plan price; captured only by regular DoorDash users (waived delivery fees + reduced service fees). amount_usd is a curator estimate (issuer states no dollar value) \u2014 NEEDS human verification."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 96,
+        "spend_usd": null,
+        "months": null,
+        "notes": "Free year of DashPass on approval (auto-renews at $96/yr; cancel anytime). Plus $5 off eligible non-restaurant orders."
+      },
       "benefits": [
         "cell_phone_protection",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-emirates-premier",
@@ -4308,147 +4383,8 @@
       "confidence": "high"
     },
     {
-      "id": "chase-ihg-premier",
-      "name": "IHG One Rewards Premier",
-      "issuer": "chase",
-      "network": "mastercard",
-      "availability": "active",
-      "annual_fee_usd": 99,
-      "foreign_transaction_pct": 0,
-      "currency_type": "points",
-      "currency_program": "ihg_one_rewards",
-      "cpp_floor": 0.4,
-      "cpp_optimistic": 0.7,
-      "base_rate": 3,
-      "earn": [
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 10,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "10x applies to IHG-brand hotel stays (the card's co-brand). Modeled at the co-brand rate; non-IHG hotels earn only the 5x general-travel rate but cannot be split by brand within the travel_hotels category. This is the card's earn only \u2014 IHG program base points (10 base pts/$1 at most brands + Platinum 60% bonus) post separately to the IHG account and are not included here."
-        },
-        {
-          "type": "category",
-          "key": "travel_flights",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of the card's broad 5x \"travel\" category (excludes IHG hotel stays, which earn 10x)."
-        },
-        {
-          "type": "category",
-          "key": "travel_other",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of the card's broad 5x \"travel\" category (excludes IHG hotel stays, which earn 10x)."
-        },
-        {
-          "type": "category",
-          "key": "gas",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
-        },
-        {
-          "type": "category",
-          "key": "dining",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
-        }
-      ],
-      "credits": [
-        {
-          "name": "Anniversary Free Night",
-          "amount_usd": 150,
-          "period": "annual",
-          "category": "travel_hotels",
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Automatic each cardmember anniversary, valid 12 months; captured by anyone who takes one IHG stay a year. Estimated at ~$150: the award tops out at a 40,000-point redemption ceiling and IHG points realistically redeem near 0.4-0.5 cents each (~$160-200 at the ceiling), haircut toward $150 for the ceiling not always being reachable and blackout/availability friction. Marketing \"worth up to $X\" ignored."
-        },
-        {
-          "name": "Anniversary statement credit ($20k spend)",
-          "amount_usd": 100,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Pays only after $20,000 of card spend in a calendar year; captured only by heavy spenders. Paired with a 10,000-point bonus at the same threshold (separate entry)."
-        },
-        {
-          "name": "Anniversary bonus points ($20k spend)",
-          "amount_usd": null,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Pays only after $20,000 of card spend in a calendar year; captured only by heavy spenders. Paired with the $100 statement credit at the same threshold."
-        },
-        {
-          "name": "United TravelBank deposit",
-          "amount_usd": 25,
-          "period": "semiannual",
-          "category": null,
-          "requires_enrollment": true,
-          "expires": null,
-          "notes": "$25 into a linked United MileagePlus TravelBank account each January and July after a one-time registration; each deposit expires ~6 months after crediting. Captured only by United flyers who register and spend the TravelBank cash before it expires; worthless to non-United travelers."
-        },
-        {
-          "name": "Global Entry / TSA PreCheck / NEXUS fee credit",
-          "amount_usd": 120,
-          "period": "every_4_years",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "One statement credit up to $120 per 4-year cycle covering a trusted-traveler application fee. Captured only by travelers who apply/renew."
-        },
-        {
-          "name": "DashPass DoorDash quarterly credit",
-          "amount_usd": 10,
-          "period": "quarterly",
-          "category": null,
-          "requires_enrollment": true,
-          "expires": null,
-          "notes": "Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each quarter (no rollover). Active DoorDash users only."
-        },
-        {
-          "name": "Instacart monthly credit",
-          "amount_usd": 10,
-          "period": "monthly",
-          "category": null,
-          "requires_enrollment": true,
-          "expires": null,
-          "notes": "Requires an active Instacart+ membership (3 months complimentary, then auto-renews at $99/year) and a qualifying purchase each month (no rollover). After the free window the $99/year membership is a real cost; only regular Instacart users net ahead."
-        }
-      ],
-      "signup_bonus": {
-        "points": 140000,
-        "cash_usd": null,
-        "spend_usd": 3000,
-        "months": 3,
-        "notes": "Standard offer transcribed from the offer file. A separate 10,000-point bonus for adding an authorized user in the first 3 months (once per account) is not modeled as signup value \u2014 it requires an authorized user rather than primary-cardholder spend. Not available to current cardmembers of any personal IHG One Rewards card or previous cardmembers who received a bonus within the last 24 months."
-      },
-      "benefits": [
-        "complimentary_elite_status",
-        "fourth_night_free_award"
-      ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
-    },
-    {
       "id": "chase-ihg-traveler",
-      "name": "IHG One Rewards Traveler",
+      "name": "IHG One Rewards Credit Card",
       "issuer": "chase",
       "network": "mastercard",
       "availability": "active",
@@ -4463,7 +4399,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 5,
+          "rate": 17,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -4536,7 +4472,7 @@
         }
       ],
       "signup_bonus": {
-        "points": 80000,
+        "points": 135000,
         "cash_usd": null,
         "spend_usd": 2000,
         "months": 3,
@@ -4546,8 +4482,174 @@
         "complimentary_elite_status",
         "fourth_night_free_award"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
+      "id": "chase-ihg-premier",
+      "name": "IHG One Rewards Premier",
+      "issuer": "chase",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 99,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "ihg_one_rewards",
+      "cpp_floor": 0.4,
+      "cpp_optimistic": 0.7,
+      "base_rate": 3,
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 24,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "10x applies to IHG-brand hotel stays (the card's co-brand). Modeled at the co-brand rate; non-IHG hotels earn only the 5x general-travel rate but cannot be split by brand within the travel_hotels category. This is the card's earn only \u2014 IHG program base points (10 base pts/$1 at most brands + Platinum 60% bonus) post separately to the IHG account and are not included here."
+        },
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Part of the card's broad 5x \"travel\" category (excludes IHG hotel stays, which earn 10x)."
+        },
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Part of the card's broad 5x \"travel\" category (excludes IHG hotel stays, which earn 10x)."
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": null
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": null
+        }
+      ],
+      "credits": [
+        {
+          "name": "Food and Beverage Rewards",
+          "amount_usd": 25,
+          "period": "quarterly",
+          "category": "dining",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $25/quarter ($100/yr) in Food and Beverage Rewards vouchers at IHG Hotels; quarterly forfeit."
+        },
+        {
+          "name": "Airline Statement Credit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_flights",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100/yr airline statement credit when you spend $250+ on flights purchased directly with the airline each calendar year."
+        },
+        {
+          "name": "DoorDash non-restaurant promo credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": "groceries",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $10/month ($120/yr) in DoorDash promos on non-restaurant orders (groceries/essentials); monthly forfeit."
+        },
+        {
+          "name": "Anniversary Free Night",
+          "amount_usd": 150,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Automatic each cardmember anniversary, valid 12 months; captured by anyone who takes one IHG stay a year. Estimated at ~$150: the award tops out at a 40,000-point redemption ceiling and IHG points realistically redeem near 0.4-0.5 cents each (~$160-200 at the ceiling), haircut toward $150 for the ceiling not always being reachable and blackout/availability friction. Marketing \"worth up to $X\" ignored."
+        },
+        {
+          "name": "Anniversary statement credit ($20k spend)",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Pays only after $20,000 of card spend in a calendar year; captured only by heavy spenders. Paired with a 10,000-point bonus at the same threshold (separate entry)."
+        },
+        {
+          "name": "Anniversary bonus points ($20k spend)",
+          "amount_usd": null,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Pays only after $20,000 of card spend in a calendar year; captured only by heavy spenders. Paired with the $100 statement credit at the same threshold."
+        },
+        {
+          "name": "United TravelBank deposit",
+          "amount_usd": 25,
+          "period": "semiannual",
+          "category": null,
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "$25 into a linked United MileagePlus TravelBank account each January and July after a one-time registration; each deposit expires ~6 months after crediting. Captured only by United flyers who register and spend the TravelBank cash before it expires; worthless to non-United travelers."
+        },
+        {
+          "name": "Global Entry / TSA PreCheck / NEXUS fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "One statement credit up to $120 per 4-year cycle covering a trusted-traveler application fee. Captured only by travelers who apply/renew."
+        },
+        {
+          "name": "DashPass DoorDash quarterly credit",
+          "amount_usd": 10,
+          "period": "quarterly",
+          "category": null,
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each quarter (no rollover). Active DoorDash users only."
+        },
+        {
+          "name": "Instacart monthly credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": null,
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "Requires an active Instacart+ membership (3 months complimentary, then auto-renews at $99/year) and a qualifying purchase each month (no rollover). After the free window the $99/year membership is a real cost; only regular Instacart users net ahead."
+        }
+      ],
+      "signup_bonus": {
+        "points": 190000,
+        "cash_usd": null,
+        "spend_usd": 3000,
+        "months": 3,
+        "notes": "Standard offer transcribed from the offer file. A separate 10,000-point bonus for adding an authorized user in the first 3 months (once per account) is not modeled as signup value \u2014 it requires an authorized user rather than primary-cardholder spend. Not available to current cardmembers of any personal IHG One Rewards card or previous cardmembers who received a bonus within the last 24 months."
+      },
+      "benefits": [
+        "complimentary_elite_status",
+        "fourth_night_free_award"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-iberia",
@@ -4613,8 +4715,8 @@
         "companion_certificate",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-instacart-mastercard",
@@ -4623,13 +4725,22 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
+      "foreign_transaction_pct": 0,
       "currency_type": "cash",
       "currency_program": "cash",
       "cpp_floor": 1.0,
       "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
+        {
+          "type": "merchant",
+          "key": "instacart",
+          "rate": 5,
+          "cap_usd": 6000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "5% back on qualifying Instacart.com and Instacart app purchases on the first $6,000 annually."
+        },
         {
           "type": "category",
           "key": "gas",
@@ -4686,10 +4797,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 50,
+        "spend_usd": null,
+        "months": null,
+        "notes": "$50 Instacart credit automatically loaded to the Instacart.com account on approval."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-jetblue",
@@ -5003,7 +5120,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 3,
+          "rate": 14,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -5067,7 +5184,7 @@
         }
       ],
       "signup_bonus": {
-        "points": 60000,
+        "points": 45000,
         "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
@@ -5077,8 +5194,8 @@
         "complimentary_elite_status",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-marriott-boundless",
@@ -5161,18 +5278,18 @@
         }
       ],
       "signup_bonus": {
-        "points": 125000,
-        "cash_usd": null,
+        "points": null,
+        "cash_usd": 100,
         "spend_usd": 3000,
         "months": 3,
-        "notes": "The public offer also includes 1 Free Night Award (redemption level up to 50,000 points, 12-month expiry) after the same $3,000/3-month spend \u2014 an in-kind item that cannot be expressed in the points/usd bonus value, so it is noted here unscored (estimated cash value ~$200-350, not modeled). Account must stay open 6+ months or points may be clawed back. Extensive Marriott/Amex cross-product exclusions apply."
+        "notes": "Earn 3 Free Night Awards (each up to 35,000 points) after $3,000 in eligible purchases within 3 months. Special offer \u2014 up to $100 in statement credits after $500 in eligible purchases within 3 months of account opening."
       },
       "benefits": [
         "complimentary_elite_status",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-marriott-bountiful",
@@ -5247,8 +5364,8 @@
         "complimentary_elite_status",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-marriott-brilliant",
@@ -5844,10 +5961,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 150,
+        "spend_usd": null,
+        "months": null,
+        "notes": "$150 Amazon gift card instantly loaded to the Amazon account gift card balance on approval."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-rci-elite",
@@ -6227,7 +6350,7 @@
       "issuer": "chase",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 69,
+      "annual_fee_usd": 99,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "southwest_rapid_rewards",
@@ -6314,8 +6437,8 @@
         "no_blackout_dates",
         "companion_pass_qualifying_boost"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-southwest-premier",
@@ -6323,7 +6446,7 @@
       "issuer": "chase",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 99,
+      "annual_fee_usd": 149,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "southwest_rapid_rewards",
@@ -6411,8 +6534,8 @@
         "companion_pass_qualifying_boost",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-southwest-priority",
@@ -6420,7 +6543,7 @@
       "issuer": "chase",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 149,
+      "annual_fee_usd": 229,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "southwest_rapid_rewards",
@@ -6508,8 +6631,8 @@
         "companion_pass_qualifying_boost",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "td-bank-double-up",
@@ -6826,7 +6949,7 @@
       "issuer": "chase",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 525,
+      "annual_fee_usd": 695,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "united_mileageplus",
@@ -6837,7 +6960,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 5,
+          "rate": 11,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -6928,7 +7051,7 @@
         }
       ],
       "signup_bonus": {
-        "points": 80000,
+        "points": 100000,
         "cash_usd": null,
         "spend_usd": 5000,
         "months": 3,
@@ -6939,8 +7062,8 @@
         "free_checked_bag",
         "complimentary_elite_status"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-united-explorer",
@@ -6948,7 +7071,7 @@
       "issuer": "chase",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 95,
+      "annual_fee_usd": 150,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "united_mileageplus",
@@ -6959,7 +7082,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 3,
+          "rate": 9,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -6985,6 +7108,15 @@
         }
       ],
       "credits": [
+        {
+          "name": "Instacart monthly credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": "groceries",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $10/month ($120/yr) in Instacart credits; monthly forfeit."
+        },
         {
           "name": "United TravelBank credit ($10k spend)",
           "amount_usd": 100,
@@ -7041,7 +7173,7 @@
         }
       ],
       "signup_bonus": {
-        "points": 50000,
+        "points": 80000,
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
@@ -7052,8 +7184,8 @@
         "lounge_access",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-united-gateway",
@@ -7126,7 +7258,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 4,
+          "rate": 6,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -7235,18 +7367,18 @@
         }
       ],
       "signup_bonus": {
-        "points": 60000,
+        "points": 90000,
         "cash_usd": null,
-        "spend_usd": 4000,
-        "months": 3,
+        "spend_usd": null,
+        "months": null,
         "notes": "Bonus miles don't count toward Premier status. The offer also grants 500 additional PQP after the same $4,000/3-month spend (status-qualifying, not redeemable) and a 10,000-mile authorized-user bonus \u2014 neither is modeled as signup value. Not available to current/recent (24-month) cardmembers."
       },
       "benefits": [
         "free_checked_bag",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-unlimited-cash",
@@ -7868,7 +8000,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 4,
+          "rate": 9,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -7932,7 +8064,7 @@
         }
       ],
       "signup_bonus": {
-        "points": 30000,
+        "points": 60000,
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
@@ -7942,8 +8074,8 @@
         "complimentary_elite_status",
         "concierge"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-wyndham-plus",

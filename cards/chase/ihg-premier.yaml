@@ -1,4 +1,5 @@
 # IHG One Rewards Premier (chase)
+# NOTE: annual fee rises $99 -> $150 on 10/23/2026 per chase.com
 # Edit freely; set verified_date when you confirm figures with the issuer.
 id: ihg-premier
 name: IHG One Rewards Premier
@@ -15,7 +16,7 @@ base_rate: 3
 earn:
 - type: category
   key: travel_hotels
-  rate: 10
+  rate: 24
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -52,6 +53,27 @@ earn:
   portal_only: false
   notes: null
 credits:
+- name: Food and Beverage Rewards
+  amount_usd: 25
+  period: quarterly
+  category: dining
+  requires_enrollment: false
+  expires: null
+  notes: Up to $25/quarter ($100/yr) in Food and Beverage Rewards vouchers at IHG Hotels; quarterly forfeit.
+- name: Airline Statement Credit
+  amount_usd: 100
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: $100/yr airline statement credit when you spend $250+ on flights purchased directly with the airline each calendar year.
+- name: DoorDash non-restaurant promo credit
+  amount_usd: 10
+  period: monthly
+  category: groceries
+  requires_enrollment: false
+  expires: null
+  notes: Up to $10/month ($120/yr) in DoorDash promos on non-restaurant orders (groceries/essentials); monthly forfeit.
 - name: Anniversary Free Night
   amount_usd: 150
   period: annual
@@ -114,7 +136,7 @@ credits:
     and a qualifying purchase each month (no rollover). After the free window the $99/year membership
     is a real cost; only regular Instacart users net ahead.
 signup_bonus:
-  points: 140000
+  points: 190000
   cash_usd: null
   spend_usd: 3000
   months: 3
@@ -125,5 +147,5 @@ signup_bonus:
 benefits:
 - complimentary_elite_status
 - fourth_night_free_award
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

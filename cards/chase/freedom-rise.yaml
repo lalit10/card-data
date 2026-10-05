@@ -6,7 +6,7 @@ issuer: chase
 network: visa
 availability: active
 annual_fee_usd: 0
-foreign_transaction_pct: 3
+foreign_transaction_pct: 0
 currency_type: points
 currency_program: chase_ur
 cpp_floor: 1.0
@@ -33,16 +33,12 @@ credits:
     each quarter (no rollover). Captured only by active DoorDash users who enroll; worthless otherwise.
 signup_bonus:
   points: null
-  cash_usd: null
-  spend_usd: 0
+  cash_usd: 25
+  spend_usd: null
   months: 3
-  notes: 'The $25 is enrollment-gated, not spend-gated: requires enrolling in autopay within the first
-    3 months and staying enrolled 90+ consecutive days (allow 6-8 weeks to post). SEPARATELY, the card
-    offers an intro elevated rate of 3% total on dining (incl. takeout/delivery) for the first 6 months
-    or until $6,000 in dining spend, whichever comes first — this year-one intro boost is described here
-    rather than as a permanent category reward (the standing dining rate is the 1.5% base). Not available
-    to current cardmembers or those who got a bonus for this card in the last 24 months.'
+  notes: $25 statement credit after making 10 purchases within the first 3 months. 1.5% cash back on
+    all purchases. Credit-building focused card.
 benefits:
 - free_credit_score
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -5,7 +5,7 @@ name: United Explorer
 issuer: chase
 network: visa
 availability: active
-annual_fee_usd: 95
+annual_fee_usd: 150
 foreign_transaction_pct: 0
 currency_type: points
 currency_program: united_mileageplus
@@ -15,7 +15,7 @@ base_rate: 1
 earn:
 - type: category
   key: travel_flights
-  rate: 3
+  rate: 9
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -38,6 +38,13 @@ earn:
   portal_only: false
   notes: Only hotel accommodations purchased directly with the hotel.
 credits:
+- name: Instacart monthly credit
+  amount_usd: 10
+  period: monthly
+  category: groceries
+  requires_enrollment: false
+  expires: null
+  notes: Up to $10/month ($120/yr) in Instacart credits; monthly forfeit.
 - name: United TravelBank credit ($10k spend)
   amount_usd: 100
   period: annual
@@ -90,7 +97,7 @@ credits:
   notes: One statement credit up to $120 per 4-year cycle covering a trusted-traveler application fee.
     Captured only by travelers who apply/renew.
 signup_bonus:
-  points: 50000
+  points: 80000
   cash_usd: null
   spend_usd: 3000
   months: 3
@@ -101,5 +108,5 @@ benefits:
 - free_checked_bag
 - lounge_access
 - visa_signature
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

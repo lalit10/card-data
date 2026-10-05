@@ -15,7 +15,7 @@ base_rate: 1
 earn:
 - type: category
   key: travel_flights
-  rate: 3
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -57,9 +57,9 @@ credits:
     and one qualifying DoorDash non-restaurant order each quarter (no rollover). Captured only by active
     DoorDash users; worthless otherwise.
 signup_bonus:
-  points: 60000
+  points: 75000
   cash_usd: null
-  spend_usd: 3000
+  spend_usd: 4000
   months: 3
   notes: Not available to current cardmembers of this card or previous cardmembers who received a bonus
     for this card within the last 24 months. Allow 6-8 weeks to post.
@@ -67,5 +67,5 @@ benefits:
 - free_checked_bag
 - complimentary_elite_status
 - concierge
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -6,13 +6,20 @@ issuer: chase
 network: mastercard
 availability: active
 annual_fee_usd: 0
-foreign_transaction_pct: 3
+foreign_transaction_pct: 0
 currency_type: cash
 currency_program: cash
 cpp_floor: 1.0
 cpp_optimistic: 1.0
 base_rate: 1
 earn:
+- type: merchant
+  key: doordash
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 4% back on DoorDash and Caviar orders.
 - type: category
   key: dining
   rate: 3
@@ -50,8 +57,15 @@ credits:
     otherwise auto-enrolls in the paid DashPass Annual Plan. Value estimated at the ~$96/yr annual-plan
     price; captured only by regular DoorDash users (waived delivery fees + reduced service fees). amount_usd
     is a curator estimate (issuer states no dollar value) — NEEDS human verification.
+signup_bonus:
+  points: null
+  cash_usd: 96
+  spend_usd: null
+  months: null
+  notes: Free year of DashPass on approval (auto-renews at $96/yr; cancel anytime). Plus $5 off eligible
+    non-restaurant orders.
 benefits:
 - cell_phone_protection
 - concierge
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

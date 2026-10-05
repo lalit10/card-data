@@ -15,7 +15,7 @@ base_rate: 1
 earn:
 - type: category
   key: travel_hotels
-  rate: 3
+  rate: 14
   cap_usd: null
   cap_period: null
   portal_only: false
@@ -69,7 +69,7 @@ credits:
   notes: Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each
     quarter (no rollover). Active DoorDash users only.
 signup_bonus:
-  points: 60000
+  points: 45000
   cash_usd: null
   spend_usd: 1000
   months: 3
@@ -79,5 +79,5 @@ signup_bonus:
 benefits:
 - complimentary_elite_status
 - concierge
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

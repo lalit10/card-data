@@ -52,6 +52,28 @@ earn:
   notes: Limited-time through 9/30/2027 (excludes gift cards, car rentals, vehicle service centers). Reverts
     to base earn after the promo; merchant_rewards has no expires field, so the end date is noted here.
 credits:
+- name: Apple TV and Apple Music credit
+  amount_usd: 24
+  period: monthly
+  category: streaming
+  requires_enrollment: true
+  expires: '2027-06-22'
+  notes: Up to $24/month ($288/yr) toward Apple TV and Apple Music subscriptions, through 6/22/2027;
+    enrollment required; monthly forfeit.
+- name: DashPass membership credit
+  amount_usd: 120
+  period: annual
+  category: dining
+  requires_enrollment: true
+  expires: null
+  notes: 12-month DashPass membership ($120 value); enrollment required.
+- name: DoorDash promo credit
+  amount_usd: 25
+  period: monthly
+  category: dining
+  requires_enrollment: false
+  expires: null
+  notes: Up to $25/month ($300/yr) in DoorDash promos — $5 monthly promo plus two $10 promos; monthly forfeit.
 - name: Annual Travel Credit
   amount_usd: 300
   period: annual
@@ -146,5 +168,5 @@ signup_bonus:
     Allow 6-8 weeks to post.
 benefits:
 - lounge_access
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high
