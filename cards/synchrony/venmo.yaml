@@ -14,13 +14,27 @@ cpp_optimistic: 1.0
 base_rate: 1
 earn:
 - type: category
-  key: choice
+  key: dining
   rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: null
+  notes: 3% cash back on dining and entertainment (+1% extra when you split the transaction, up to 4% daily).
+- type: merchant
+  key: venmo
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% cash back checking out with Venmo online or paying a business on Venmo.
+- type: category
+  key: base
+  rate: 1
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1% cash back on everything else; auto-deposited to the Venmo account daily.
 credits: []
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

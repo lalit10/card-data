@@ -37,13 +37,11 @@ earn:
 credits: []
 signup_bonus:
   points: null
-  cash_usd: null
-  spend_usd: 0
+  cash_usd: 150
+  spend_usd: null
   months: 3
-  notes: 'Two-part welcome offer within the same 90-day window: $50 after the first purchase, plus $100
-    more after $1,500 total spend ($150 total). First tranche''s spend_requirement is nominal ($0 = "make
-    a purchase"). No stated end date, so `expires` is omitted; offer-currency NEEDS human verification.'
+  notes: Limited-time offer — $150 statement credit when you open an account and make one purchase in the first 90 days.
 benefits:
 - special_financing
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

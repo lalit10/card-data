@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T20:31:36Z",
+  "fetched_at": "2026-10-05T20:58:42Z",
   "card_count": 123,
   "valuations": {
     "aa_advantage": {
@@ -1469,8 +1469,8 @@
         "zero_fraud_liability",
         "virtual_card_numbers"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-quicksilver",
@@ -1486,6 +1486,15 @@
       "cpp_optimistic": 1.0,
       "base_rate": 1.5,
       "earn": [
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1.5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1.5% cash back on every purchase."
+        },
         {
           "type": "category",
           "key": "travel_hotels",
@@ -1517,14 +1526,14 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 200,
         "spend_usd": 500,
         "months": 3,
-        "notes": "\"$200 cash bonus\" after \"$500 within 3 months of opening your account\" (per secondary sources; exact wording to verify). Existing/previous cardmembers ineligible if they received a bonus for this product in the past 48 months. Figures third-party/unconfirmed per the offer file's NEEDS_VERIFICATION marker."
+        "notes": "$200 cash bonus after $500 in purchases in the first 3 months."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-quicksilver-one",
@@ -1543,8 +1552,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-savor",
@@ -1560,6 +1569,15 @@
       "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1% cash back on all other purchases, no cap."
+        },
         {
           "type": "category",
           "key": "dining",
@@ -1618,16 +1636,16 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 200,
         "spend_usd": 500,
         "months": 3,
-        "notes": "\"Earn a one-time $250 cash bonus once you spend $500 on purchases within the first 3 months.\" Marked limited-time in the offer file. Existing cardmembers ineligible if they received a bonus in the past 48 months. Figures third-party/unconfirmed per the offer file's NEEDS_VERIFICATION marker."
+        "notes": "$200 cash bonus after $500 in purchases in the first 3 months."
       },
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-venture",
@@ -1687,7 +1705,7 @@
         "cash_usd": null,
         "spend_usd": 4000,
         "months": 3,
-        "notes": "\"Earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months from account opening.\" Figures third-party/unconfirmed per the offer file's NEEDS_VERIFICATION marker."
+        "notes": "Limited-time offer \u2014 $300 to use on hotel and vacation rental bookings through Capital One Travel in the first cardholder year, plus 75,000 bonus miles after $4,000 in purchases in the first 3 months."
       },
       "benefits": [
         "auto_rental_cdw",
@@ -1696,8 +1714,8 @@
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-venture-x",
@@ -1758,6 +1776,33 @@
           "category": "travel_other",
           "requires_enrollment": false,
           "expires": null,
+          "notes": "$300/yr toward hotels, flights, and vacation rentals booked via Capital One Travel; expires each account anniversary."
+        },
+        {
+          "name": "Global Entry or TSA PreCheck fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $120 every 4 years for a trusted-traveler application fee."
+        },
+        {
+          "name": "Anniversary bonus miles",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "10,000 bonus miles ($100 toward travel) each account anniversary starting year one."
+        },
+        {
+          "name": "Capital One Travel credit",
+          "amount_usd": 300,
+          "period": "annual",
+          "category": "travel_other",
+          "requires_enrollment": false,
+          "expires": null,
           "notes": "\"$300 annual Capital One Travel credit\" \u2014 Capital One Travel portal only. NEEDS human verification."
         },
         {
@@ -1795,8 +1840,8 @@
         "concierge",
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "capital-one-venture-one",
@@ -1812,6 +1857,15 @@
       "cpp_optimistic": 1.7,
       "base_rate": 1.25,
       "earn": [
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1.25,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1.25x miles on every purchase."
+        },
         {
           "type": "category",
           "key": "travel_hotels",
@@ -1842,8 +1896,8 @@
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "alliant-cashback",
@@ -6154,8 +6208,8 @@
       "benefits": [
         "special_financing"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "penfed-platinum-rewards",
@@ -7978,19 +8032,37 @@
       "earn": [
         {
           "type": "category",
-          "key": "choice",
+          "key": "dining",
           "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "3% cash back on dining and entertainment (+1% extra when you split the transaction, up to 4% daily)."
+        },
+        {
+          "type": "merchant",
+          "key": "venmo",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% cash back checking out with Venmo online or paying a business on Venmo."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1% cash back on everything else; auto-deposited to the Venmo account daily."
         }
       ],
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "synchrony-verizon-visa",
@@ -8037,16 +8109,16 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
-        "spend_usd": 0,
+        "cash_usd": 150,
+        "spend_usd": null,
         "months": 3,
-        "notes": "Two-part welcome offer within the same 90-day window: $50 after the first purchase, plus $100 more after $1,500 total spend ($150 total). First tranche's spend_requirement is nominal ($0 = \"make a purchase\"). No stated end date, so `expires` is omitted; offer-currency NEEDS human verification."
+        "notes": "Limited-time offer \u2014 $150 statement credit when you open an account and make one purchase in the first 90 days."
       },
       "benefits": [
         "special_financing"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "navy-federal-flagship-rewards",

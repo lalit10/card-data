@@ -14,6 +14,13 @@ cpp_optimistic: 1.0
 base_rate: 1.5
 earn:
 - type: category
+  key: base
+  rate: 1.5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1.5% cash back on every purchase.
+- type: category
   key: travel_hotels
   rate: 5
   cap_usd: null
@@ -43,13 +50,10 @@ earn:
 credits: []
 signup_bonus:
   points: null
-  cash_usd: null
+  cash_usd: 200
   spend_usd: 500
   months: 3
-  notes: '"$200 cash bonus" after "$500 within 3 months of opening your account" (per secondary sources;
-    exact wording to verify). Existing/previous cardmembers ineligible if they received a bonus for this
-    product in the past 48 months. Figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION
-    marker.'
+  notes: $200 cash bonus after $500 in purchases in the first 3 months.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

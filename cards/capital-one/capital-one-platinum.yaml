@@ -18,5 +18,5 @@ benefits:
 - no_foreign_transaction_fee
 - zero_fraud_liability
 - virtual_card_numbers
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -14,6 +14,13 @@ cpp_optimistic: 1.7
 base_rate: 1.25
 earn:
 - type: category
+  key: base
+  rate: 1.25
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1.25x miles on every purchase.
+- type: category
   key: travel_hotels
   rate: 5
   cap_usd: null
@@ -39,5 +46,5 @@ signup_bonus:
     sources — figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
 benefits:
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

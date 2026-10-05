@@ -53,13 +53,12 @@ signup_bonus:
   cash_usd: null
   spend_usd: 4000
   months: 3
-  notes: '"Earn 75,000 bonus miles once you spend $4,000 on purchases within the first 3 months from account
-    opening." Figures third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
+  notes: Limited-time offer — $300 to use on hotel and vacation rental bookings through Capital One Travel in the first cardholder year, plus 75,000 bonus miles after $4,000 in purchases in the first 3 months.
 benefits:
 - auto_rental_cdw
 - extended_warranty
 - travel_accident_insurance
 - no_foreign_transaction_fee
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high
