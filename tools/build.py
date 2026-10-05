@@ -71,7 +71,7 @@ def build_catalog():
         })
     catalog = {
         "source": "github.com/lalit10/card-data",
-        "source_license": "MIT",
+        "source_license": "see LICENSE; card facts compiled from public issuer sources",
         "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "card_count": len(cards),
         "valuations": {k: {"floor_cpp": v.get("floor_cpp"), "optimistic_cpp": v.get("optimistic_cpp")}
@@ -114,7 +114,7 @@ def build_transfers():
         })
     return {
         "source": "github.com/lalit10/card-data",
-        "source_license": "MIT",
+        "source_license": "see LICENSE; card facts compiled from public issuer sources",
         "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "program_count": len(programs),
         "pair_count": sum(len(p["partners"]) for p in programs),

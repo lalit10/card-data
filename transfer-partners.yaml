@@ -1,6 +1,3 @@
-# Points -> airline/hotel transfer graph.
-# Each partner row carries provenance: feed row vs hand-compiled.
-# Ratios are issuer-published facts; transfers are irreversible — verify before moving points.
 programs:
 - id: anz-rewards
   name: ANZ Rewards
@@ -106,13 +103,6 @@ programs:
     currency: Skywards Miles
     type: airline
     ratio: '5:4'
-    provenance: mcp.milesandpointsdaily.com
-  - name: Etihad Airways
-    program: Etihad Guest
-    currency: Etihad Guest Miles
-    type: airline
-    ratio: '1:1'
-    notes: Transfers end June 30, 2026
     provenance: mcp.milesandpointsdaily.com
   - name: Hilton Honors
     program: Hilton Honors
@@ -947,8 +937,8 @@ programs:
 - id: marriott-bonvoy
   name: Marriott Bonvoy
   coverage: partial
-  coverage_note: Major airline partners only; hand-compiled. 5,000 bonus miles per 60,000 points transferred
-    in one transaction.
+  coverage_note: Major airline partners only; hand-compiled. 5,000 bonus miles per
+    60,000 points transferred in one transaction.
   partners:
   - name: ANA
     program: Mileage Club
