@@ -1,17 +1,17 @@
-# Pathfinder Rewards Visa Signature (penfed)
+# Visa Signature Flagship Premier (navy-federal)
 # Edit freely; set verified_date when you confirm figures with the issuer.
-id: pathfinder
-name: Pathfinder Rewards Visa Signature
-issuer: penfed
+id: flagship-premier
+name: Visa Signature Flagship Premier
+issuer: navy-federal
 network: visa
 availability: active
 annual_fee_usd: 95
 foreign_transaction_pct: 0
 currency_type: points
-currency_program: penfed_points
-cpp_floor: 0.85
+currency_program: navy_federal_rewards
+cpp_floor: 1.0
 cpp_optimistic: 1.0
-base_rate: 1.5
+base_rate: 2
 earn:
 - type: category
   key: travel_other
@@ -19,52 +19,56 @@ earn:
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 4x points on travel for PenFed Honors Advantage members; 3x for everyone else, unlimited.
+  notes: 4x points on travel, no portal booking required.
 - type: category
   key: dining
   rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 3x points on dining for Honors Advantage members; 2x for everyone else, unlimited.
+  notes: 3x points on dining.
 - type: category
   key: base
-  rate: 1.5
+  rate: 1
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 1.5x points on all other purchases.
+  notes: 1x point on everything else.
 credits:
-- name: Airline ancillary credit
+- name: Airline incidental credit
   amount_usd: 100
   period: annual
   category: travel_other
   requires_enrollment: false
   expires: null
-  notes: $100/calendar-year credit for domestic incidental air travel fees.
+  notes: $100/yr statement credit for eligible airline incidental fees.
 - name: Global Entry or TSA PreCheck fee credit
   amount_usd: 120
   period: every_4_years
   category: null
   requires_enrollment: false
   expires: null
-  notes: $120 Global Entry or $85 TSA PreCheck statement credit every 4 years.
+  notes: Statement credit for a Global Entry or TSA PreCheck application fee, every 4 years.
 - name: Global Entry / TSA PreCheck application fee credit
   amount_usd: 120
   period: every_4_years
   category: null
   requires_enrollment: false
   expires: null
-  notes: Figure not confirmed against penfed.org (fetches blocked); most consistently repeated figures
-    are $120 Global Entry / $85 TSA PreCheck.
+  notes: Captured only by cardholders who apply/reapply for Global Entry or TSA PreCheck within the 4-year
+    window; worth ~$100-$120 (application fees) to travelers, $0 to those who don't enroll. Automatic
+    statement credit on the application charge.
 signup_bonus:
   points: 50000
   cash_usd: null
-  spend_usd: 3000
+  spend_usd: 4000
   months: 3
-  notes: 50,000 bonus points after $3,000 in purchases in the first 90 days.
+  notes: 50,000 bonus points ($500 value) after $4,000 in purchases in the first 90 days; offer expires Jan 3, 2027.
 benefits:
-- priority_pass
-- lounge_access
+- zero_fraud_liability
+- visa_signature
+- concierge
+- car_rental_insurance
+- travel_accident_insurance
 verified_date: '2026-10-05'
 confidence: high

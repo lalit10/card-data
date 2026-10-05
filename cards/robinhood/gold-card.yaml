@@ -14,30 +14,13 @@ cpp_optimistic: 1.0
 base_rate: 3
 earn:
 - type: category
-  key: travel_flights
-  rate: 5
+  key: base
+  rate: 3
   cap_usd: null
   cap_period: null
-  portal_only: true
-  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
-    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
-- type: category
-  key: travel_hotels
-  rate: 5
-  cap_usd: null
-  cap_period: null
-  portal_only: true
-  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
-    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
-- type: category
-  key: travel_other
-  rate: 5
-  cap_usd: null
-  cap_period: null
-  portal_only: true
-  notes: 5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting;
-    not independently confirmed on the primary official Robinhood card page — NEEDS human verification.
+  portal_only: false
+  notes: 3% cash back on all purchases; requires an active Robinhood Gold subscription and a Robinhood Financial brokerage account to redeem.
 credits: []
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

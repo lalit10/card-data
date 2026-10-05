@@ -1,6 +1,6 @@
 # SoFi Unlimited 2% Credit Card (sofi)
 # Edit freely; set verified_date when you confirm figures with the issuer.
-id: credit-card
+id: unlimited-2
 name: SoFi Unlimited 2% Credit Card
 issuer: sofi
 network: mastercard
@@ -38,5 +38,5 @@ earn:
     14.
 credits: []
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -14,27 +14,55 @@ cpp_optimistic: 1.9
 base_rate: 2
 earn:
 - type: category
-  key: housing
-  rate: 1.25
+  key: dining
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: Bilt Housing Payments (rent/mortgage/HOA dues/utilities/property tax paid via the Bilt app, no
-    transaction fee, no cap). Earn is a variable 0x-1.25x per billing cycle set by the "Everyday Spend
-    Ratio" = Everyday Spend ÷ Housing Payment (25-49%=0.5x, 50-74%=0.75x, 75-99%=1x, 100%+=1.25x; 250-pt/cycle
-    floor below 25%). The optimizer resolves the tier from how much everyday spend it routes onto this
-    card (earn_ratio steering pass).
+  notes: Up to 5x points at Bilt partner restaurants.
+- type: category
+  key: travel_other
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 4x points on hotels and flights booked through the Bilt Travel Portal.
 - type: merchant
   key: lyft
   rate: 4
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: User-reported 4x on Lyft rideshare, not stated in the offer file terms sheet (which only says
-    partner rates "vary by partner/merchant, set in the Bilt app"). Offer file states partner earning
-    "stacks with base rate" — modeled here as the merchant rate itself (4x), not on top of base; confirm
-    stacking behavior against the Bilt app before treating as high confidence.
+  notes: 4x points on Lyft.
+- type: category
+  key: base
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x points on other everyday purchases.
+- type: category
+  key: housing
+  rate: 1.25
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Up to 1.25x points on rent and mortgage payments.
 credits:
+- name: Bilt Travel hotel credit
+  amount_usd: 400
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: Two $200 statement credits per year for qualifying hotel bookings via Bilt Travel.
+- name: Bilt Cash annual credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $200/yr in Bilt Cash; up to $100 can roll over.
 - name: Annual Bilt Cash Credit
   amount_usd: 200
   period: annual
@@ -55,18 +83,14 @@ credits:
     is canceled. Portal-only + opt-in + 2-night-minimum + biannual-forfeit mechanics mean most cardholders
     capture less than the full $400/yr face value.
 signup_bonus:
-  points: null
-  cash_usd: null
-  spend_usd: 0
+  points: 50000
+  cash_usd: 300
+  spend_usd: 4000
   months: 3
-  notes: 'Bonus modeled as two tranches within the same ~90-day window: $300 Bilt Cash credited immediately
-    at account opening (no spend, base value), PLUS 50,000 points after $4,000 Everyday Spend (tier).
-    ALSO grants Bilt Gold Elite Status (unscored, see benefit_flags) lasting through Jan 15 of the second
-    following year — not represented as a bonus value. Window is 90 days (97 days for accounts opened
-    2/7/2026); offer file gives a relative window, so window_months is approximate. Not available if you
-    currently/previously held or already received a Welcome Bonus for any Bilt Card 2.0.'
+  notes: 50,000 Bilt points plus Bilt Gold Status after $4,000 in everyday purchases in the first 90 days (rent/mortgage excluded); plus $300 of Bilt Cash.
 benefits:
+- priority_pass
 - lounge_access
 - elite_status
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

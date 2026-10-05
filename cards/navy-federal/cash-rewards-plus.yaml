@@ -16,15 +16,12 @@ earn: []
 credits: []
 signup_bonus:
   points: null
-  cash_usd: null
+  cash_usd: 250
   spend_usd: 2500
   months: 3
-  notes: Spend window is stated as 90 days, recorded as 3 months. Eligible purchases exclude fees, interest,
-    balance transfers, gambling, cash advances, and cash-equivalent transactions. The offer file states
-    one bonus for the cashRewards product; it is recorded identically on both tiers — NEEDS human verification
-    that the bonus applies to the Plus tier specifically.
+  notes: $250 bonus cash after $2,500 in purchases within 90 days of account opening; offer expires Jan 3, 2027.
 benefits:
 - zero_fraud_liability
 - visa_signature
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

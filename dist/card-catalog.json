@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T20:58:42Z",
+  "fetched_at": "2026-10-05T21:42:27Z",
   "card_count": 123,
   "valuations": {
     "aa_advantage": {
@@ -1031,34 +1031,70 @@
       "earn": [
         {
           "type": "category",
+          "key": "dining",
+          "rate": 4,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "4x Bilt points at 20,000+ Bilt partner restaurants."
+        },
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x points on hotels booked through the Bilt Travel Portal."
+        },
+        {
+          "type": "merchant",
+          "key": "lyft",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x points on Lyft after linking accounts."
+        },
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x points on flights booked through the Bilt Travel Portal."
+        },
+        {
+          "type": "category",
           "key": "housing",
           "rate": 1.25,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Bilt Housing Payments (rent/mortgage/HOA dues/utilities/property tax paid via the Bilt app, no transaction fee, no cap). Earn is a variable 0x-1.25x per billing cycle set by the \"Everyday Spend Ratio\" = Everyday Spend \u00f7 Housing Payment (25-49%=0.5x, 50-74%=0.75x, 75-99%=1x, 100%+=1.25x; 250-pt/cycle floor below 25%). The optimizer resolves the tier from how much everyday spend it routes onto this card (earn_ratio steering pass), so the multiplier is portfolio-dependent, not a fixed rate."
+          "notes": "Up to 1.25x points on rent and mortgage payments."
         },
         {
-          "type": "merchant",
-          "key": "lyft",
-          "rate": 4,
+          "type": "category",
+          "key": "base",
+          "rate": 1,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "User-reported 4x on Lyft rideshare, not stated in the offer file terms sheet (which only says partner rates \"vary by partner/merchant, set in the Bilt app\"). Offer file states partner earning \"stacks with base 1X\" \u2014 modeled here as the merchant rate itself (4x), not 5x on top of base; confirm stacking behavior against the Bilt app before treating as high confidence."
+          "notes": "1x point on other everyday purchases."
         }
       ],
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
-        "spend_usd": 0,
-        "months": 1,
-        "notes": "$100 Bilt Cash credited at account opening with no spend requirement (approval-time credit, modeled as a $0-spend bonus). Bilt Cash is cash-equivalent, valued at ~1cpp. Not available if you currently hold, previously held, or already received a Welcome Bonus for any Bilt Card 2.0 (Blue/Obsidian/Palladium)."
+        "cash_usd": 100,
+        "spend_usd": null,
+        "months": 0,
+        "notes": "$100 of Bilt Cash when you apply and are approved; no spend requirement."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "cardless-bilt-obsidian",
@@ -1076,30 +1112,39 @@
       "earn": [
         {
           "type": "category",
-          "key": "housing",
-          "rate": 1.25,
+          "key": "dining",
+          "rate": 6,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Bilt Housing Payments (rent/mortgage/HOA dues/utilities/property tax paid via the Bilt app, no transaction fee, no cap). Earn is a variable 0x-1.25x per billing cycle set by the \"Everyday Spend Ratio\" = Everyday Spend \u00f7 Housing Payment (25-49%=0.5x, 50-74%=0.75x, 75-99%=1x, 100%+=1.25x; 250-pt/cycle floor below 25%). The optimizer resolves the tier from how much everyday spend it routes onto this card (earn_ratio steering pass)."
-        },
-        {
-          "type": "category",
-          "key": "travel_flights",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
+          "notes": "Up to 6x points at Bilt partner restaurants."
         },
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 2,
+          "rate": 4,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "4x points on hotels booked through the Bilt Travel Portal."
+        },
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x points on flights booked through the Bilt Travel Portal."
+        },
+        {
+          "type": "category",
+          "key": "choice",
+          "rate": 3,
+          "cap_usd": 25000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "3x points on your choice of dining or grocery (grocery capped at $25,000/yr)."
         },
         {
           "type": "category",
@@ -1108,28 +1153,28 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Covers cruise lines and car rental agencies from the same 2x travel bucket."
+          "notes": "2x points on other travel."
         },
         {
           "type": "category",
-          "key": "choice",
-          "rate": 3,
+          "key": "housing",
+          "rate": 1.25,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
-        },
-        {
-          "type": "merchant",
-          "key": "lyft",
-          "rate": 4,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "User-reported 4x on Lyft rideshare, not stated in the offer file terms sheet (which only says partner rates \"vary by partner/merchant, set in the Bilt app\"). Offer file states partner earning \"stacks with base rate\" \u2014 modeled here as the merchant rate itself (4x), not on top of base; confirm stacking behavior against the Bilt app before treating as high confidence."
+          "notes": "Up to 1.25x points on rent and mortgage payments."
         }
       ],
       "credits": [
+        {
+          "name": "Bilt Travel hotel credit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Two $50 statement credits per year for qualifying hotel bookings via Bilt Travel."
+        },
         {
           "name": "Bilt Travel Hotel Credit",
           "amount_usd": 50,
@@ -1142,14 +1187,14 @@
       ],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
-        "spend_usd": 0,
-        "months": 1,
-        "notes": "$200 Bilt Cash credited at account opening with no spend requirement (approval-time credit, modeled as a $0-spend bonus). Bilt Cash is cash-equivalent, valued at ~1cpp. Not available if you currently/previously held or already received a Welcome Bonus for any Bilt Card 2.0."
+        "cash_usd": 200,
+        "spend_usd": null,
+        "months": 0,
+        "notes": "$200 of Bilt Cash as listed on the Bilt comparison page; no spend requirement stated."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "cardless-bilt-palladium",
@@ -1167,12 +1212,21 @@
       "earn": [
         {
           "type": "category",
-          "key": "housing",
-          "rate": 1.25,
+          "key": "dining",
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Bilt Housing Payments (rent/mortgage/HOA dues/utilities/property tax paid via the Bilt app, no transaction fee, no cap). Earn is a variable 0x-1.25x per billing cycle set by the \"Everyday Spend Ratio\" = Everyday Spend \u00f7 Housing Payment (25-49%=0.5x, 50-74%=0.75x, 75-99%=1x, 100%+=1.25x; 250-pt/cycle floor below 25%). The optimizer resolves the tier from how much everyday spend it routes onto this card (earn_ratio steering pass)."
+          "notes": "Up to 5x points at Bilt partner restaurants."
+        },
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 4,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "4x points on hotels and flights booked through the Bilt Travel Portal."
         },
         {
           "type": "merchant",
@@ -1181,10 +1235,46 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "User-reported 4x on Lyft rideshare, not stated in the offer file terms sheet (which only says partner rates \"vary by partner/merchant, set in the Bilt app\"). Offer file states partner earning \"stacks with base rate\" \u2014 modeled here as the merchant rate itself (4x), not on top of base; confirm stacking behavior against the Bilt app before treating as high confidence."
+          "notes": "4x points on Lyft."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x points on other everyday purchases."
+        },
+        {
+          "type": "category",
+          "key": "housing",
+          "rate": 1.25,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Up to 1.25x points on rent and mortgage payments."
         }
       ],
       "credits": [
+        {
+          "name": "Bilt Travel hotel credit",
+          "amount_usd": 400,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Two $200 statement credits per year for qualifying hotel bookings via Bilt Travel."
+        },
+        {
+          "name": "Bilt Cash annual credit",
+          "amount_usd": 200,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$200/yr in Bilt Cash; up to $100 can roll over."
+        },
         {
           "name": "Annual Bilt Cash Credit",
           "amount_usd": 200,
@@ -1205,18 +1295,19 @@
         }
       ],
       "signup_bonus": {
-        "points": null,
-        "cash_usd": null,
-        "spend_usd": 0,
+        "points": 50000,
+        "cash_usd": 300,
+        "spend_usd": 4000,
         "months": 3,
-        "notes": "Bonus modeled as two tranches within the same ~90-day window: $300 Bilt Cash credited immediately at account opening (no spend, base value), PLUS 50,000 points after $4,000 Everyday Spend (tier). ALSO grants Bilt Gold Elite Status (unscored, see benefit_flags) lasting through Jan 15 of the second following year \u2014 not represented as a bonus value. Window is 90 days (97 days for accounts opened 2/7/2026); offer file gives a relative window, so window_months is approximate. Not available if you currently/previously held or already received a Welcome Bonus for any Bilt Card 2.0."
+        "notes": "50,000 Bilt points plus Bilt Gold Status after $4,000 in everyday purchases in the first 90 days (rent/mortgage excluded); plus $300 of Bilt Cash."
       },
       "benefits": [
+        "priority_pass",
         "lounge_access",
         "elite_status"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-blue-cash-everyday",
@@ -1643,6 +1734,99 @@
       },
       "benefits": [
         "no_foreign_transaction_fee"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
+      "id": "capital-one-savor-one",
+      "name": "Capital One SavorOne Rewards",
+      "issuer": "capital-one",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "cash",
+      "currency_program": "capital_one_rewards",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% cash back on dining, no cap."
+        },
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% cash back at grocery stores (excludes superstores like Walmart and Target), no cap."
+        },
+        {
+          "type": "category",
+          "key": "entertainment",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% cash back on entertainment, no cap."
+        },
+        {
+          "type": "category",
+          "key": "streaming",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% cash back on popular streaming services, no cap."
+        },
+        {
+          "type": "merchant",
+          "key": "capital_one_entertainment",
+          "rate": 8,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "8% cash back on Capital One Entertainment ticketing purchases."
+        },
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5% cash back on hotels and rental cars booked through Capital One Travel."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1% cash back on everything else, no cap."
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "No welcome offer stated on the Capital One SavorOne page."
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_intro_apr_purchases"
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
@@ -6106,6 +6290,33 @@
       "confidence": "low"
     },
     {
+      "id": "upgrade-onecard-essentials",
+      "name": "OneCard Essentials",
+      "issuer": "upgrade",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 3,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1.5,
+      "earn": [],
+      "credits": [],
+      "signup_bonus": null,
+      "benefits": [
+        "visa_signature",
+        "extended_warranty",
+        "price_protection",
+        "roadside_dispatch",
+        "travel_emergency_assistance",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
       "id": "penfed-pathfinder",
       "name": "Pathfinder Rewards Visa Signature",
       "issuer": "penfed",
@@ -6121,51 +6332,51 @@
       "earn": [
         {
           "type": "category",
-          "key": "travel_flights",
-          "rate": 3,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of PenFed's single \"travel\" bonus bucket (airfare). No spending cap was found in available sources; the official rewards T&C PDF could not be fetched \u2014 NEEDS human verification of whether a bonus-category cap exists."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 3,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of PenFed's single \"travel\" bonus bucket (hotels). No cap found in sources."
-        },
-        {
-          "type": "category",
           "key": "travel_other",
-          "rate": 3,
+          "rate": 4,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Part of PenFed's single \"travel\" bonus bucket (car rentals, cruises, tolls, bus lines). No cap found in sources."
-        },
-        {
-          "type": "category",
-          "key": "transit",
-          "rate": 3,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of PenFed's single \"travel\" bonus bucket (taxi/rideshare). No cap found in sources."
+          "notes": "4x points on travel for PenFed Honors Advantage members; 3x for everyone else, unlimited."
         },
         {
           "type": "category",
           "key": "dining",
-          "rate": 2,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Dining earn (2X standard / 3X Honors Advantage) is reported only by secondary sources that vary on the exact framing; NOT independently confirmed against official page text \u2014 NEEDS human verification."
+          "notes": "3x points on dining for Honors Advantage members; 2x for everyone else, unlimited."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1.5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1.5x points on all other purchases."
         }
       ],
       "credits": [
+        {
+          "name": "Airline ancillary credit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_other",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100/calendar-year credit for domestic incidental air travel fees."
+        },
+        {
+          "name": "Global Entry or TSA PreCheck fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$120 Global Entry or $85 TSA PreCheck statement credit every 4 years."
+        },
         {
           "name": "Global Entry / TSA PreCheck application fee credit",
           "amount_usd": 120,
@@ -6181,13 +6392,14 @@
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
-        "notes": "Currently advertised offer per search-indexed penfed.org content; not confirmed by a direct read of the application page. The 90-day window is a relative period, not a fixed calendar end date, so no `expires` is set. NEEDS human verification."
+        "notes": "50,000 bonus points after $3,000 in purchases in the first 90 days."
       },
       "benefits": [
+        "priority_pass",
         "lounge_access"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "synchrony-paypal-cashback",
@@ -6268,11 +6480,11 @@
         "cash_usd": null,
         "spend_usd": 1500,
         "months": 3,
-        "notes": "Per search-indexed penfed.org content; not confirmed by a direct read of the application page. The 90-day window is a relative period, not a fixed calendar end date, so no `expires` is set. NEEDS human verification."
+        "notes": "15,000 bonus points after $1,500 in qualified purchases in the first 90 days."
       },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-premium-rewards",
@@ -6654,37 +6866,19 @@
       "earn": [
         {
           "type": "category",
-          "key": "travel_flights",
-          "rate": 5,
+          "key": "base",
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
-          "portal_only": true,
-          "notes": "5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting; not independently confirmed on the primary official Robinhood card page \u2014 NEEDS human verification."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": true,
-          "notes": "5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting; not independently confirmed on the primary official Robinhood card page \u2014 NEEDS human verification."
-        },
-        {
-          "type": "category",
-          "key": "travel_other",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": true,
-          "notes": "5 pts/$1 only on travel booked through Robinhood's own travel portal. Per third-party reporting; not independently confirmed on the primary official Robinhood card page \u2014 NEEDS human verification."
+          "portal_only": false,
+          "notes": "3% cash back on all purchases; requires an active Robinhood Gold subscription and a Robinhood Financial brokerage account to redeem."
         }
       ],
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-royal-one-plus",
@@ -6878,7 +7072,7 @@
       "confidence": "low"
     },
     {
-      "id": "sofi-credit-card",
+      "id": "sofi-unlimited-2",
       "name": "SoFi Unlimited 2% Credit Card",
       "issuer": "sofi",
       "network": "mastercard",
@@ -6922,8 +7116,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-southwest-plus",
@@ -7453,39 +7647,17 @@
       "confidence": "high"
     },
     {
-      "id": "truist-enjoy-cash-1-5-flat",
-      "name": "Truist Enjoy Cash (1.5% Flat Rewards)",
+      "id": "truist-enjoy-cash",
+      "name": "Truist Enjoy Cash",
       "issuer": "truist",
-      "network": "visa",
+      "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "cash",
-      "currency_program": "cash",
-      "cpp_floor": 1.0,
-      "cpp_optimistic": 1.0,
-      "base_rate": 1.5,
-      "earn": [],
-      "credits": [],
-      "signup_bonus": null,
-      "benefits": [
-        "zero_fraud_liability"
-      ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
-    },
-    {
-      "id": "truist-enjoy-cash-3-2-1",
-      "name": "Truist Enjoy Cash (3-2-1 Rewards)",
-      "issuer": "truist",
-      "network": "visa",
-      "availability": "active",
-      "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
-      "currency_type": "cash",
-      "currency_program": "cash",
-      "cpp_floor": 1.0,
-      "cpp_optimistic": 1.0,
+      "currency_program": "truist_rewards",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
       "base_rate": 1,
       "earn": [
         {
@@ -7495,7 +7667,7 @@
           "cap_usd": 1000,
           "cap_period": "monthly",
           "portal_only": false,
-          "notes": "Includes service stations, automated fuel dispensers, and EV charging stations. The $1,000/month cap is a single pool shared with the grocery and utilities bonus categories (combined); spend above $1,000/month in those categories reverts to 1%. Category qualification is by merchant MCC only."
+          "notes": "3% on gas and EV charging, only if the 3-2-1 rewards option was chosen at application. $1,000/month combined cap on 2% and 3% category spend."
         },
         {
           "type": "category",
@@ -7504,25 +7676,50 @@
           "cap_usd": 1000,
           "cap_period": "monthly",
           "portal_only": false,
-          "notes": "Grocery store / supermarket MCC only. Offer file warns that groceries bought at a warehouse club or pharmacy may carry a \"warehouse\"/\"pharmacy\" MCC and will NOT earn 2%. Shares the $1,000/month combined cap with gas and utilities."
+          "notes": "2% on groceries and utilities, only if the 3-2-1 rewards option was chosen at application. $1,000/month combined cap on 2% and 3% category spend."
         },
         {
           "type": "category",
-          "key": "utilities",
-          "rate": 2,
-          "cap_usd": 1000,
-          "cap_period": "monthly",
+          "key": "base",
+          "rate": 1.5,
+          "cap_usd": null,
+          "cap_period": null,
           "portal_only": false,
-          "notes": "Truist's utilities definition here bundles phone, cable, television streaming services, gas, water, and sanitary services (broader than a pure utilities key \u2014 streaming is folded in by MCC). Shares the $1,000/month combined cap with gas and groceries."
+          "notes": "1.5% on all eligible purchases, only if the 1.5% flat rewards option was chosen at application. Unlimited."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1% on everything else for 3-2-1 option holders."
         }
       ],
-      "credits": [],
-      "signup_bonus": null,
-      "benefits": [
-        "zero_fraud_liability"
+      "credits": [
+        {
+          "name": "Loyalty Cash Bonus",
+          "amount_usd": 0,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "10%-50% bonus on redeemed cash when deposited into a Truist checking, savings, or money market account; percentage depends on the Truist deposit relationship tier."
+        }
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "No welcome offer stated on the Truist Enjoy Cash page."
+      },
+      "benefits": [
+        "zero_intro_apr_purchases"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-united-club",
@@ -7990,33 +8187,6 @@
       "confidence": "high"
     },
     {
-      "id": "upgrade-upgrade-cash-rewards",
-      "name": "Upgrade Cash Rewards Visa",
-      "issuer": "upgrade",
-      "network": "visa",
-      "availability": "active",
-      "annual_fee_usd": 0,
-      "foreign_transaction_pct": 3,
-      "currency_type": "cash",
-      "currency_program": "cash",
-      "cpp_floor": 1.0,
-      "cpp_optimistic": 1.0,
-      "base_rate": 1.5,
-      "earn": [],
-      "credits": [],
-      "signup_bonus": null,
-      "benefits": [
-        "visa_signature",
-        "extended_warranty",
-        "price_protection",
-        "roadside_dispatch",
-        "travel_emergency_assistance",
-        "zero_fraud_liability"
-      ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
-    },
-    {
       "id": "synchrony-venmo",
       "name": "Venmo Credit Card",
       "issuer": "synchrony",
@@ -8121,12 +8291,12 @@
       "confidence": "high"
     },
     {
-      "id": "navy-federal-flagship-rewards",
-      "name": "Visa Signature Flagship Rewards",
+      "id": "navy-federal-flagship-premier",
+      "name": "Visa Signature Flagship Premier",
       "issuer": "navy-federal",
       "network": "visa",
       "availability": "active",
-      "annual_fee_usd": 49,
+      "annual_fee_usd": 95,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "navy_federal_rewards",
@@ -8136,42 +8306,51 @@
       "earn": [
         {
           "type": "category",
-          "key": "travel_flights",
-          "rate": 3,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of NFCU's single broad travel bonus (airlines). No spending cap; the same 3x also applies to hotels, other travel, and transit/rideshare (see sibling entries). Mapping of NFCU's broad travel definition onto our split travel keys is an interpretation."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 3,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Part of NFCU's single broad 3x travel bonus (hotels, campgrounds). Uncapped."
-        },
-        {
-          "type": "category",
           "key": "travel_other",
-          "rate": 3,
+          "rate": 4,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Part of NFCU's single broad 3x travel bonus (car rentals, cruises, campgrounds, other travel). Uncapped."
+          "notes": "4x points on travel, no portal booking required."
         },
         {
           "type": "category",
-          "key": "transit",
+          "key": "dining",
           "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Part of NFCU's single broad 3x travel bonus (ride-sharing, tolls). Uncapped."
+          "notes": "3x points on dining."
+        },
+        {
+          "type": "category",
+          "key": "base",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "1x point on everything else."
         }
       ],
       "credits": [
+        {
+          "name": "Airline incidental credit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_other",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100/yr statement credit for eligible airline incidental fees."
+        },
+        {
+          "name": "Global Entry or TSA PreCheck fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Statement credit for a Global Entry or TSA PreCheck application fee, every 4 years."
+        },
         {
           "name": "Global Entry / TSA PreCheck application fee credit",
           "amount_usd": 120,
@@ -8183,11 +8362,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 35000,
+        "points": 50000,
         "cash_usd": null,
-        "spend_usd": 3500,
+        "spend_usd": 4000,
         "months": 3,
-        "notes": "Spend window is 90 days, recorded as 3 months; points post up to 8 weeks after the 90-day period ends. Offer window is 07/01/2026-01/03/2027 and the offer file notes it will roll over, so `expires` marks a re-check date, not necessarily a real expiration. Eligible purchases exclude fees, interest, balance transfers, gambling, convenience checks, cash advances, and cash-equivalents. The offer ALSO bundles a complimentary one-year Amazon Prime membership (NFCU-marketed value $139) \u2014 this in-kind perk is noted but NOT structured/scored here (it is a one-time item, not a recurring credit, and requires manual enrollment). Limited to one bonus per new account."
+        "notes": "50,000 bonus points ($500 value) after $4,000 in purchases in the first 90 days; offer expires Jan 3, 2027."
       },
       "benefits": [
         "zero_fraud_liability",
@@ -8196,8 +8375,8 @@
         "car_rental_insurance",
         "travel_accident_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-active-cash",
@@ -9110,16 +9289,16 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 250,
         "spend_usd": 2500,
         "months": 3,
-        "notes": "Spend window is stated as 90 days, recorded as 3 months. Eligible purchases exclude fees, interest, balance transfers, gambling, cash advances, and cash-equivalent transactions."
+        "notes": "$250 bonus cash after $2,500 in purchases within 90 days of account opening; offer expires Jan 3, 2027."
       },
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "navy-federal-cash-rewards-plus",
@@ -9138,17 +9317,17 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 250,
         "spend_usd": 2500,
         "months": 3,
-        "notes": "Spend window is stated as 90 days, recorded as 3 months. Eligible purchases exclude fees, interest, balance transfers, gambling, cash advances, and cash-equivalent transactions. The offer file states one bonus for the cashRewards product; it is recorded identically on both tiers \u2014 NEEDS human verification that the bonus applies to the Plus tier specifically."
+        "notes": "$250 bonus cash after $2,500 in purchases within 90 days of account opening; offer expires Jan 3, 2027."
       },
       "benefits": [
         "zero_fraud_liability",
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     }
   ]
 }

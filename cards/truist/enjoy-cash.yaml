@@ -1,0 +1,64 @@
+# Truist Enjoy Cash (truist)
+# Verified against truist.com/credit-cards/enjoy-cash 2026-10-05.
+# Truist consolidated the former 1.5% flat and 3-2-1 variants into a single
+# Enjoy Cash card; the rewards option is chosen at application and cannot be
+# changed later.
+id: enjoy-cash
+name: Truist Enjoy Cash
+issuer: truist
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: null
+currency_type: cash
+currency_program: truist_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: 1000
+  cap_period: monthly
+  portal_only: false
+  notes: 3% on gas and EV charging, only if the 3-2-1 rewards option was chosen at application. $1,000/month combined cap on 2% and 3% category spend.
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: 1000
+  cap_period: monthly
+  portal_only: false
+  notes: 2% on groceries and utilities, only if the 3-2-1 rewards option was chosen at application. $1,000/month combined cap on 2% and 3% category spend.
+- type: category
+  key: base
+  rate: 1.5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1.5% on all eligible purchases, only if the 1.5% flat rewards option was chosen at application. Unlimited.
+- type: category
+  key: base
+  rate: 1
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1% on everything else for 3-2-1 option holders.
+credits:
+- name: Loyalty Cash Bonus
+  amount_usd: 0
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 10%-50% bonus on redeemed cash when deposited into a Truist checking, savings, or money market account; percentage depends on the Truist deposit relationship tier.
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: No welcome offer stated on the Truist Enjoy Cash page.
+benefits:
+- zero_intro_apr_purchases
+verified_date: '2026-10-05'
+confidence: high

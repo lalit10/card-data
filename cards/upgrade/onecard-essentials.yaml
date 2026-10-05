@@ -1,7 +1,7 @@
-# Upgrade Cash Rewards Visa (upgrade)
+# OneCard Essentials (upgrade)
 # Edit freely; set verified_date when you confirm figures with the issuer.
-id: upgrade-cash-rewards
-name: Upgrade Cash Rewards Visa
+id: onecard-essentials
+name: OneCard Essentials
 issuer: upgrade
 network: visa
 availability: active
@@ -21,5 +21,5 @@ benefits:
 - roadside_dispatch
 - travel_emergency_assistance
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

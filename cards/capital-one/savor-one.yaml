@@ -1,0 +1,78 @@
+# Capital One SavorOne Rewards (capital-one)
+# Verified against capitalone.com 2026-10-05.
+# Note: the $39 annual fee belongs to the separate "SavorOne Rewards for Good
+# Credit" product; the standard SavorOne Rewards is $0/year.
+id: savor-one
+name: Capital One SavorOne Rewards
+issuer: capital-one
+network: mastercard
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: 0
+currency_type: cash
+currency_program: capital_one_rewards
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% cash back on dining, no cap.
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% cash back at grocery stores (excludes superstores like Walmart and Target), no cap.
+- type: category
+  key: entertainment
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% cash back on entertainment, no cap.
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% cash back on popular streaming services, no cap.
+- type: merchant
+  key: capital_one_entertainment
+  rate: 8
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 8% cash back on Capital One Entertainment ticketing purchases.
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5% cash back on hotels and rental cars booked through Capital One Travel.
+- type: category
+  key: base
+  rate: 1
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 1% cash back on everything else, no cap.
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: No welcome offer stated on the Capital One SavorOne page.
+benefits:
+- no_foreign_transaction_fee
+- zero_intro_apr_purchases
+verified_date: '2026-10-05'
+confidence: high

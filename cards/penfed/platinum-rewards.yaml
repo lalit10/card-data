@@ -49,9 +49,7 @@ signup_bonus:
   cash_usd: null
   spend_usd: 1500
   months: 3
-  notes: Per search-indexed penfed.org content; not confirmed by a direct read of the application page.
-    The 90-day window is a relative period, not a fixed calendar end date, so no `expires` is set. NEEDS
-    human verification.
+  notes: 15,000 bonus points after $1,500 in qualified purchases in the first 90 days.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high
