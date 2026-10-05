@@ -1,5 +1,3 @@
-# World of Hyatt Credit Card (chase)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: world-of-hyatt
 name: World of Hyatt Credit Card
 issuer: chase
@@ -15,14 +13,14 @@ base_rate: 1
 earn:
 - type: category
   key: travel_hotels
-  rate: 9
+  rate: 4
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 4x applies to Hyatt hotels/resorts and World of Hyatt Experiences. Modeled at the co-brand rate;
-    non-Hyatt hotels earn only the 1x base rate but cannot be split by brand within the travel_hotels
-    category. This is the card's earn only — Hyatt program base points post separately to the World of
-    Hyatt account.
+  notes: '4x applies to Hyatt hotels/resorts and World of Hyatt Experiences. non-Hyatt
+    hotels earn only the 1x base rate but cannot be split by brand within the travel_hotels
+    category. Card earn only: Hyatt program base points post separately to the World
+    of Hyatt account.'
 - type: category
   key: dining
   rate: 2
@@ -51,36 +49,37 @@ credits:
   category: travel_hotels
   requires_enrollment: false
   expires: null
-  notes: Automatic every cardmember anniversary; good for one night at a Category 1-4 Hyatt property (excludes
-    Miraval/Zilara/Ziva), valid 12 months, resort/destination fees waived. Estimated at ~$150 per the
-    curation guide's Category 1-4 Hyatt-night benchmark. Captured by anyone who takes one qualifying Hyatt
-    stay a year; authorized users do not receive it.
+  notes: Automatic every cardmember anniversary; good for one night at a Category
+    1-4 Hyatt property (excludes Miraval/Zilara/Ziva), valid 12 months, resort/destination
+    fees waived. Estimated at ~$150 per the curation guide's Category 1-4 Hyatt-night
+    benchmark. Captured by anyone who takes one qualifying Hyatt stay a year; authorized
+    users do not receive it.
 - name: Free Night Award ($15k spend, Category 1-4)
   amount_usd: 150
   period: annual
   category: travel_hotels
   requires_enrollment: false
   expires: null
-  notes: A second Category 1-4 free night, earned each calendar year only after $15,000 of card spend.
-    Same ~$150 estimate and Category 1-4 terms. Captured only by heavier spenders who also take a qualifying
-    Hyatt stay.
+  notes: A second Category 1-4 free night, earned each calendar year only after $15,000
+    of card spend. Same ~$150 estimate and Category 1-4 terms. Captured only by heavier
+    spenders who also take a qualifying Hyatt stay.
 - name: DashPass DoorDash quarterly credit
   amount_usd: 10
   period: quarterly
   category: null
   requires_enrollment: true
   expires: null
-  notes: Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant order each
-    quarter (no rollover). Active DoorDash users only.
+  notes: Requires activating complimentary DashPass and one qualifying DoorDash non-restaurant
+    order each quarter (no rollover). Active DoorDash users only.
 signup_bonus:
   points: 60000
   cash_usd: null
   spend_usd: 3000
   months: 3
-  notes: The offer also includes 2x bonus points on all other purchases for the first 6 months (or until
-    $15,000 of such spend) — an intro earn boost, not a fixed bonus, so it is noted here unscored rather
-    than modeled. Account must stay open 6+ months or points may be clawed back. Not available to current/recent
-    (24-month) cardmembers.
+  notes: The offer also includes 2x bonus points on all other purchases for the first
+    6 months (or until $15,000 of such spend) — an intro earn boost, not a fixed bonus,
+    so it is noted here unscored rather than modeled. Account must stay open 6+ months
+    or points may be clawed back. Not available to current/recent (24-month) cardmembers.
 benefits:
 - complimentary_elite_status
 - concierge

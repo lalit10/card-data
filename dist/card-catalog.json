@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T22:35:43Z",
+  "fetched_at": "2026-10-05T22:36:30Z",
   "card_count": 124,
   "valuations": {
     "aa_advantage": {
@@ -1648,12 +1648,31 @@
       "cpp_floor": 1.0,
       "cpp_optimistic": 1.0,
       "base_rate": 1.5,
-      "earn": [],
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": true,
+          "notes": "5% on hotels and rental cars booked through Capital One Travel"
+        },
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": true,
+          "notes": "5% on flights booked through Capital One Travel"
+        }
+      ],
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
       "verified_date": "2026-10-05",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "capital-one-savor",
@@ -1961,33 +1980,6 @@
           "requires_enrollment": false,
           "expires": null,
           "notes": "10,000 bonus miles ($100 toward travel) each account anniversary starting year one."
-        },
-        {
-          "name": "Capital One Travel credit",
-          "amount_usd": 300,
-          "period": "annual",
-          "category": "travel_other",
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "\"$300 annual Capital One Travel credit\" \u2014 Capital One Travel portal only. NEEDS human verification."
-        },
-        {
-          "name": "Anniversary bonus miles",
-          "amount_usd": null,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "\"10,000 bonus miles every year, starting on the first anniversary.\" NEEDS human verification."
-        },
-        {
-          "name": "Global Entry / TSA PreCheck fee credit",
-          "amount_usd": 120,
-          "period": "every_4_years",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "\"up to $120 statement credit ... one credit per account every four years.\" NEEDS human verification."
         }
       ],
       "signup_bonus": {
@@ -2007,7 +1999,7 @@
         "no_foreign_transaction_fee"
       ],
       "verified_date": "2026-10-05",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "capital-one-venture-one",
@@ -5042,11 +5034,11 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 17,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "5x applies to IHG-brand hotel stays. This is the card's earn only \u2014 IHG program base points (10 base pts/$1 at most brands + Silver 20% bonus) post separately to the IHG account and are not included here."
+          "notes": "5x on IHG-brand hotel stays (card earn only; IHG program base points post separately)"
         },
         {
           "type": "category",
@@ -5145,11 +5137,11 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 24,
+          "rate": 10,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "10x applies to IHG-brand hotel stays (the card's co-brand). Modeled at the co-brand rate; non-IHG hotels earn only the 5x general-travel rate but cannot be split by brand within the travel_hotels category. This is the card's earn only \u2014 IHG program base points (10 base pts/$1 at most brands + Platinum 60% bonus) post separately to the IHG account and are not included here."
+          "notes": "10x on IHG-brand hotel stays (card earn only; IHG program base points post separately)"
         },
         {
           "type": "category",
@@ -5884,11 +5876,11 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 14,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3x applies to Marriott-brand hotel stays. This is the card's earn only \u2014 Marriott program base points (10 base pts/$1 at most brands + Silver 10% bonus) post separately to the Marriott account and are not included here."
+          "notes": "3x applies to Marriott-brand hotel stays. Card earn only: Marriott program base points (10 base pts/$1 at most brands + Silver 10% bonus) post separately to the Marriott account and are not included here."
         },
         {
           "type": "category",
@@ -7875,7 +7867,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 9,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -8051,11 +8043,11 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 6,
+          "rate": 4,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "4x applies to purchases made directly with United (tickets, seat upgrades, Economy Plus, inflight food/beverage/WiFi, baggage/other fees) and United Card Events from Chase. Modeled at the co-brand rate; other airlines' tickets fall under the card's general 2x travel category (see travel_other) rather than this line."
+          "notes": "4x applies to purchases made directly with United (tickets, seat upgrades, Economy Plus, inflight food/beverage/WiFi, baggage/other fees) and United Card Events from Chase. other airlines' tickets fall under the card's general 2x travel category (see travel_other) rather than this line."
         },
         {
           "type": "category",
@@ -8964,11 +8956,11 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 9,
+          "rate": 4,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "4x applies to Hyatt hotels/resorts and World of Hyatt Experiences. Modeled at the co-brand rate; non-Hyatt hotels earn only the 1x base rate but cannot be split by brand within the travel_hotels category. This is the card's earn only \u2014 Hyatt program base points post separately to the World of Hyatt account."
+          "notes": "4x applies to Hyatt hotels/resorts and World of Hyatt Experiences. non-Hyatt hotels earn only the 1x base rate but cannot be split by brand within the travel_hotels category. Card earn only: Hyatt program base points post separately to the World of Hyatt account."
         },
         {
           "type": "category",
