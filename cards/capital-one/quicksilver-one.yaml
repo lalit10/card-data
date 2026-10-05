@@ -1,5 +1,3 @@
-# Capital One QuicksilverOne Cash Rewards (capital-one)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: quicksilver-one
 name: Capital One QuicksilverOne Cash Rewards
 issuer: capital-one
@@ -12,8 +10,22 @@ currency_program: cash
 cpp_floor: 1.0
 cpp_optimistic: 1.0
 base_rate: 1.5
-earn: []
+earn:
+- type: category
+  key: travel_hotels
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 5% on hotels and rental cars booked through Capital One Travel
+- type: category
+  key: travel_flights
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: true
+  notes: 5% on flights booked through Capital One Travel
 credits: []
 benefits: []
 verified_date: '2026-10-05'
-confidence: high
+confidence: medium

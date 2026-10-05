@@ -1,5 +1,3 @@
-# Capital One Venture X Rewards (capital-one)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: venture-x
 name: Capital One Venture X Rewards
 issuer: capital-one
@@ -19,10 +17,11 @@ earn:
   cap_usd: null
   cap_period: null
   portal_only: true
-  notes: Applies only to hotels booked through Capital One Travel (issuer portal) — not to hotel spend
-    booked directly. Vacation rentals booked via Capital One Travel earn only 5X (not 10X); that lower
-    rate is not separately modeled because there is no distinct vacation-rental category key — see card
-    notes. NEEDS human verification.
+  notes: Applies only to hotels booked through Capital One Travel (issuer portal)
+    — not to hotel spend booked directly. Vacation rentals booked via Capital One
+    Travel earn only 5X (not 10X); that lower rate is not separately modeled because
+    there is no distinct vacation-rental category key — see card notes. NEEDS human
+    verification.
 - type: category
   key: travel_other
   rate: 10
@@ -36,18 +35,18 @@ earn:
   cap_usd: null
   cap_period: null
   portal_only: true
-  notes: Flights booked through Capital One Travel only (not direct-with-airline spend). Vacation rentals
-    also earn 5X via the portal but are not separately modeled (no vacation-rental category key). NEEDS
-    human verification.
+  notes: Flights booked through Capital One Travel only (not direct-with-airline spend).
+    Vacation rentals also earn 5X via the portal but are not separately modeled (no
+    vacation-rental category key). NEEDS human verification.
 - type: category
   key: entertainment
   rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
-  notes: Applies only to purchases made through the Capital One Entertainment platform (event/ticket marketplace),
-    NOT to general entertainment spend. portal_only is used to flag the issuer-platform scoping. NEEDS
-    human verification.
+  notes: Applies only to purchases made through the Capital One Entertainment platform
+    (event/ticket marketplace), NOT to general entertainment spend. portal_only is
+    used to flag the issuer-platform scoping. NEEDS human verification.
 credits:
 - name: Capital One Travel credit
   amount_usd: 300
@@ -55,7 +54,8 @@ credits:
   category: travel_other
   requires_enrollment: false
   expires: null
-  notes: $300/yr toward hotels, flights, and vacation rentals booked via Capital One Travel; expires each account anniversary.
+  notes: $300/yr toward hotels, flights, and vacation rentals booked via Capital One
+    Travel; expires each account anniversary.
 - name: Global Entry or TSA PreCheck fee credit
   amount_usd: 120
   period: every_4_years
@@ -69,36 +69,16 @@ credits:
   category: null
   requires_enrollment: false
   expires: null
-  notes: 10,000 bonus miles ($100 toward travel) each account anniversary starting year one.
-- name: Capital One Travel credit
-  amount_usd: 300
-  period: annual
-  category: travel_other
-  requires_enrollment: false
-  expires: null
-  notes: '"$300 annual Capital One Travel credit" — Capital One Travel portal only. NEEDS human verification.'
-- name: Anniversary bonus miles
-  amount_usd: null
-  period: annual
-  category: null
-  requires_enrollment: false
-  expires: null
-  notes: '"10,000 bonus miles every year, starting on the first anniversary." NEEDS human verification.'
-- name: Global Entry / TSA PreCheck fee credit
-  amount_usd: 120
-  period: every_4_years
-  category: null
-  requires_enrollment: false
-  expires: null
-  notes: '"up to $120 statement credit ... one credit per account every four years." NEEDS human verification.'
+  notes: 10,000 bonus miles ($100 toward travel) each account anniversary starting
+    year one.
 signup_bonus:
   points: 75000
   cash_usd: null
   spend_usd: 4000
   months: 3
-  notes: '"75,000 bonus miles when you spend $4,000 within three months." Applicants ineligible if they
-    received a Venture X bonus within the prior 48 months. Figures third-party/unconfirmed per the offer
-    file''s NEEDS_VERIFICATION marker.'
+  notes: '"75,000 bonus miles when you spend $4,000 within three months." Applicants
+    ineligible if they received a Venture X bonus within the prior 48 months. Figures
+    third-party/unconfirmed per the offer file''s NEEDS_VERIFICATION marker.'
 benefits:
 - lounge_access
 - cell_phone_protection
@@ -108,4 +88,4 @@ benefits:
 - concierge
 - no_foreign_transaction_fee
 verified_date: '2026-10-05'
-confidence: high
+confidence: medium

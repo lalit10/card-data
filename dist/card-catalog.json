@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T22:35:20Z",
+  "fetched_at": "2026-10-05T22:35:43Z",
   "card_count": 124,
   "valuations": {
     "aa_advantage": {
@@ -1753,7 +1753,7 @@
       "issuer": "capital-one",
       "network": "mastercard",
       "availability": "active",
-      "annual_fee_usd": 0,
+      "annual_fee_usd": 39,
       "foreign_transaction_pct": 0,
       "currency_type": "cash",
       "currency_program": "capital_one_rewards",
@@ -1768,7 +1768,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3% cash back on dining, no cap."
+          "notes": "3% on dining"
         },
         {
           "type": "category",
@@ -1777,7 +1777,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3% cash back at grocery stores (excludes superstores like Walmart and Target), no cap."
+          "notes": "3% at grocery stores, excludes superstores like Walmart and Target"
         },
         {
           "type": "category",
@@ -1786,7 +1786,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3% cash back on entertainment, no cap."
+          "notes": "3% on entertainment"
         },
         {
           "type": "category",
@@ -1795,34 +1795,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3% cash back on popular streaming services, no cap."
-        },
-        {
-          "type": "merchant",
-          "key": "capital_one_entertainment",
-          "rate": 8,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "8% cash back on Capital One Entertainment ticketing purchases."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "5% cash back on hotels and rental cars booked through Capital One Travel."
-        },
-        {
-          "type": "category",
-          "key": "base",
-          "rate": 1,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "1% cash back on everything else, no cap."
+          "notes": "3% on popular streaming services"
         }
       ],
       "credits": [],
@@ -1831,14 +1804,14 @@
         "cash_usd": null,
         "spend_usd": null,
         "months": null,
-        "notes": "No welcome offer stated on the Capital One SavorOne page."
+        "notes": "No welcome offer stated on the official SavorOne page (2026-10-05)"
       },
       "benefits": [
         "no_foreign_transaction_fee",
         "zero_intro_apr_purchases"
       ],
       "verified_date": "2026-10-05",
-      "confidence": "high"
+      "confidence": "medium"
     },
     {
       "id": "capital-one-venture",
