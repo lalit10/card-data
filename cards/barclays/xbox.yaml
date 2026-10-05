@@ -1,0 +1,44 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 3
+verified_date: '2026-10-05'
+confidence: medium
+id: xbox
+name: Xbox Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: points
+currency_program: xbox_points
+base_rate: 1
+earn:
+- type: category
+  key: other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5x on eligible Microsoft Store products
+- type: category
+  key: streaming
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3x on select streaming platforms
+- type: category
+  key: dining
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3x on dining delivery services
+credits: []
+signup_bonus:
+  points: 5000
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: 5,000 card points after first purchase. 3 months Xbox Game Pass Ultimate
+    after first purchase (new members).
+benefits:
+- zero_fraud_liability

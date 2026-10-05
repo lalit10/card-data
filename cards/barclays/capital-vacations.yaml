@@ -1,0 +1,47 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: capital-vacations
+name: Capital Vacations World Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: points
+currency_program: capital_vacations
+base_rate: 1
+earn:
+- type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Earn on eligible Capital Vacations purchases (rate not stated numerically
+    on page)
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Earn on eligible RCI, travel, gas and EV charging purchases (rate not stated
+    numerically)
+credits:
+- name: Resort stay certificate
+  amount_usd: 250
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: 3-night Capital Vacations resort stay certificate (~$250 value) after $10,000
+    net purchases/calendar year
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: Welcome after first purchase (details not stated on page)
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability

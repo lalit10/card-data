@@ -1,0 +1,37 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 3
+verified_date: '2026-10-05'
+confidence: medium
+id: barnes-noble
+name: Barnes & Noble Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: points
+currency_program: barnes_noble
+base_rate: 1
+earn:
+- type: category
+  key: other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5% back on B&N and Paper Source purchases
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x at restaurants (excl. B&N Cafe)
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 25
+  spend_usd: null
+  months: null
+  notes: $25 B&N gift card after first purchase or balance transfer. Free Premium
+    Membership after $7,500/yr spend.
+benefits:
+- zero_fraud_liability

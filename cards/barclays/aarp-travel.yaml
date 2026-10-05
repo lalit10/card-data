@@ -1,0 +1,53 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: aarp-travel
+name: AARP Travel Rewards Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% on airfare
+- type: category
+  key: travel_hotels
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% on hotel stays
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% on car rentals
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% on eligible restaurants
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 100
+  spend_usd: 500
+  months: 3
+  notes: $100 cash back bonus after $500 spend in 90 days
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability

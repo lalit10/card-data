@@ -1,8 +1,8 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "see LICENSE; card facts compiled from public issuer sources",
-  "fetched_at": "2026-10-05T22:37:32Z",
-  "card_count": 124,
+  "fetched_at": "2026-10-05T23:00:10Z",
+  "card_count": 136,
   "valuations": {
     "aa_advantage": {
       "floor_cpp": 0.8,
@@ -162,6 +162,128 @@
     }
   },
   "cards": [
+    {
+      "id": "barclays-aarp-essential",
+      "name": "AARP Essential Rewards Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 3,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% on gas"
+        },
+        {
+          "type": "category",
+          "key": "drugstores",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% at drug stores (excl. Target/Walmart)"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2% on eligible medical expenses"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 100,
+        "spend_usd": 500,
+        "months": 3,
+        "notes": "$100 cash back bonus after $500 spend in 90 days"
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
+      "id": "barclays-aarp-travel",
+      "name": "AARP Travel Rewards Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% on airfare"
+        },
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% on hotel stays"
+        },
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% on car rentals"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2% on eligible restaurants"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 100,
+        "spend_usd": 500,
+        "months": 3,
+        "notes": "$100 cash back bonus after $500 spend in 90 days"
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
     {
       "id": "citi-att-points-plus",
       "name": "AT&T Points Plus Card from Citi",
@@ -859,6 +981,53 @@
       "confidence": "high"
     },
     {
+      "id": "barclays-athleta-encore",
+      "name": "Athleta Encore Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "gap_encore",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x at Gap Inc. family of brands"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x at all eligible retail apparel brands"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "20% off first purchase with new card"
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
       "id": "bank-of-america-atmos-ascent",
       "name": "Atmos Rewards Ascent Visa Signature",
       "issuer": "bank-of-america",
@@ -1003,6 +1172,53 @@
       "confidence": "high"
     },
     {
+      "id": "barclays-banana-republic-encore",
+      "name": "Banana Republic Encore Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "gap_encore",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x at Gap Inc. family of brands"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x at all eligible retail apparel brands"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "20% off first purchase with new card"
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
       "id": "bank-of-america-bankamericard",
       "name": "BankAmericard",
       "issuer": "bank-of-america",
@@ -1023,6 +1239,53 @@
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
+    },
+    {
+      "id": "barclays-barnes-noble",
+      "name": "Barnes & Noble Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 3,
+      "currency_type": "points",
+      "currency_program": "barnes_noble",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5% back on B&N and Paper Source purchases"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at restaurants (excl. B&N Cafe)"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 25,
+        "spend_usd": null,
+        "months": null,
+        "notes": "$25 B&N gift card after first purchase or balance transfer. Free Premium Membership after $7,500/yr spend."
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "firstbank-bilt-blue",
@@ -1480,6 +1743,64 @@
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
+    },
+    {
+      "id": "barclays-breeze-easy",
+      "name": "Breeze Easy Visa Credit Card",
+      "issuer": "barclays",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 89,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "breezepoints",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at eligible grocery stores"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at restaurants incl. Breeze inflight food/beverage"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Anniversary bonus points",
+          "amount_usd": null,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "7,500 anniversary bonus BreezePoints with eligible purchases"
+        }
+      ],
+      "signup_bonus": {
+        "points": 20000,
+        "cash_usd": 200,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "$200 statement credit + 20,000 BreezePoints after $1,000 spend in 90 days"
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "chase-british-airways",
@@ -2056,6 +2377,131 @@
       ],
       "verified_date": "2026-10-05",
       "confidence": "high"
+    },
+    {
+      "id": "barclays-capital-vacations",
+      "name": "Capital Vacations World Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "capital_vacations",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Earn on eligible Capital Vacations purchases (rate not stated numerically on page)"
+        },
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Earn on eligible RCI, travel, gas and EV charging purchases (rate not stated numerically)"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Resort stay certificate",
+          "amount_usd": 250,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "3-night Capital Vacations resort stay certificate (~$250 value) after $10,000 net purchases/calendar year"
+        }
+      ],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "Welcome after first purchase (details not stated on page)"
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
+      "id": "barclays-carnival-rewards",
+      "name": "Carnival Rewards Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "carnival_rewards",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x on eligible Carnival purchases (card earn only; up to 6x total with Carnival Rewards program)"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at restaurants"
+        },
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at eligible grocery stores"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Anniversary bonus points",
+          "amount_usd": null,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "2,500 bonus points each anniversary year after $2,000 in eligible purchases"
+        }
+      ],
+      "signup_bonus": {
+        "points": 50000,
+        "cash_usd": null,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "50,000 points after $1,000 spend in 90 days"
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "alliant-cashback",
@@ -4694,6 +5140,53 @@
       "confidence": "medium"
     },
     {
+      "id": "barclays-gap-encore",
+      "name": "Gap Encore Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "gap_encore",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x at Gap Inc. family of brands"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x at all eligible retail apparel brands"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "20% off first purchase with new card"
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
       "id": "amex-hilton-aspire",
       "name": "Hilton Honors American Express Aspire Card",
       "issuer": "amex",
@@ -6295,6 +6788,53 @@
         "lounge_access",
         "world_elite_mastercard",
         "no_foreign_transaction_fee"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
+      "id": "barclays-old-navy-encore",
+      "name": "Old Navy Encore Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "gap_encore",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x at Gap Inc. family of brands"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x at all eligible retail apparel brands"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "30% off first purchase with new card"
+      },
+      "benefits": [
+        "zero_fraud_liability"
       ],
       "verified_date": "2026-10-05",
       "confidence": "medium"
@@ -8194,6 +8734,45 @@
       "confidence": "high"
     },
     {
+      "id": "barclays-upromise",
+      "name": "Upromise World Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1.25,
+      "earn": [],
+      "credits": [
+        {
+          "name": "Gift card cash back",
+          "amount_usd": 250,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $250/yr cash back on eligible gift cards at MyGiftCardsPlus"
+        }
+      ],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 300,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "$300 bonus cash back after $1,000 spend in 90 days. Earn 1.529% when linked to College Savings Plan, 1.25% otherwise."
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
       "id": "synchrony-venmo",
       "name": "Venmo Credit Card",
       "issuer": "synchrony",
@@ -9355,6 +9934,62 @@
       ],
       "verified_date": "2026-10-05",
       "confidence": "low"
+    },
+    {
+      "id": "barclays-xbox",
+      "name": "Xbox Mastercard",
+      "issuer": "barclays",
+      "network": "mastercard",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 3,
+      "currency_type": "points",
+      "currency_program": "xbox_points",
+      "cpp_floor": null,
+      "cpp_optimistic": null,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x on eligible Microsoft Store products"
+        },
+        {
+          "type": "category",
+          "key": "streaming",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x on select streaming platforms"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3x on dining delivery services"
+        }
+      ],
+      "credits": [],
+      "signup_bonus": {
+        "points": 5000,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "5,000 card points after first purchase. 3 months Xbox Game Pass Ultimate after first purchase (new members)."
+      },
+      "benefits": [
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "navy-federal-cash-rewards",

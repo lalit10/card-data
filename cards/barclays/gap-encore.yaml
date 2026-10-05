@@ -1,0 +1,36 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: gap-encore
+name: Gap Encore Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: points
+currency_program: gap_encore
+base_rate: 1
+earn:
+- type: category
+  key: other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5x at Gap Inc. family of brands
+- type: category
+  key: other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3x at all eligible retail apparel brands
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: 20% off first purchase with new card
+benefits:
+- zero_fraud_liability

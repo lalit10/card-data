@@ -1,0 +1,44 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: breeze-easy
+name: Breeze Easy Visa Credit Card
+network: visa
+annual_fee_usd: 89
+currency_type: points
+currency_program: breezepoints
+base_rate: 1
+earn:
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x at eligible grocery stores
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x at restaurants incl. Breeze inflight food/beverage
+credits:
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 7,500 anniversary bonus BreezePoints with eligible purchases
+signup_bonus:
+  points: 20000
+  cash_usd: 200
+  spend_usd: 1000
+  months: 3
+  notes: $200 statement credit + 20,000 BreezePoints after $1,000 spend in 90 days
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability

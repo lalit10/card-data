@@ -1,0 +1,45 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 3
+verified_date: '2026-10-05'
+confidence: medium
+id: aarp-essential
+name: AARP Essential Rewards Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% on gas
+- type: category
+  key: drugstores
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% at drug stores (excl. Target/Walmart)
+- type: category
+  key: other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2% on eligible medical expenses
+credits: []
+signup_bonus:
+  points: null
+  cash_usd: 100
+  spend_usd: 500
+  months: 3
+  notes: $100 cash back bonus after $500 spend in 90 days
+benefits:
+- zero_fraud_liability

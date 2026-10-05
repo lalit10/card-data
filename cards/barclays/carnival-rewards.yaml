@@ -1,0 +1,52 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: carnival-rewards
+name: Carnival Rewards Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: points
+currency_program: carnival_rewards
+base_rate: 1
+earn:
+- type: category
+  key: travel_other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3x on eligible Carnival purchases (card earn only; up to 6x total with Carnival
+    Rewards program)
+- type: category
+  key: dining
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x at restaurants
+- type: category
+  key: groceries
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x at eligible grocery stores
+credits:
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 2,500 bonus points each anniversary year after $2,000 in eligible purchases
+signup_bonus:
+  points: 50000
+  cash_usd: null
+  spend_usd: 1000
+  months: 3
+  notes: 50,000 points after $1,000 spend in 90 days
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability

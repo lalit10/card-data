@@ -1,0 +1,33 @@
+issuer: barclays
+availability: active
+foreign_transaction_pct: 0
+verified_date: '2026-10-05'
+confidence: medium
+id: upromise
+name: Upromise World Mastercard
+network: mastercard
+annual_fee_usd: 0
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1.25
+earn: []
+credits:
+- name: Gift card cash back
+  amount_usd: 250
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $250/yr cash back on eligible gift cards at MyGiftCardsPlus
+signup_bonus:
+  points: null
+  cash_usd: 300
+  spend_usd: 1000
+  months: 3
+  notes: $300 bonus cash back after $1,000 spend in 90 days. Earn 1.529% when linked
+    to College Savings Plan, 1.25% otherwise.
+benefits:
+- no_foreign_transaction_fee
+- zero_fraud_liability
