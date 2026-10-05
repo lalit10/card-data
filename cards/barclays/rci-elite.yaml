@@ -1,5 +1,3 @@
-# RCI Elite Rewards World Mastercard (barclays)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: rci-elite
 name: RCI Elite Rewards World Mastercard
 issuer: barclays
@@ -14,60 +12,44 @@ cpp_optimistic: 1.0
 base_rate: 1
 earn:
 - type: category
-  key: travel_flights
-  rate: 2
+  key: travel_other
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: Part of the issuer's broad "eligible travel (including rideshare, gas, EV charging)" 2X tier;
-    modeled across travel sub-categories plus gas and transit. Exact scope not stated.
-- type: category
-  key: travel_hotels
-  rate: 2
-  cap_usd: null
-  cap_period: null
-  portal_only: false
-  notes: null
+  notes: All eligible RCI purchases
 - type: category
   key: travel_other
   rate: 2
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: null
+  notes: All eligible travel including rideshare, gas, and EV charging
 - type: category
-  key: gas
-  rate: 2
+  key: other
+  rate: 1
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: null
-- type: category
-  key: transit
-  rate: 2
-  cap_usd: null
-  cap_period: null
-  portal_only: false
-  notes: null
+  notes: All other purchases [moved to base_rate]
 credits:
-- name: Annual vacation credit
+- name: Vacation credit
   amount_usd: 250
   period: annual
-  category: null
+  category: travel_other
   requires_enrollment: false
   expires: null
-  notes: $250 credit once $10,000 in total net purchases posts in a calendar year. The offer file warns
-    it "may not be achievable based on assigned credit line," so many cardholders will never reach the
-    threshold; captured only by fairly heavy spenders.
+  notes: $250 USD vacation credit after spending $10,000 in net purchases each calendar
+    year
 signup_bonus:
   points: 5000
   cash_usd: null
-  spend_usd: 0
-  months: 3
-  notes: Earned after the first purchase (no spend threshold); window_months is a nominal placeholder.
-    Issuer markets the 5,000 Rewards as worth $50 (1cpp).
+  spend_usd: null
+  months: null
+  notes: 5,000 bonus Rewards after making first purchase — worth $50 in RCI Member
+    Rewards. Get 5% of Rewards back every time you redeem.
 benefits:
 - zero_fraud_liability
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium

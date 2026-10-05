@@ -1,8 +1,8 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T22:31:39Z",
-  "card_count": 123,
+  "fetched_at": "2026-10-05T22:34:49Z",
+  "card_count": 124,
   "valuations": {
     "aa_advantage": {
       "floor_cpp": 0.8,
@@ -4468,20 +4468,11 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 2,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "\"Eligible travel purchases\" \u2014 the issuer's broad travel definition. Modeled across the three travel sub-categories at 2x; exact merchant-category-code scope not stated in the offer file. NEEDS human verification."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
+          "notes": "Eligible Emirates purchases"
         },
         {
           "type": "category",
@@ -4490,27 +4481,36 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "Eligible travel purchases"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "All other purchases [moved to base_rate]"
         }
       ],
       "credits": [
         {
-          "name": "Global Entry / TSA PreCheck fee credit",
+          "name": "Global Entry / TSA PreCheck credit",
           "amount_usd": 120,
           "period": "every_5_years",
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "One statement credit up to $120 per 5-year cycle for a Global Entry/TSA PreCheck application fee. Captured only by travelers who apply/renew; worthless to those who never enroll."
+          "notes": "Automatic statement credit for one application fee every five years, up to $120"
         },
         {
-          "name": "Anniversary bonus Skywards Miles",
+          "name": "Anniversary bonus miles",
           "amount_usd": null,
           "period": "annual",
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "Requires $30,000 of total card spend in the cardmembership year; captured only by heavy spenders. Valued via the card's Emirates Skywards program."
+          "notes": "10,000 anniversary bonus Skywards Miles after spending $30,000 on purchases each cardmembership year"
         }
       ],
       "signup_bonus": {
@@ -4518,7 +4518,7 @@
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
-        "notes": null
+        "notes": "50,000 Skywards Miles after $3,000 spend in 90 days. Includes Emirates Skywards Gold tier membership during first year (retain by spending $40,000/cardmembership year)."
       },
       "benefits": [
         "lounge_access",
@@ -4528,8 +4528,8 @@
         "free_fico_score",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "barclays-emirates-skywards",
@@ -4548,20 +4548,11 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 2,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "\"Eligible travel purchases\" \u2014 the issuer's broad travel definition; modeled across the three travel sub-categories at 2x. Exact merchant-category scope not stated. NEEDS human verification."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
+          "notes": "Eligible Emirates purchases (emirates.com or Emirates Sales office)"
         },
         {
           "type": "category",
@@ -4570,7 +4561,16 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "Eligible travel purchases"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "All other purchases [moved to base_rate]"
         }
       ],
       "credits": [],
@@ -4579,7 +4579,7 @@
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
-        "notes": null
+        "notes": "40,000 Skywards Miles after $3,000 spend in 90 days. Includes Emirates Skywards Silver tier membership during first year (retain by spending $20,000/cardmembership year)."
       },
       "benefits": [
         "complimentary_elite_status",
@@ -4588,8 +4588,8 @@
         "free_fico_score",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "elan-fidelity-rewards",
@@ -4647,11 +4647,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 60000,
+        "points": null,
         "cash_usd": null,
-        "spend_usd": 1000,
+        "spend_usd": null,
         "months": 3,
-        "notes": "Also requires paying the annual fee in full within the first 90 days."
+        "notes": "Welcome after first purchase within 90 days of account opening (2026-10-05); bonus miles amount not shown in page text. Card also grants instant Elite Gold status after first purchase."
       },
       "benefits": [
         "free_checked_bag",
@@ -4661,8 +4661,8 @@
         "no_foreign_transaction_fee",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "barclays-my-gm-rewards",
@@ -4677,21 +4677,40 @@
       "cpp_floor": 1.0,
       "cpp_optimistic": 1.0,
       "base_rate": 3,
-      "earn": [],
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 7,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible GM purchases \u2014 up to 10x total including up to 3x for being a GM Rewards Member"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "All other purchases including groceries, gas, restaurants, travel [moved to base_rate]"
+        }
+      ],
       "credits": [],
       "signup_bonus": {
         "points": 30000,
         "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
-        "notes": null
+        "notes": "30,000 bonus points after $1,000 spend in first 90 days. Note: 3% foreign transaction fee."
       },
       "benefits": [
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "amex-hilton-aspire",
@@ -5617,19 +5636,19 @@
       ],
       "credits": [],
       "signup_bonus": {
-        "points": 10000,
+        "points": null,
         "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
-        "notes": null
+        "notes": "Welcome requires $1,000 in purchases within 90 days (page-stated 2026-10-05); bonus points amount not shown in page text"
       },
       "benefits": [
         "no_blackout_dates",
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "barclays-jetblue-plus",
@@ -5647,41 +5666,41 @@
       "earn": [
         {
           "type": "category",
+          "key": "travel_flights",
+          "rate": 6,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible JetBlue purchases"
+        },
+        {
+          "type": "category",
           "key": "dining",
           "rate": 2,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "Restaurants and eligible grocery stores"
         },
         {
           "type": "category",
-          "key": "groceries",
-          "rate": 2,
+          "key": "other",
+          "rate": 1,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "\"Eligible grocery stores\" \u2014 superstores/warehouse clubs may be excluded (not stated). NEEDS human verification."
+          "notes": "All other purchases [moved to base_rate]"
         }
       ],
       "credits": [
         {
-          "name": "Anniversary bonus points",
-          "amount_usd": null,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Automatic 5,000 TrueBlue points each year after the account anniversary; captured by every cardholder who keeps the card open. Valued via the card's TrueBlue program."
-        },
-        {
           "name": "JetBlue Vacations statement credit",
           "amount_usd": 100,
           "period": "annual",
-          "category": null,
+          "category": "travel_other",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "Scoped trigger: requires buying a JetBlue Vacations package of $100+ (limit one per year) \u2014 NOT total card spend, so unlock_spend_usd is intentionally unset. Captured only by cardholders who book a JetBlue Vacations package; worthless otherwise."
+          "notes": "After purchase of a JetBlue Vacations package of $100+ with the card; one per year"
         }
       ],
       "signup_bonus": {
@@ -5689,7 +5708,7 @@
         "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
-        "notes": "Also requires paying the annual fee in full within the first 90 days."
+        "notes": "60,000 TrueBlue points after $1,000 spend and paying annual fee in full, both within 90 days (2026-10-05). Homepage showed limited-time 70,000 offer same day."
       },
       "benefits": [
         "free_checked_bag",
@@ -5698,8 +5717,8 @@
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "barclays-jetblue-premier",
@@ -5736,57 +5755,39 @@
       ],
       "credits": [
         {
-          "name": "TrueBlue Travel statement credit",
+          "name": "TrueBlue Travel statement credits",
           "amount_usd": 300,
           "period": "annual",
-          "category": "travel_flights",
+          "category": "travel_other",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "Up to $300/calendar year automatically credited against eligible TrueBlue Travel purchases. Easily captured by anyone who spends $300+/year on JetBlue/TrueBlue travel; worthless to non-JetBlue flyers."
+          "notes": "Up to $300 in statement credits on TrueBlue Travel purchases per calendar year"
         },
         {
-          "name": "Anniversary bonus points",
-          "amount_usd": null,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Automatic 5,000 TrueBlue points each year after the account anniversary; captured by every cardholder who keeps the card open."
-        },
-        {
-          "name": "Global Entry / TSA PreCheck fee credit",
+          "name": "Global Entry / TSA PreCheck credit",
           "amount_usd": 120,
           "period": "every_4_years",
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "One statement credit up to $120 per 4-year cycle for a Global Entry/TSA PreCheck fee. Captured only by travelers who apply/renew."
+          "notes": "Up to $120 application fee statement credit every 4 years"
         },
         {
-          "name": "Companion Pass credit \u2014 first tranche",
-          "amount_usd": 500,
+          "name": "Companion pass statement credits",
+          "amount_usd": 2000,
           "period": "annual",
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "One-time $500 statement credit once $15,000 in total net purchases posts in a calendar year; reached only by fairly heavy spenders. Marketed as offsetting a JetBlue Companion Pass."
-        },
-        {
-          "name": "Companion Pass credit \u2014 second tranche",
-          "amount_usd": 1500,
-          "period": "annual",
-          "category": null,
-          "requires_enrollment": false,
-          "expires": null,
-          "notes": "Additional one-time $1,500 statement credit once cumulative total net purchases reach $75,000 in the same calendar year; reachable only by very high spenders."
+          "notes": "Spend-based: up to $500 after $15,000 eligible net purchases/calendar year, plus up to $1,500 more after $75,000 (incl. initial $15k)"
         }
       ],
       "signup_bonus": {
-        "points": 100000,
+        "points": null,
         "cash_usd": null,
         "spend_usd": 5000,
         "months": 3,
-        "notes": "Also requires paying the annual fee in full within the first 90 days."
+        "notes": "Requires $5,000 spend and paying annual fee in full, both within 90 days (2026-10-05); bonus points amount not shown in page text"
       },
       "benefits": [
         "lounge_access",
@@ -5797,8 +5798,8 @@
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "amex-marriott-bevy",
@@ -6261,33 +6262,52 @@
       "cpp_floor": 0.7,
       "cpp_optimistic": 1.2,
       "base_rate": 1,
-      "earn": [],
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Miles & More partner airline tickets"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 1,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "All other purchases [moved to base_rate]"
+        }
+      ],
       "credits": [
         {
           "name": "Lufthansa Business Lounge vouchers",
-          "amount_usd": 100,
+          "amount_usd": null,
           "period": "annual",
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "No issuer dollar value stated; $100/year is a curator estimate (2 vouchers x ~$50). A reviewer may adjust or convert to a benefit_flag."
+          "notes": "Two complimentary Lufthansa Business Lounge vouchers annually"
         },
         {
-          "name": "Annual Companion Ticket",
-          "amount_usd": 200,
+          "name": "Annual companion ticket",
+          "amount_usd": null,
           "period": "annual",
-          "category": null,
+          "category": "travel_flights",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "in_kind value is a curator estimate: savings equal the companion base fare minus taxes/fees/surcharges; $200 is a conservative net figure for a typical economy itinerary after Lufthansa's high surcharges, NEEDS human verification. Mirrors the atmos-ascent/atmos-summit companion-certificate modeling convention."
+          "notes": "Companion ticket after each account anniversary (taxes and fees apply)"
         }
       ],
       "signup_bonus": {
-        "points": 50000,
+        "points": 60000,
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 3,
-        "notes": "Also requires paying the annual fee in full within the first 90 days."
+        "notes": "60,000 miles after $3,000 spend and paying the annual fee in full, both within 90 days. Annual fee waived for Senator and HON Circle members."
       },
       "benefits": [
         "companion_certificate",
@@ -6295,8 +6315,8 @@
         "world_elite_mastercard",
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "upgrade-onecard-essentials",
@@ -6790,21 +6810,12 @@
       "earn": [
         {
           "type": "category",
-          "key": "travel_flights",
-          "rate": 2,
+          "key": "travel_other",
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "Part of the issuer's broad \"eligible travel (including rideshare, gas, EV charging)\" 2X tier; modeled across travel sub-categories plus gas and transit. Exact scope not stated."
-        },
-        {
-          "type": "category",
-          "key": "travel_hotels",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
+          "notes": "All eligible RCI purchases"
         },
         {
           "type": "category",
@@ -6813,51 +6824,42 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "All eligible travel including rideshare, gas, and EV charging"
         },
         {
           "type": "category",
-          "key": "gas",
-          "rate": 2,
+          "key": "other",
+          "rate": 1,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
-        },
-        {
-          "type": "category",
-          "key": "transit",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": null
+          "notes": "All other purchases [moved to base_rate]"
         }
       ],
       "credits": [
         {
-          "name": "Annual vacation credit",
+          "name": "Vacation credit",
           "amount_usd": 250,
           "period": "annual",
-          "category": null,
+          "category": "travel_other",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "$250 credit once $10,000 in total net purchases posts in a calendar year. The offer file warns it \"may not be achievable based on assigned credit line,\" so many cardholders will never reach the threshold; captured only by fairly heavy spenders."
+          "notes": "$250 USD vacation credit after spending $10,000 in net purchases each calendar year"
         }
       ],
       "signup_bonus": {
         "points": 5000,
         "cash_usd": null,
-        "spend_usd": 0,
-        "months": 3,
-        "notes": "Earned after the first purchase (no spend threshold); window_months is a nominal placeholder. Issuer markets the 5,000 Rewards as worth $50 (1cpp)."
+        "spend_usd": null,
+        "months": null,
+        "notes": "5,000 bonus Rewards after making first purchase \u2014 worth $50 in RCI Member Rewards. Get 5% of Rewards back every time you redeem."
       },
       "benefits": [
         "zero_fraud_liability",
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "robinhood-gold-card",
@@ -9036,6 +9038,83 @@
       "confidence": "high"
     },
     {
+      "id": "barclays-wyndham-earner",
+      "name": "Wyndham Rewards Earner Card",
+      "issuer": "barclays",
+      "network": "visa",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "wyndham_rewards",
+      "cpp_floor": 0.7,
+      "cpp_optimistic": 1.1,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases at Hotels by Wyndham"
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Qualifying gas purchases"
+        },
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible dining purchases"
+        },
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible grocery store purchases, excluding Target and Walmart"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Anniversary bonus points",
+          "amount_usd": null,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "7,500 bonus points each anniversary year after $15,000 in eligible purchases"
+        }
+      ],
+      "signup_bonus": {
+        "points": 30000,
+        "cash_usd": null,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "30,000 bonus points after $1,000 spend in first 90 days. Automatic Wyndham Rewards GOLD member level."
+      },
+      "benefits": [
+        "complimentary_elite_status",
+        "no_foreign_transaction_fee",
+        "zero_fraud_liability"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
+    },
+    {
       "id": "barclays-wyndham-plus",
       "name": "Wyndham Rewards Earner Plus Card",
       "issuer": "barclays",
@@ -9103,16 +9182,16 @@
           "category": null,
           "requires_enrollment": false,
           "expires": null,
-          "notes": "15,000 Wyndham points each anniversary after the annual fee posts (up to ~2 free nights); captured by every renewing cardholder. Valued via the wyndham_rewards program."
+          "notes": "15,000 bonus points each anniversary year after payment of the annual fee"
         },
         {
-          "name": "Free night after 5 nights stayed",
-          "amount_usd": 105,
+          "name": "Free night after 5-night stay",
+          "amount_usd": null,
           "period": "annual",
-          "category": null,
+          "category": "travel_hotels",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "$105 = 15,000 points x 0.7cpp (wyndham_rewards floor) \u2014 a curator estimate of the free night's value."
+          "notes": "Free night worth up to 15,000 Wyndham Rewards points after staying 5+ nights in a calendar year"
         }
       ],
       "signup_bonus": {
@@ -9120,7 +9199,7 @@
         "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
-        "notes": "Standard first tranche only. A second tranche of 55,000 bonus points requires $500 at Hotels by Wyndham within the first 180 days \u2014 scoped to a specific merchant and a different window, so it is NOT modeled as a tier (per the conversion protocol). Headline \"up to 100,000 points (up to 13 free nights)\"."
+        "notes": "45,000 bonus points after $1,000 spend in 90 days, PLUS 55,000 bonus points after $500 at Hotels by Wyndham in first 180 days (up to 100,000 total). Automatic DIAMOND status first year, then PLATINUM."
       },
       "benefits": [
         "complimentary_elite_status",
@@ -9128,11 +9207,11 @@
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
-      "id": "barclays-wyndham-earner",
+      "id": "barclays-wyndham-premier",
       "name": "Wyndham Rewards Earner Premier Card",
       "issuer": "barclays",
       "network": "visa",
@@ -9278,7 +9357,7 @@
         "no_foreign_transaction_fee",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
+      "verified_date": "2026-10-05",
       "confidence": "low"
     },
     {

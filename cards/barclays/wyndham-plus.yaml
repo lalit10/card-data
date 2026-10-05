@@ -1,5 +1,3 @@
-# Wyndham Rewards Earner Plus Card (barclays)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: wyndham-plus
 name: Wyndham Rewards Earner Plus Card
 issuer: barclays
@@ -55,29 +53,27 @@ credits:
   category: null
   requires_enrollment: false
   expires: null
-  notes: 15,000 Wyndham points each anniversary after the annual fee posts (up to ~2 free nights); captured
-    by every renewing cardholder. Valued via the wyndham_rewards program.
-- name: Free night after 5 nights stayed
-  amount_usd: 105
+  notes: 15,000 bonus points each anniversary year after payment of the annual fee
+- name: Free night after 5-night stay
+  amount_usd: null
   period: annual
-  category: null
+  category: travel_hotels
   requires_enrollment: false
   expires: null
-  notes: $105 = 15,000 points x 0.7cpp (wyndham_rewards floor) — a curator estimate of the free night's
-    value.
+  notes: Free night worth up to 15,000 Wyndham Rewards points after staying 5+ nights
+    in a calendar year
 signup_bonus:
   points: 45000
   cash_usd: null
   spend_usd: 1000
   months: 3
-  notes: Standard first tranche only. A second tranche of 55,000 bonus points requires $500 at Hotels
-    by Wyndham within the first 180 days — scoped to a specific merchant and a different window, so it
-    is NOT modeled as a tier (per the conversion protocol). Headline "up to 100,000 points (up to 13 free
-    nights)".
+  notes: 45,000 bonus points after $1,000 spend in 90 days, PLUS 55,000 bonus points
+    after $500 at Hotels by Wyndham in first 180 days (up to 100,000 total). Automatic
+    DIAMOND status first year, then PLATINUM.
 benefits:
 - complimentary_elite_status
 - visa_signature
 - no_foreign_transaction_fee
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium

@@ -1,5 +1,3 @@
-# Miles & More World Elite Mastercard (barclays)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: miles-and-more
 name: Miles & More World Elite Mastercard
 issuer: barclays
@@ -12,35 +10,47 @@ currency_program: miles_and_more
 cpp_floor: 0.7
 cpp_optimistic: 1.2
 base_rate: 1
-earn: []
+earn:
+- type: category
+  key: travel_flights
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Miles & More partner airline tickets
+- type: category
+  key: other
+  rate: 1
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: All other purchases [moved to base_rate]
 credits:
 - name: Lufthansa Business Lounge vouchers
-  amount_usd: 100
+  amount_usd: null
   period: annual
   category: null
   requires_enrollment: false
   expires: null
-  notes: No issuer dollar value stated; $100/year is a curator estimate (2 vouchers x ~$50). A reviewer
-    may adjust or convert to a benefit_flag.
-- name: Annual Companion Ticket
-  amount_usd: 200
+  notes: Two complimentary Lufthansa Business Lounge vouchers annually
+- name: Annual companion ticket
+  amount_usd: null
   period: annual
-  category: null
+  category: travel_flights
   requires_enrollment: false
   expires: null
-  notes: 'in_kind value is a curator estimate: savings equal the companion base fare minus taxes/fees/surcharges;
-    $200 is a conservative net figure for a typical economy itinerary after Lufthansa''s high surcharges,
-    NEEDS human verification. Mirrors the atmos-ascent/atmos-summit companion-certificate modeling convention.'
+  notes: Companion ticket after each account anniversary (taxes and fees apply)
 signup_bonus:
-  points: 50000
+  points: 60000
   cash_usd: null
   spend_usd: 3000
   months: 3
-  notes: Also requires paying the annual fee in full within the first 90 days.
+  notes: 60,000 miles after $3,000 spend and paying the annual fee in full, both within
+    90 days. Annual fee waived for Senator and HON Circle members.
 benefits:
 - companion_certificate
 - lounge_access
 - world_elite_mastercard
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium

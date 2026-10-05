@@ -1,5 +1,3 @@
-# JetBlue Card (barclays)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: jetblue
 name: JetBlue Card
 issuer: barclays
@@ -26,18 +24,19 @@ earn:
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: '"Eligible grocery stores" — superstores/warehouse clubs may be excluded (not stated in the offer
-    file). NEEDS human verification.'
+  notes: '"Eligible grocery stores" — superstores/warehouse clubs may be excluded
+    (not stated in the offer file). NEEDS human verification.'
 credits: []
 signup_bonus:
-  points: 10000
+  points: null
   cash_usd: null
   spend_usd: 1000
   months: 3
-  notes: null
+  notes: Welcome requires $1,000 in purchases within 90 days (page-stated 2026-10-05);
+    bonus points amount not shown in page text
 benefits:
 - no_blackout_dates
 - no_foreign_transaction_fee
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium

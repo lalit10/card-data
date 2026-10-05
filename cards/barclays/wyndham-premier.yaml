@@ -1,0 +1,133 @@
+id: wyndham-premier
+name: Wyndham Rewards Earner Premier Card
+issuer: barclays
+network: visa
+availability: active
+annual_fee_usd: 395
+foreign_transaction_pct: 0
+currency_type: points
+currency_program: wyndham_rewards
+cpp_floor: 0.7
+cpp_optimistic: 1.1
+base_rate: 1
+earn:
+- type: category
+  key: dining
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: groceries
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Excludes Target and Walmart (stated in the offer file).
+- type: category
+  key: travel_flights
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_hotels
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+- type: category
+  key: travel_other
+  rate: 4
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: null
+credits:
+- name: Anniversary bonus points
+  amount_usd: null
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 30,000 Wyndham points each anniversary after the annual fee posts (up to
+    ~4 free nights); captured by every renewing cardholder. Valued via the wyndham_rewards
+    program.
+- name: Annual hotel credit
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: 'Scoped trigger: requires $100+ aggregate spend at eligible Wyndham brands
+    (Wyndham, Wyndham Grand, Dolce, Trademark, Registry Collection) in a calendar
+    year — NOT total card spend, so unlock_spend_usd is unset. Easily captured by
+    anyone who stays at these brands.'
+- name: Meal delivery credit
+  amount_usd: 10
+  period: monthly
+  category: dining
+  requires_enrollment: false
+  expires: null
+  notes: Up to $10/month on third-party meal-delivery services (monthly forfeit, no
+    rollover; $120/year aggregate). Captured only by regular delivery users; forfeited
+    months are lost.
+- name: Streaming credit
+  amount_usd: 100
+  period: annual
+  category: streaming
+  requires_enrollment: false
+  expires: null
+  notes: $100/calendar year on eligible video/music/audio streaming services; easily
+    captured by anyone with recurring streaming subscriptions.
+- name: Wholesale club statement credit
+  amount_usd: 65
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: 'Scoped trigger: $65+ aggregate wholesale-club spend (including membership
+    fees) in a calendar year — NOT total card spend, so unlock_spend_usd is unset.
+    Captured by wholesale club members; worthless to others.'
+- name: Global Entry / TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: One statement credit up to $120 per 4-year cycle for a Global Entry/TSA PreCheck
+    fee. Captured only by travelers who apply/renew.
+- name: Free night after 5 nights stayed
+  amount_usd: 210
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $210 = 30,000 points x 0.7cpp (wyndham_rewards floor) — a curator estimate.
+- name: Wyndham Rewards Insider subscription
+  amount_usd: 75
+  period: annual
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: in_kind value is a curator estimate of the Insider subscription's ~$75/yr
+    retail price; the offer file states no dollar figure — NEEDS human verification.
+signup_bonus:
+  points: 90000
+  cash_usd: null
+  spend_usd: 6000
+  months: 4
+  notes: Standard first tranche only. A second tranche of 30,000 bonus points requires
+    $750 at Hotels by Wyndham within the first 180 days — scoped to a specific merchant
+    and a different window, so it is NOT modeled as a tier. Headline "up to 120,000
+    points (up to 16 free nights)".
+benefits:
+- complimentary_elite_status
+- visa_signature
+- no_foreign_transaction_fee
+- zero_fraud_liability
+verified_date: '2026-10-05'
+confidence: low

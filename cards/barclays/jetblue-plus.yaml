@@ -1,5 +1,3 @@
-# JetBlue Plus Card (barclays)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: jetblue-plus
 name: JetBlue Plus Card
 issuer: barclays
@@ -14,49 +12,48 @@ cpp_optimistic: 1.35
 base_rate: 1
 earn:
 - type: category
+  key: travel_flights
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Eligible JetBlue purchases
+- type: category
   key: dining
   rate: 2
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: null
+  notes: Restaurants and eligible grocery stores
 - type: category
-  key: groceries
-  rate: 2
+  key: other
+  rate: 1
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: '"Eligible grocery stores" — superstores/warehouse clubs may be excluded (not stated). NEEDS
-    human verification.'
+  notes: All other purchases [moved to base_rate]
 credits:
-- name: Anniversary bonus points
-  amount_usd: null
-  period: annual
-  category: null
-  requires_enrollment: false
-  expires: null
-  notes: Automatic 5,000 TrueBlue points each year after the account anniversary; captured by every cardholder
-    who keeps the card open. Valued via the card's TrueBlue program.
 - name: JetBlue Vacations statement credit
   amount_usd: 100
   period: annual
-  category: null
+  category: travel_other
   requires_enrollment: false
   expires: null
-  notes: 'Scoped trigger: requires buying a JetBlue Vacations package of $100+ (limit one per year) —
-    NOT total card spend, so unlock_spend_usd is intentionally unset. Captured only by cardholders who
-    book a JetBlue Vacations package; worthless otherwise.'
+  notes: After purchase of a JetBlue Vacations package of $100+ with the card; one
+    per year
 signup_bonus:
   points: 60000
   cash_usd: null
   spend_usd: 1000
   months: 3
-  notes: Also requires paying the annual fee in full within the first 90 days.
+  notes: 60,000 TrueBlue points after $1,000 spend and paying annual fee in full,
+    both within 90 days (2026-10-05). Homepage showed limited-time 70,000 offer same
+    day.
 benefits:
 - free_checked_bag
 - no_blackout_dates
 - complimentary_elite_status
 - no_foreign_transaction_fee
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium
