@@ -46,6 +46,27 @@ earn:
     so the 3X baseline is used (see notes). Excludes bakeries, caterers, restaurants inside another business
     (hotels, stores, stadiums, grocery stores, warehouse clubs).
 credits:
+- name: Hotel benefit
+  amount_usd: 300
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $300/yr on a 2+ night stay via cititravel.com.
+- name: Splurge Credit
+  amount_usd: 200
+  period: annual
+  category: null
+  requires_enrollment: true
+  expires: null
+  notes: $200/yr — choose up to 2 merchants from a rotating list.
+- name: Blacklane credit
+  amount_usd: 200
+  period: annual
+  category: transit
+  requires_enrollment: false
+  expires: null
+  notes: $200/yr Blacklane credit.
 - name: Annual hotel benefit (Citi Travel)
   amount_usd: 300
   period: annual
@@ -82,8 +103,14 @@ credits:
   expires: null
   notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
     captured by travelers who apply/renew.
+signup_bonus:
+  points: 75000
+  cash_usd: null
+  spend_usd: 6000
+  months: 3
+  notes: 75,000 bonus points after $6,000 in purchases in the first 3 months.
 benefits:
 - lounge_access
 - primary_rental_insurance
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

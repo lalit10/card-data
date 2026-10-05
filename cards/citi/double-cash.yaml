@@ -30,6 +30,13 @@ earn:
   notes: Only car rentals and attractions booked via Citi Travel. Portal-only; 5X includes the base purchase+payment
     points.
 credits: []
+signup_bonus:
+  points: null
+  cash_usd: 200
+  spend_usd: 1500
+  months: 6
+  notes: $200 cash back bonus after $1,500 in purchases in the first 6 months. Rewards earned as
+    ThankYou points.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

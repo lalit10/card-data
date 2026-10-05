@@ -34,10 +34,8 @@ signup_bonus:
   cash_usd: null
   spend_usd: 2000
   months: 3
-  notes: Bonus also grants 100 Experience Points (XP) toward Flying Blue elite status — not structured
-    (elite-status progress is not a scored value). Some third-party reporting cites a 70,000-mile offer;
-    the 50,000 official-page figure is used. NEEDS human verification.
+  notes: 50,000 bonus miles plus 100 XP after $2,000+ in purchases in the first 90 days.
 benefits:
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

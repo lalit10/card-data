@@ -42,6 +42,13 @@ earn:
   portal_only: false
   notes: null
 credits:
+- name: Airline credit
+  amount_usd: 50
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: $50/yr statement credit with a minimum $50 airline purchase.
 - name: Annual airline purchase credit
   amount_usd: 50
   period: annual
@@ -65,5 +72,5 @@ benefits:
 - trip_cancellation_insurance
 - lost_baggage_reimbursement
 - travel_accident_insurance
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

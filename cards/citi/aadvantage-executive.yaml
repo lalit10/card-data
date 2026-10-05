@@ -5,7 +5,7 @@ name: Citi / AAdvantage Executive World Elite Mastercard
 issuer: citi
 network: mastercard
 availability: active
-annual_fee_usd: 595
+annual_fee_usd: 695
 foreign_transaction_pct: 0
 currency_type: points
 currency_program: aa_advantage
@@ -41,6 +41,27 @@ earn:
   notes: Only car rentals booked through aadvantagecars.com with US/Mexico/Canada point of sale (excludes
     Payless and AA Vacations). Portal-only.
 credits:
+- name: AA Vacations credit
+  amount_usd: 250
+  period: semiannual
+  category: travel_other
+  requires_enrollment: false
+  expires: null
+  notes: $250 twice a year ($500/yr) on eligible AA Vacations purchases.
+- name: Lyft credit
+  amount_usd: 15
+  period: monthly
+  category: transit
+  requires_enrollment: false
+  expires: null
+  notes: $15/month ($180/yr) after 3 eligible Lyft rides in the month.
+- name: Avis/Budget credit
+  amount_usd: 120
+  period: annual
+  category: travel_other
+  requires_enrollment: false
+  expires: null
+  notes: Up to $120/yr on eligible prepaid Avis/Budget car rentals.
 - name: Lyft credit
   amount_usd: 10
   period: monthly
@@ -74,9 +95,16 @@ credits:
   expires: null
   notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
     captured by travelers who apply/renew.
+signup_bonus:
+  points: 125000
+  cash_usd: null
+  spend_usd: 15000
+  months: 5
+  notes: Limited-time offer — 125,000 AAdvantage bonus miles after $15,000 in purchases in the first
+    5 months.
 benefits:
 - lounge_access
 - free_checked_bag
 - priority_boarding
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -58,13 +58,11 @@ credits:
 signup_bonus:
   points: 50000
   cash_usd: null
-  spend_usd: 2000
+  spend_usd: 1500
   months: 3
-  notes: Offer also includes a "buy one ticket, get one for just the taxes and fees" companion award ($0
-    fare plus taxes and fees from $23). That in-kind BOGO is not structured into value — it is a one-time
-    award whose worth depends on the fare booked. Described here for the reviewer.
+  notes: Limited-time — 50,000 bonus points plus a $99 Companion Fare (plus taxes/fees from $23) after $1,500 in purchases in the first 90 days.
 benefits:
 - free_checked_bag
 - no_blackout_dates
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

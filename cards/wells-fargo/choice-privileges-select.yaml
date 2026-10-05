@@ -36,6 +36,13 @@ earn:
   notes: Covers "phone plan services" only, per the offer file — not utilities broadly. Mapped to the
     utilities key for lack of a phone-specific key; narrower than this category. NEEDS human verification.
 credits:
+- name: Global Entry or TSA PreCheck fee credit
+  amount_usd: 120
+  period: every_4_years
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: Up to $120 every 4 years for a trusted-traveler application fee.
 - name: Anniversary bonus points
   amount_usd: null
   period: annual
@@ -67,5 +74,5 @@ benefits:
 - trip_cancellation_insurance
 - lost_baggage_reimbursement
 - travel_accident_insurance
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

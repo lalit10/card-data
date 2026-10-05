@@ -25,11 +25,9 @@ signup_bonus:
   points: 30000
   cash_usd: null
   spend_usd: 1500
-  months: 3
-  notes: Offer file also reports an older/third-party figure of "15,000 points" — the 30,000 figure is
-    used but flagged as promotion-dependent and unconfirmed. NEEDS human verification of the current welcome
-    offer against the live page.
+  months: null
+  notes: 30,000 bonus points ($300 off a future Allegiant trip) after $1,500 in spend.
 benefits:
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T18:57:28Z",
+  "fetched_at": "2026-10-05T20:28:47Z",
   "card_count": 121,
   "valuations": {
     "aa_advantage": {
@@ -193,6 +193,15 @@
       ],
       "credits": [
         {
+          "name": "Purchase milestone credit",
+          "amount_usd": 20,
+          "period": "monthly",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$20 statement credit each billing cycle after $1,000+ in purchases (up to $240/yr)."
+        },
+        {
           "name": "Recurring statement credit ($1,000/cycle)",
           "amount_usd": 20,
           "period": "monthly",
@@ -202,10 +211,16 @@
           "notes": "$20 posts only in billing cycles where net new purchases (spend minus returns) reach $1,000+. Captured only by cardholders who consistently run $1,000+/month through the card; nothing in lighter-spend months."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 200,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "$200 statement credit after $1,000 in purchases in the first 3 months."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-aer-lingus",
@@ -392,13 +407,13 @@
         "cash_usd": null,
         "spend_usd": 2000,
         "months": 3,
-        "notes": "Bonus also grants 100 Experience Points (XP) toward Flying Blue elite status \u2014 not structured (elite-status progress is not a scored value). Some third-party reporting cites a 70,000-mile offer; the 50,000 official-page figure is used. NEEDS human verification."
+        "notes": "50,000 bonus miles plus 100 XP after $2,000+ in purchases in the first 90 days."
       },
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-allegiant",
@@ -429,14 +444,14 @@
         "points": 30000,
         "cash_usd": null,
         "spend_usd": 1500,
-        "months": 3,
-        "notes": "Offer file also reports an older/third-party figure of \"15,000 points\" \u2014 the 30,000 figure is used but flagged as promotion-dependent and unconfirmed. NEEDS human verification of the current welcome offer against the live page."
+        "months": null,
+        "notes": "30,000 bonus points ($300 off a future Allegiant trip) after $1,500 in spend."
       },
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-amazon-visa",
@@ -571,10 +586,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 15000,
+        "cash_usd": 100,
+        "spend_usd": 500,
+        "months": 3,
+        "notes": "Limited-time offer \u2014 15,000 AAdvantage bonus miles plus a $100 statement credit after $500 in purchases in the first 3 months."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-gold",
@@ -889,16 +910,16 @@
       "signup_bonus": {
         "points": 50000,
         "cash_usd": null,
-        "spend_usd": 2000,
+        "spend_usd": 1500,
         "months": 3,
-        "notes": "Offer also includes a \"buy one ticket, get one for just the taxes and fees\" companion award ($0 fare plus taxes and fees from $23). That in-kind BOGO is not structured into value \u2014 it is a one-time award whose worth depends on the fare booked. Described here for the reviewer."
+        "notes": "Limited-time \u2014 50,000 bonus points plus a $99 Companion Fare (plus taxes/fees from $23) after $1,500 in purchases in the first 90 days."
       },
       "benefits": [
         "free_checked_bag",
         "no_blackout_dates"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-atmos-summit",
@@ -954,19 +975,19 @@
         }
       ],
       "signup_bonus": {
-        "points": 100000,
+        "points": 95000,
         "cash_usd": null,
-        "spend_usd": 6500,
-        "months": 3,
-        "notes": "Bonus also includes a 25,000-point Global Companion Award and a 50% flight discount code \u2014 both in-kind and not structured into value. Offer file notes a lower targeted offer (80,000 points + companion award after $4,000); the $6,500/100,000 official-page figure is used."
+        "spend_usd": 3000,
+        "months": null,
+        "notes": "Limited-time \u2014 70,000 bonus points plus a 25,000-point Global Companion Award after $3,000+ in spend."
       },
       "benefits": [
         "lounge_access",
         "free_checked_bag",
         "no_change_fees"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-bankamericard",
@@ -987,8 +1008,8 @@
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "cardless-bilt-blue",
@@ -2462,7 +2483,7 @@
       "issuer": "citi",
       "network": "mastercard",
       "availability": "active",
-      "annual_fee_usd": 595,
+      "annual_fee_usd": 695,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "aa_advantage",
@@ -2500,6 +2521,33 @@
       ],
       "credits": [
         {
+          "name": "AA Vacations credit",
+          "amount_usd": 250,
+          "period": "semiannual",
+          "category": "travel_other",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$250 twice a year ($500/yr) on eligible AA Vacations purchases."
+        },
+        {
+          "name": "Lyft credit",
+          "amount_usd": 15,
+          "period": "monthly",
+          "category": "transit",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$15/month ($180/yr) after 3 eligible Lyft rides in the month."
+        },
+        {
+          "name": "Avis/Budget credit",
+          "amount_usd": 120,
+          "period": "annual",
+          "category": "travel_other",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $120/yr on eligible prepaid Avis/Budget car rentals."
+        },
+        {
           "name": "Lyft credit",
           "amount_usd": 10,
           "period": "monthly",
@@ -2536,14 +2584,20 @@
           "notes": "One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only captured by travelers who apply/renew."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 125000,
+        "cash_usd": null,
+        "spend_usd": 15000,
+        "months": 5,
+        "notes": "Limited-time offer \u2014 125,000 AAdvantage bonus miles after $15,000 in purchases in the first 5 months."
+      },
       "benefits": [
         "lounge_access",
         "free_checked_bag",
         "priority_boarding"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-aadvantage-globe",
@@ -2652,13 +2706,19 @@
           "notes": "One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only captured by travelers who apply/renew."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 60000,
+        "cash_usd": null,
+        "spend_usd": 4000,
+        "months": 3,
+        "notes": "60,000 AAdvantage bonus miles after $4,000 in purchases in the first 3 months."
+      },
       "benefits": [
         "free_checked_bag",
         "preferred_boarding"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-aadvantage-platinum-select",
@@ -2704,6 +2764,24 @@
       ],
       "credits": [
         {
+          "name": "AA flight discount",
+          "amount_usd": 125,
+          "period": "annual",
+          "category": "travel_flights",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$125/yr AA flight discount after $20,000+ spend in the cardmembership year plus card renewal."
+        },
+        {
+          "name": "Turo credit",
+          "amount_usd": 180,
+          "period": "annual",
+          "category": "travel_other",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "Up to $180/yr ($30 per eligible trip) on Turo; must link card at Turo.com/AAdvantagePlatinum."
+        },
+        {
           "name": "American Airlines Flight Discount certificate",
           "amount_usd": 125,
           "period": "annual",
@@ -2722,13 +2800,19 @@
           "notes": "Limited-time (Oct 19, 2025 - Oct 18, 2026): $30 per completed Turo trip, up to 6, requires linking the card to a Turo account (digital-wallet payments excluded). Captured only by Turo renters during the promo window."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 80000,
+        "cash_usd": null,
+        "spend_usd": 3500,
+        "months": 4,
+        "notes": "Limited-time offer \u2014 80,000 AAdvantage bonus miles after $3,500 in purchases in the first 4 months. $99 annual fee waived the first year."
+      },
       "benefits": [
         "free_checked_bag",
         "preferred_boarding"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-custom-cash",
@@ -2757,8 +2841,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-14",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-diamond-preferred",
@@ -2777,8 +2861,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-double-cash",
@@ -2814,10 +2898,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 200,
+        "spend_usd": 1500,
+        "months": 6,
+        "notes": "$200 cash back bonus after $1,500 in purchases in the first 6 months. Rewards earned as ThankYou points."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-simplicity",
@@ -2836,8 +2926,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-strata",
@@ -2918,10 +3008,16 @@
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 20000,
+        "cash_usd": null,
+        "spend_usd": 1000,
+        "months": 3,
+        "notes": "20,000 bonus points after $1,000 in purchases in the first 3 months."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-strata-elite",
@@ -2976,6 +3072,33 @@
       ],
       "credits": [
         {
+          "name": "Hotel benefit",
+          "amount_usd": 300,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$300/yr on a 2+ night stay via cititravel.com."
+        },
+        {
+          "name": "Splurge Credit",
+          "amount_usd": 200,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "$200/yr \u2014 choose up to 2 merchants from a rotating list."
+        },
+        {
+          "name": "Blacklane credit",
+          "amount_usd": 200,
+          "period": "annual",
+          "category": "transit",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$200/yr Blacklane credit."
+        },
+        {
           "name": "Annual hotel benefit (Citi Travel)",
           "amount_usd": 300,
           "period": "annual",
@@ -3012,13 +3135,19 @@
           "notes": "One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only captured by travelers who apply/renew."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 75000,
+        "cash_usd": null,
+        "spend_usd": 6000,
+        "months": 3,
+        "notes": "75,000 bonus points after $6,000 in purchases in the first 3 months."
+      },
       "benefits": [
         "lounge_access",
         "primary_rental_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-strata-premier",
@@ -3100,6 +3229,15 @@
       ],
       "credits": [
         {
+          "name": "Annual Hotel Benefit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100 off a single $500+ hotel stay (excl. taxes/fees) via cititravel.com, once per calendar year."
+        },
+        {
           "name": "Annual hotel benefit (Citi Travel)",
           "amount_usd": 100,
           "period": "annual",
@@ -3109,10 +3247,16 @@
           "notes": "Once per calendar year, $100 off a single $500+ hotel stay booked and prepaid via Citi Travel (portal-only; points not earned on the discounted portion). Captured only by cardholders who book a qualifying $500+ hotel stay through the portal each year."
         }
       ],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": 60000,
+        "cash_usd": null,
+        "spend_usd": 4000,
+        "months": 3,
+        "notes": "60,000 bonus points after $4,000 in purchases in the first 3 months."
+      },
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "citi-costco-anywhere",
@@ -3186,8 +3330,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-customized-cash",
@@ -3225,16 +3369,16 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 200,
         "spend_usd": 1000,
         "months": 3,
-        "notes": null
+        "notes": "$200 online cash rewards bonus after $1,000 in purchases in the first 90 days. First-year bonus \u2014 6% in the choice category (3% base + 3% bonus)."
       },
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-delta-blue",
@@ -3678,8 +3822,8 @@
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "discover-it-chrome",
@@ -3726,8 +3870,8 @@
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "discover-it-miles",
@@ -3755,8 +3899,8 @@
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "discover-it-student-cash-back",
@@ -3793,8 +3937,8 @@
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-disney-inspire",
@@ -6154,8 +6298,8 @@
         "no_foreign_transaction_fee",
         "concierge_service"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-premium-rewards-elite",
@@ -6249,8 +6393,8 @@
         "no_foreign_transaction_fee",
         "concierge_service"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-prime-visa",
@@ -6565,17 +6709,17 @@
         }
       ],
       "signup_bonus": {
-        "points": 70000,
+        "points": 60000,
         "cash_usd": null,
-        "spend_usd": 3000,
-        "months": 3,
-        "notes": null
+        "spend_usd": 2500,
+        "months": null,
+        "notes": "60,000 bonus points ($600 onboard credit or cruise discounts) after $2,500 in spend."
       },
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-royal-one",
@@ -6622,17 +6766,17 @@
         }
       ],
       "signup_bonus": {
-        "points": 45000,
+        "points": 30000,
         "cash_usd": null,
-        "spend_usd": 2000,
-        "months": 3,
-        "notes": null
+        "spend_usd": 1500,
+        "months": null,
+        "notes": "30,000 bonus points ($300 onboard credit or cruise discounts) after $1,500 in spend."
       },
       "benefits": [
         "no_foreign_transaction_fee"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "synchrony-sams-club-mastercard",
@@ -7247,8 +7391,8 @@
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "truist-enjoy-cash-1-5-flat",
@@ -7784,8 +7928,8 @@
       "benefits": [
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "upgrade-upgrade-cash-rewards",
@@ -8008,8 +8152,8 @@
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-autograph",
@@ -8114,8 +8258,8 @@
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-autograph-journey",
@@ -8170,6 +8314,15 @@
       ],
       "credits": [
         {
+          "name": "Airline credit",
+          "amount_usd": 50,
+          "period": "annual",
+          "category": "travel_flights",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$50/yr statement credit with a minimum $50 airline purchase."
+        },
+        {
           "name": "Annual airline purchase credit",
           "amount_usd": 50,
           "period": "annual",
@@ -8195,8 +8348,8 @@
         "lost_baggage_reimbursement",
         "travel_accident_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-choice-privileges",
@@ -8254,8 +8407,8 @@
         "world_elite_mastercard",
         "zero_fraud_liability"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-choice-privileges-select",
@@ -8301,6 +8454,15 @@
       ],
       "credits": [
         {
+          "name": "Global Entry or TSA PreCheck fee credit",
+          "amount_usd": 120,
+          "period": "every_4_years",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "Up to $120 every 4 years for a trusted-traveler application fee."
+        },
+        {
           "name": "Anniversary bonus points",
           "amount_usd": null,
           "period": "annual",
@@ -8335,8 +8497,8 @@
         "lost_baggage_reimbursement",
         "travel_accident_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "wells-fargo-reflect",
@@ -8359,8 +8521,8 @@
         "zero_fraud_liability",
         "free_fico_score"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-world-of-hyatt",

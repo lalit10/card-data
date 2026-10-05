@@ -38,12 +38,12 @@ credits:
     only against a cruise booking. Captured by cardholders who both hit the spend threshold and sail;
     near-zero otherwise. in_kind because it is cruise-restricted, not cash.
 signup_bonus:
-  points: 45000
+  points: 30000
   cash_usd: null
-  spend_usd: 2000
-  months: 3
-  notes: null
+  spend_usd: 1500
+  months: null
+  notes: 30,000 bonus points ($300 onboard credit or cruise discounts) after $1,500 in spend.
 benefits:
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

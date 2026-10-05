@@ -30,6 +30,13 @@ earn:
   notes: Supermarkets, grocery delivery, meat/seafood, dairy, bakeries, food/convenience stores. Excludes
     general-merchandise/discount superstores, warehouse clubs, candy/nut/confectionery stores.
 credits:
+- name: Purchase milestone credit
+  amount_usd: 20
+  period: monthly
+  category: null
+  requires_enrollment: false
+  expires: null
+  notes: $20 statement credit each billing cycle after $1,000+ in purchases (up to $240/yr).
 - name: Recurring statement credit ($1,000/cycle)
   amount_usd: 20
   period: monthly
@@ -39,6 +46,12 @@ credits:
   notes: $20 posts only in billing cycles where net new purchases (spend minus returns) reach $1,000+.
     Captured only by cardholders who consistently run $1,000+/month through the card; nothing in lighter-spend
     months.
+signup_bonus:
+  points: null
+  cash_usd: 200
+  spend_usd: 1000
+  months: 3
+  notes: $200 statement credit after $1,000 in purchases in the first 3 months.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

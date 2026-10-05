@@ -35,11 +35,11 @@ earn:
 credits: []
 signup_bonus:
   points: null
-  cash_usd: null
+  cash_usd: 200
   spend_usd: 1000
   months: 3
-  notes: null
+  notes: $200 online cash rewards bonus after $1,000 in purchases in the first 90 days. First-year bonus — 6% in the choice category (3% base + 3% bonus).
 benefits:
 - zero_fraud_liability
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

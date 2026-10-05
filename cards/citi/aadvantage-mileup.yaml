@@ -30,6 +30,13 @@ earn:
   notes: Supermarkets, freezer/meat provisioners, dairy, bakeries, food/convenience stores. Excludes general-merchandise/discount
     superstores, warehouse clubs, candy/ confectionery stores, cafes, bars, lounges, fast food.
 credits: []
+signup_bonus:
+  points: 15000
+  cash_usd: 100
+  spend_usd: 500
+  months: 3
+  notes: Limited-time offer — 15,000 AAdvantage bonus miles plus a $100 statement credit after $500
+    in purchases in the first 3 months.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

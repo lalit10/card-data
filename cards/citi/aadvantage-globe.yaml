@@ -101,8 +101,14 @@ credits:
   expires: null
   notes: One credit every 4 years toward whichever of Global Entry / TSA PreCheck is charged first. Only
     captured by travelers who apply/renew.
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 4000
+  months: 3
+  notes: 60,000 AAdvantage bonus miles after $4,000 in purchases in the first 3 months.
 benefits:
 - free_checked_bag
 - preferred_boarding
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -67,6 +67,13 @@ earn:
   portal_only: false
   notes: Excludes warehouse clubs, discount/department stores, and convenience stores not coded as gas/EV.
 credits:
+- name: Annual Hotel Benefit
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $100 off a single $500+ hotel stay (excl. taxes/fees) via cititravel.com, once per calendar year.
 - name: Annual hotel benefit (Citi Travel)
   amount_usd: 100
   period: annual
@@ -76,6 +83,12 @@ credits:
   notes: Once per calendar year, $100 off a single $500+ hotel stay booked and prepaid via Citi Travel
     (portal-only; points not earned on the discounted portion). Captured only by cardholders who book
     a qualifying $500+ hotel stay through the portal each year.
+signup_bonus:
+  points: 60000
+  cash_usd: null
+  spend_usd: 4000
+  months: 3
+  notes: 60,000 bonus points after $4,000 in purchases in the first 3 months.
 benefits: []
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

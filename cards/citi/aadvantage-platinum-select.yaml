@@ -40,6 +40,20 @@ earn:
   notes: Gas stations; excludes warehouse clubs not coding as gas, discount stores, department stores,
     convenience stores. Not a shared cap with dining — both are uncapped 2X.
 credits:
+- name: AA flight discount
+  amount_usd: 125
+  period: annual
+  category: travel_flights
+  requires_enrollment: false
+  expires: null
+  notes: $125/yr AA flight discount after $20,000+ spend in the cardmembership year plus card renewal.
+- name: Turo credit
+  amount_usd: 180
+  period: annual
+  category: travel_other
+  requires_enrollment: true
+  expires: null
+  notes: Up to $180/yr ($30 per eligible trip) on Turo; must link card at Turo.com/AAdvantagePlatinum.
 - name: American Airlines Flight Discount certificate
   amount_usd: 125
   period: annual
@@ -57,8 +71,15 @@ credits:
   notes: 'Limited-time (Oct 19, 2025 - Oct 18, 2026): $30 per completed Turo trip, up to 6, requires linking
     the card to a Turo account (digital-wallet payments excluded). Captured only by Turo renters during
     the promo window.'
+signup_bonus:
+  points: 80000
+  cash_usd: null
+  spend_usd: 3500
+  months: 4
+  notes: Limited-time offer — 80,000 AAdvantage bonus miles after $3,500 in purchases in the first
+    4 months. $99 annual fee waived the first year.
 benefits:
 - free_checked_bag
 - preferred_boarding
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -67,12 +67,12 @@ credits:
   notes: Reimburses the TSA PreCheck (~$78) or Global Entry ($120) application fee once per 4-year cycle.
     Captured by anyone who applies; otherwise unused.
 signup_bonus:
-  points: 70000
+  points: 60000
   cash_usd: null
-  spend_usd: 3000
-  months: 3
-  notes: null
+  spend_usd: 2500
+  months: null
+  notes: 60,000 bonus points ($600 onboard credit or cruise discounts) after $2,500 in spend.
 benefits:
 - no_foreign_transaction_fee
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high
