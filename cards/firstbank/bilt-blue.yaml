@@ -2,7 +2,7 @@
 # Edit freely; set verified_date when you confirm figures with the issuer.
 id: bilt-blue
 name: Bilt Blue Card
-issuer: cardless
+issuer: firstbank
 network: mastercard
 availability: active
 annual_fee_usd: 0

@@ -3,7 +3,7 @@
 id: one-key
 name: Wells Fargo One Key Card
 issuer: wells-fargo
-network: visa
+network: mastercard
 availability: active
 annual_fee_usd: 0
 foreign_transaction_pct: 0

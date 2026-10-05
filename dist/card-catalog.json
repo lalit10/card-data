@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T22:36:30Z",
+  "fetched_at": "2026-10-05T22:36:54Z",
   "card_count": 124,
   "valuations": {
     "aa_advantage": {
@@ -1025,9 +1025,9 @@
       "confidence": "high"
     },
     {
-      "id": "cardless-bilt-blue",
+      "id": "firstbank-bilt-blue",
       "name": "Bilt Blue Card",
-      "issuer": "cardless",
+      "issuer": "firstbank",
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
@@ -1106,9 +1106,9 @@
       "confidence": "high"
     },
     {
-      "id": "cardless-bilt-obsidian",
+      "id": "firstbank-bilt-obsidian",
       "name": "Bilt Obsidian Card",
-      "issuer": "cardless",
+      "issuer": "firstbank",
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 95,
@@ -1206,9 +1206,9 @@
       "confidence": "high"
     },
     {
-      "id": "cardless-bilt-palladium",
+      "id": "firstbank-bilt-palladium",
       "name": "Bilt Palladium Card",
-      "issuer": "cardless",
+      "issuer": "firstbank",
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 495,
@@ -8766,7 +8766,7 @@
       "id": "wells-fargo-one-key",
       "name": "Wells Fargo One Key Card",
       "issuer": "wells-fargo",
-      "network": "visa",
+      "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
       "foreign_transaction_pct": 0,
@@ -8833,7 +8833,7 @@
       "id": "wells-fargo-one-key-plus",
       "name": "Wells Fargo One Key+ Card",
       "issuer": "wells-fargo",
-      "network": "visa",
+      "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 99,
       "foreign_transaction_pct": 0,
