@@ -15,35 +15,35 @@ base_rate: 1.5
 earn:
 - type: category
   key: dining
-  rate: 4.5
+  rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
   notes: null
 - type: category
   key: drugstores
-  rate: 4.5
+  rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
   notes: null
 - type: category
   key: travel_flights
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
   notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
 - type: category
   key: travel_hotels
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
   notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
 - type: category
   key: travel_other
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
@@ -70,13 +70,14 @@ credits:
     order each quarter (no rollover; excludes gift cards, alcohol in some states). Captured only by active
     DoorDash users who enroll; worthless otherwise.
 signup_bonus:
-  points: 20000
+  points: 30000
   cash_usd: null
-  spend_usd: 500
-  months: 3
-  notes: Marketed as "$200 cash back" (20,000 UR points at 1cpp). Limited-time offer, ends soon. Not available to current cardmembers
-    or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post; account
-    must be open and not in default at fulfillment.
+  spend_usd: 20000
+  months: 12
+  notes: Earn an extra 1.5% cash back on everything (on up to $20,000 spent in the first year), worth up to
+    $300, with effective first-year rates of 6.5% Chase Travel, 4.5% dining/drugstores, 3% everything else; reverts
+    to standard rates after year one or $20,000 spent. Not available to current cardmembers or those who
+    received a bonus for this card in the last 24 months.
 benefits: []
 verified_date: '2026-10-05'
 confidence: high

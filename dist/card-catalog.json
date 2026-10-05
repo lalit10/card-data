@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "see LICENSE; card facts compiled from public issuer sources",
-  "fetched_at": "2026-10-05T23:00:26Z",
+  "fetched_at": "2026-10-05T23:05:23Z",
   "card_count": 137,
   "valuations": {
     "aa_advantage": {
@@ -28,9 +28,17 @@
       "floor_cpp": 0.8,
       "optimistic_cpp": 1.4
     },
+    "barnes_noble": {
+      "floor_cpp": 1.0,
+      "optimistic_cpp": 1.0
+    },
     "bilt_points": {
       "floor_cpp": 0.55,
       "optimistic_cpp": 1.9
+    },
+    "breezepoints": {
+      "floor_cpp": 1.0,
+      "optimistic_cpp": 1.0
     },
     "bofa_premium_rewards": {
       "floor_cpp": 1.0,
@@ -43,6 +51,14 @@
     "capital_one_miles": {
       "floor_cpp": 0.5,
       "optimistic_cpp": 1.7
+    },
+    "capital_vacations": {
+      "floor_cpp": 0.8,
+      "optimistic_cpp": 1.0
+    },
+    "carnival_rewards": {
+      "floor_cpp": 0.8,
+      "optimistic_cpp": 1.0
     },
     "cash": {
       "floor_cpp": 1.0,
@@ -83,6 +99,10 @@
     "frontier_miles": {
       "floor_cpp": 0.6,
       "optimistic_cpp": 1.0
+    },
+    "gap_encore": {
+      "floor_cpp": 0.2,
+      "optimistic_cpp": 0.2
     },
     "gm_rewards": {
       "floor_cpp": 1.0,
@@ -157,6 +177,10 @@
       "optimistic_cpp": 1.1
     },
     "wells_onekey": {
+      "floor_cpp": 1.0,
+      "optimistic_cpp": 1.0
+    },
+    "xbox_points": {
       "floor_cpp": 1.0,
       "optimistic_cpp": 1.0
     }
@@ -548,7 +572,7 @@
       "network": "visa",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "cash",
       "currency_program": "cash",
       "cpp_floor": 1.0,
@@ -1015,11 +1039,11 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "points",
       "currency_program": "gap_encore",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.2,
+      "cpp_optimistic": 0.2,
       "base_rate": 1,
       "earn": [
         {
@@ -1206,11 +1230,11 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "points",
       "currency_program": "gap_encore",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.2,
+      "cpp_optimistic": 0.2,
       "base_rate": 1,
       "earn": [
         {
@@ -1220,7 +1244,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "5x at Gap Inc. family of brands"
+          "notes": "5x at Gap Inc. family of brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)"
         },
         {
           "type": "category",
@@ -1229,7 +1253,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3x at all eligible retail apparel brands"
+          "notes": "3x at all eligible retail apparel brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)"
         }
       ],
       "credits": [],
@@ -1278,8 +1302,8 @@
       "foreign_transaction_pct": 3,
       "currency_type": "points",
       "currency_program": "barnes_noble",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
         {
@@ -1782,10 +1806,28 @@
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "breezepoints",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 5,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "5x card-earned (\"when you buy\") on Nicer and Nicest bundle purchases. Breeze Airways separately awards another 5x to the loyalty account when you fly, for up to 10x total; the fly portion is program earn, not card earn."
+        },
+        {
+          "type": "category",
+          "key": "travel_other",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x card-earned (\"when you buy\") on Nice bundle purchases. Breeze Airways separately awards another 2x when you fly, for up to 4x total; the fly portion is program earn, not card earn."
+        },
         {
           "type": "category",
           "key": "groceries",
@@ -1817,11 +1859,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 20000,
-        "cash_usd": 200,
+        "points": 30000,
+        "cash_usd": null,
         "spend_usd": 1000,
         "months": 3,
-        "notes": "$200 statement credit + 20,000 BreezePoints after $1,000 spend in 90 days"
+        "notes": "Limited-time offer. Earn 30,000 bonus BreezePoints plus Breezy 1 benefits after $1,000 in purchases within the first 90 days; plus 20,000 more bonus BreezePoints after $5,000 total purchases within the first 180 days (up to 50,000 total)."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -2416,29 +2458,10 @@
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "capital_vacations",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.8,
+      "cpp_optimistic": 1.0,
       "base_rate": 1,
-      "earn": [
-        {
-          "type": "category",
-          "key": "travel_other",
-          "rate": 5,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Earn on eligible Capital Vacations purchases (rate not stated numerically on page)"
-        },
-        {
-          "type": "category",
-          "key": "travel_other",
-          "rate": 2,
-          "cap_usd": null,
-          "cap_period": null,
-          "portal_only": false,
-          "notes": "Earn on eligible RCI, travel, gas and EV charging purchases (rate not stated numerically)"
-        }
-      ],
+      "earn": [],
       "credits": [
         {
           "name": "Resort stay certificate",
@@ -2462,7 +2485,7 @@
         "zero_fraud_liability"
       ],
       "verified_date": "2026-10-05",
-      "confidence": "medium"
+      "confidence": "low"
     },
     {
       "id": "barclays-carnival-rewards",
@@ -2474,8 +2497,8 @@
       "foreign_transaction_pct": 0,
       "currency_type": "points",
       "currency_program": "carnival_rewards",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.8,
+      "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
         {
@@ -2585,8 +2608,17 @@
       "earn": [
         {
           "type": "category",
+          "key": "rotating",
+          "rate": 5,
+          "cap_usd": 1500,
+          "cap_period": "quarterly",
+          "portal_only": false,
+          "notes": "Quarterly rotating bonus categories; requires activation each quarter."
+        },
+        {
+          "type": "category",
           "key": "dining",
-          "rate": 4.5,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2595,7 +2627,7 @@
         {
           "type": "category",
           "key": "drugstores",
-          "rate": 4.5,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2604,7 +2636,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2613,7 +2645,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2622,7 +2654,7 @@
         {
           "type": "category",
           "key": "travel_other",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2725,7 +2757,7 @@
         {
           "type": "category",
           "key": "dining",
-          "rate": 4.5,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2734,7 +2766,7 @@
         {
           "type": "category",
           "key": "drugstores",
-          "rate": 4.5,
+          "rate": 3,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
@@ -2743,7 +2775,7 @@
         {
           "type": "category",
           "key": "travel_flights",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2752,7 +2784,7 @@
         {
           "type": "category",
           "key": "travel_hotels",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2761,7 +2793,7 @@
         {
           "type": "category",
           "key": "travel_other",
-          "rate": 6.5,
+          "rate": 5,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": true,
@@ -2789,11 +2821,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 20000,
+        "points": 30000,
         "cash_usd": null,
-        "spend_usd": 500,
-        "months": 3,
-        "notes": "Marketed as \"$200 cash back\" (20,000 UR points at 1cpp). Limited-time offer, ends soon. Not available to current cardmembers or those who received a bonus for this card in the last 24 months. Allow 6-8 weeks to post; account must be open and not in default at fulfillment."
+        "spend_usd": 20000,
+        "months": 12,
+        "notes": "Earn an extra 1.5% cash back on everything (on up to $20,000 spent in the first year), worth up to $300, with effective first-year rates of 6.5% Chase Travel, 4.5% dining/drugstores, 3% everything else; reverts to standard rates after year one or $20,000 spent. Not available to current cardmembers or those who received a bonus for this card in the last 24 months."
       },
       "benefits": [],
       "verified_date": "2026-10-05",
@@ -2907,12 +2939,12 @@
         },
         {
           "name": "Annual Chase Travel Hotel Credit",
-          "amount_usd": 100,
+          "amount_usd": 50,
           "period": "annual",
           "category": "travel_hotels",
           "requires_enrollment": false,
           "expires": null,
-          "notes": "Automatic statement credit on the first $100/year of hotel purchases booked through Chase Travel (year = account anniversary cycle). Easy full capture for anyone who books at least one hotel through the portal; the first $100 of such hotel spend does NOT also earn points."
+          "notes": "Automatic statement credit on the first $50/year of hotel purchases booked through Chase Travel (year = account anniversary cycle). Easy full capture for anyone who books at least one hotel through the portal; the first $50 of such hotel spend does NOT also earn points. Verified against issuer listing 2026-10-05; earlier $100 figure was incorrect."
         },
         {
           "name": "Global Entry / TSA PreCheck / NEXUS application fee credit",
@@ -5174,11 +5206,11 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "points",
       "currency_program": "gap_encore",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.2,
+      "cpp_optimistic": 0.2,
       "base_rate": 1,
       "earn": [
         {
@@ -6827,11 +6859,11 @@
       "network": "mastercard",
       "availability": "active",
       "annual_fee_usd": 0,
-      "foreign_transaction_pct": 0,
+      "foreign_transaction_pct": null,
       "currency_type": "points",
       "currency_program": "gap_encore",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 0.2,
+      "cpp_optimistic": 0.2,
       "base_rate": 1,
       "earn": [
         {
@@ -6841,7 +6873,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "5x at Gap Inc. family of brands"
+          "notes": "5x at Gap Inc. family of brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)"
         },
         {
           "type": "category",
@@ -6850,7 +6882,7 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3x at all eligible retail apparel brands"
+          "notes": "3x at all eligible retail apparel brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)"
         }
       ],
       "credits": [],
@@ -9973,8 +10005,8 @@
       "foreign_transaction_pct": 3,
       "currency_type": "points",
       "currency_program": "xbox_points",
-      "cpp_floor": null,
-      "cpp_optimistic": null,
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
       "base_rate": 1,
       "earn": [
         {

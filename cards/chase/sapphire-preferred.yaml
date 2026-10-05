@@ -91,14 +91,15 @@ credits:
   expires: '2026-12-31'
   notes: 1 year complimentary Apple TV ($156 value); must activate by 12/31/2026.
 - name: Annual Chase Travel Hotel Credit
-  amount_usd: 100
+  amount_usd: 50
   period: annual
   category: travel_hotels
   requires_enrollment: false
   expires: null
-  notes: Automatic statement credit on the first $100/year of hotel purchases booked through Chase Travel
+  notes: Automatic statement credit on the first $50/year of hotel purchases booked through Chase Travel
     (year = account anniversary cycle). Easy full capture for anyone who books at least one hotel through
-    the portal; the first $100 of such hotel spend does NOT also earn points.
+    the portal; the first $50 of such hotel spend does NOT also earn points. Verified against issuer
+    listing 2026-10-05; earlier $100 figure was incorrect.
 - name: Global Entry / TSA PreCheck / NEXUS application fee credit
   amount_usd: 120
   period: every_4_years

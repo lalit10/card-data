@@ -26,10 +26,18 @@ programs:
     floor_cpp: 0.8
     label: Avios (British Airways / Iberia / Aer Lingus)
     optimistic_cpp: 1.4
+  barnes_noble:
+    floor_cpp: 1.0
+    label: Barnes & Noble Mastercard points
+    optimistic_cpp: 1.0
   bilt_points:
     floor_cpp: 0.55
     label: Bilt Rewards
     optimistic_cpp: 1.9
+  breezepoints:
+    floor_cpp: 1.0
+    label: BreezePoints
+    optimistic_cpp: 1.0
   bofa_premium_rewards:
     floor_cpp: 1.0
     label: Bank of America Premium Rewards points
@@ -42,6 +50,14 @@ programs:
     floor_cpp: 0.5
     label: Capital One Miles
     optimistic_cpp: 1.7
+  capital_vacations:
+    floor_cpp: 0.8
+    label: Capital Vacations points
+    optimistic_cpp: 1.0
+  carnival_rewards:
+    floor_cpp: 0.8
+    label: Carnival Rewards points
+    optimistic_cpp: 1.0
   cash:
     floor_cpp: 1.0
     label: Cash back
@@ -82,6 +98,10 @@ programs:
     floor_cpp: 0.6
     label: Frontier Miles
     optimistic_cpp: 1.0
+  gap_encore:
+    floor_cpp: 0.2
+    label: Gap Encore points (500 points = $1 reward)
+    optimistic_cpp: 0.2
   gm_rewards:
     floor_cpp: 1.0
     label: My GM Rewards points
@@ -157,4 +177,8 @@ programs:
   wells_onekey:
     floor_cpp: 1.0
     label: Wells Fargo OneKeyCash
+    optimistic_cpp: 1.0
+  xbox_points:
+    floor_cpp: 1.0
+    label: Xbox Mastercard card points
     optimistic_cpp: 1.0

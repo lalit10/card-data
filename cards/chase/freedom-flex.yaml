@@ -14,36 +14,43 @@ cpp_optimistic: 2.0
 base_rate: 1
 earn:
 - type: category
+  key: rotating
+  rate: 5
+  cap_usd: 1500
+  cap_period: quarterly
+  portal_only: false
+  notes: Quarterly rotating bonus categories; requires activation each quarter.
+- type: category
   key: dining
-  rate: 4.5
+  rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
   notes: null
 - type: category
   key: drugstores
-  rate: 4.5
+  rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
   notes: null
 - type: category
   key: travel_flights
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
   notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
 - type: category
   key: travel_hotels
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true
   notes: Only when booked through the Chase Travel portal (portal prices may exceed direct booking).
 - type: category
   key: travel_other
-  rate: 6.5
+  rate: 5
   cap_usd: null
   cap_period: null
   portal_only: true

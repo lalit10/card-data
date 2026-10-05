@@ -1,6 +1,6 @@
 issuer: barclays
 availability: active
-foreign_transaction_pct: 0
+foreign_transaction_pct: null
 verified_date: '2026-10-05'
 confidence: medium
 id: gap-encore

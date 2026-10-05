@@ -6,7 +6,7 @@ issuer: alliant
 network: visa
 availability: active
 annual_fee_usd: 0
-foreign_transaction_pct: 0
+foreign_transaction_pct: null
 currency_type: cash
 currency_program: cash
 cpp_floor: 1.0

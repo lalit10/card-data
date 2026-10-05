@@ -12,6 +12,24 @@ currency_program: breezepoints
 base_rate: 1
 earn:
 - type: category
+  key: travel_other
+  rate: 5
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 5x card-earned ("when you buy") on Nicer and Nicest bundle purchases. Breeze
+    Airways separately awards another 5x to the loyalty account when you fly, for up
+    to 10x total; the fly portion is program earn, not card earn.
+- type: category
+  key: travel_other
+  rate: 2
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 2x card-earned ("when you buy") on Nice bundle purchases. Breeze Airways separately
+    awards another 2x when you fly, for up to 4x total; the fly portion is program earn,
+    not card earn.
+- type: category
   key: groceries
   rate: 2
   cap_usd: null
@@ -34,11 +52,13 @@ credits:
   expires: null
   notes: 7,500 anniversary bonus BreezePoints with eligible purchases
 signup_bonus:
-  points: 20000
-  cash_usd: 200
+  points: 30000
+  cash_usd: null
   spend_usd: 1000
   months: 3
-  notes: $200 statement credit + 20,000 BreezePoints after $1,000 spend in 90 days
+  notes: Limited-time offer. Earn 30,000 bonus BreezePoints plus Breezy 1 benefits after
+    $1,000 in purchases within the first 90 days; plus 20,000 more bonus BreezePoints
+    after $5,000 total purchases within the first 180 days (up to 50,000 total).
 benefits:
 - no_foreign_transaction_fee
 - zero_fraud_liability

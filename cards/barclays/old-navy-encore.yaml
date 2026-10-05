@@ -1,6 +1,6 @@
 issuer: barclays
 availability: active
-foreign_transaction_pct: 0
+foreign_transaction_pct: null
 verified_date: '2026-10-05'
 confidence: medium
 id: old-navy-encore
@@ -17,14 +17,14 @@ earn:
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 5x at Gap Inc. family of brands
+  notes: 5x at Gap Inc. family of brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)
 - type: category
   key: other
   rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: 3x at all eligible retail apparel brands
+  notes: 3x at all eligible retail apparel brands (numeric rate follows the shared Encore program structure verified on the Gap and Athleta pages; this card's own page renders the multiplier in graphics not captured in text)
 credits: []
 signup_bonus:
   points: null
