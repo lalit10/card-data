@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T22:34:49Z",
+  "fetched_at": "2026-10-05T22:35:20Z",
   "card_count": 124,
   "valuations": {
     "aa_advantage": {
@@ -2105,14 +2105,30 @@
       "cpp_floor": 1.0,
       "cpp_optimistic": 1.0,
       "base_rate": 1.5,
-      "earn": [],
+      "earn": [
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 2.5,
+          "cap_usd": 10000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "Up to 2.5% cash back on first $10,000 of qualifying eligible purchases per year; 1.5% on purchases over $10,000"
+        }
+      ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "No welcome offer stated on Alliant site (2026-10-05)"
+      },
       "benefits": [
         "visa_signature"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "chase-freedom-flex",
@@ -7062,7 +7078,7 @@
           "cap_usd": 6000,
           "cap_period": "annual",
           "portal_only": false,
-          "notes": "5% on gas anywhere Mastercard is accepted, up to $6,000/calendar year, then 1%."
+          "notes": "5% Sam's Cash on gas anywhere Mastercard is accepted, first $6,000/year, then 1%"
         },
         {
           "type": "category",
@@ -7071,16 +7087,31 @@
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": null
+          "notes": "3% on dining and takeout"
+        },
+        {
+          "type": "category",
+          "key": "other",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% on Sam's Club purchases for Plus members (Club members earn 1%)"
         }
       ],
       "credits": [],
-      "signup_bonus": null,
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": null,
+        "spend_usd": null,
+        "months": null,
+        "notes": "No standing welcome offer on Synchrony FAQ (2026-10-05)"
+      },
       "benefits": [
         "special_financing"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "medium"
     },
     {
       "id": "sofi-unlimited-2",

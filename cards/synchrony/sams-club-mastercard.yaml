@@ -1,5 +1,3 @@
-# Sam's Club Mastercard (synchrony)
-# Edit freely; set verified_date when you confirm figures with the issuer.
 id: sams-club-mastercard
 name: Sam's Club Mastercard
 issuer: synchrony
@@ -19,16 +17,30 @@ earn:
   cap_usd: 6000
   cap_period: annual
   portal_only: false
-  notes: 5% on gas anywhere Mastercard is accepted, up to $6,000/calendar year, then 1%.
+  notes: 5% Sam's Cash on gas anywhere Mastercard is accepted, first $6,000/year,
+    then 1%
 - type: category
   key: dining
   rate: 3
   cap_usd: null
   cap_period: null
   portal_only: false
-  notes: null
+  notes: 3% on dining and takeout
+- type: category
+  key: other
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: 3% on Sam's Club purchases for Plus members (Club members earn 1%)
 credits: []
 benefits:
 - special_financing
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: medium
+signup_bonus:
+  points: null
+  cash_usd: null
+  spend_usd: null
+  months: null
+  notes: No standing welcome offer on Synchrony FAQ (2026-10-05)
