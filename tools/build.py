@@ -115,7 +115,7 @@ def build_transfers():
     return {
         "source": "github.com/lalit10/card-data",
         "source_license": "MIT",
-        "built_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "program_count": len(programs),
         "pair_count": sum(len(p["partners"]) for p in programs),
         "programs": sorted(programs, key=lambda p: p["name"]),
