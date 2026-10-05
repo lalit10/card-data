@@ -14,6 +14,13 @@ cpp_optimistic: 0.6
 base_rate: 3
 earn:
 - type: category
+  key: travel_hotels
+  rate: 12
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Eligible purchases made directly with a hotel or resort in the Hilton portfolio.
+- type: category
   key: dining
   rate: 6
   cap_usd: null
@@ -74,10 +81,10 @@ signup_bonus:
   cash_usd: null
   spend_usd: 3000
   months: 6
-  notes: Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification.
+  notes: Limited-time offer ends 01/13/2027 per the offer file. Bonus points don't count toward elite qualification.
     Standard evergreen bonus not separately stated.
 benefits:
 - no_foreign_transaction_fee
 - elite_status
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

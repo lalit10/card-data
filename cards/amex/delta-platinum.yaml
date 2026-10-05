@@ -14,6 +14,13 @@ cpp_optimistic: 1.3
 base_rate: 1
 earn:
 - type: category
+  key: travel_flights
+  rate: 3
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Purchases made directly with Delta.
+- type: category
   key: groceries
   rate: 2
   cap_usd: null
@@ -99,12 +106,12 @@ credits:
   notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
     is a small fraction — modeled at ~$25.
 signup_bonus:
-  points: 80000
-  cash_usd: null
+  points: 90000
+  cash_usd: 300
   spend_usd: 4000
   months: 6
-  notes: Limited-time offer ending 07/15/2026 (11:59pm MST). Standard evergreen bonus not stated in the
-    offer file — flag for verification.
+  notes: Limited-time offer ends 11/4/2026 — $300 statement credit plus up to 90,000 bonus miles after"
+    $4,000 in purchases in the first 6 months. Welcome offers vary; page says to apply to see your offer.
 benefits:
 - no_foreign_transaction_fee
 - free_checked_bag
@@ -113,5 +120,5 @@ benefits:
 - no_blackout_dates
 - car_rental_insurance
 - extended_warranty
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

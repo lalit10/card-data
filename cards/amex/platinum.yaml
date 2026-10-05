@@ -81,12 +81,12 @@ credits:
     subscriptions; enrollment required; monthly forfeit; excludes bundles/ third-party/gift cards. Captured
     by people who pay those services directly.
 - name: CLEAR Plus Credit
-  amount_usd: 209
+  amount_usd: 219
   period: annual
   category: travel_other
   requires_enrollment: true
   expires: null
-  notes: Covers a CLEAR+ membership (~$209/yr); full value only to CLEAR users.
+  notes: Covers a CLEAR+ membership (~$219/yr); full value only to CLEAR users.
 - name: Equinox Credit
   amount_usd: 300
   period: annual
@@ -159,5 +159,5 @@ benefits:
 - trip_cancellation_insurance
 - elite_status
 - metal_card
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

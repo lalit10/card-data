@@ -14,6 +14,13 @@ cpp_optimistic: 0.6
 base_rate: 3
 earn:
 - type: category
+  key: travel_hotels
+  rate: 7
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Eligible purchases made directly with a hotel or resort in the Hilton portfolio.
+- type: category
   key: dining
   rate: 5
   cap_usd: null
@@ -46,16 +53,16 @@ credits:
   notes: 10% back (up to $250/yr) on Venue Collection stadium/arena concessions, enrollment required.
     Most cardholders attend few/no such events; modeled at ~$25.
 signup_bonus:
-  points: 100000
+  points: 70000
   cash_usd: null
   spend_usd: 2000
   months: 6
-  notes: 'Mixed bonus: 100,000 Hilton points plus a $100 statement credit. Offer ends 07/29/2026 per the
-    offer file ("public offer — check for renewal"). Bonus points don''t count toward elite-tier qualification.'
+  notes: Limited-time offer — 70,000 Hilton Honors bonus points plus one Free Night Reward after $2,000
+    in purchases in the first 6 months. Bonus points don't count toward elite-tier qualification.
 benefits:
 - no_foreign_transaction_fee
 - elite_status
 - extended_warranty
 - purchase_protection
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

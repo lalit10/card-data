@@ -14,6 +14,13 @@ cpp_optimistic: 0.6
 base_rate: 3
 earn:
 - type: category
+  key: travel_hotels
+  rate: 14
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Eligible purchases made directly with a hotel or resort in the Hilton portfolio.
+- type: category
   key: dining
   rate: 7
   cap_usd: null
@@ -107,12 +114,12 @@ credits:
   notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; realistic capture
     is a small fraction — modeled at ~$25.
 signup_bonus:
-  points: 175000
+  points: 200000
   cash_usd: null
   spend_usd: 6000
-  months: 6
-  notes: Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification.
-    Standard evergreen bonus not separately stated.
+  months: null
+  notes: Best Hilton points offer yet per the page — 200,000 Hilton Honors bonus points after $6,000
+    in purchases. The spend time window was not shown in the visible page text.
 benefits:
 - no_foreign_transaction_fee
 - elite_status
@@ -120,5 +127,5 @@ benefits:
 - trip_cancellation_insurance
 - car_rental_insurance
 - extended_warranty
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

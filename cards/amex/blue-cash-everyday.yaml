@@ -1,0 +1,55 @@
+# Blue Cash Everyday Card (amex)
+# Verified against americanexpress.com 2026-10-05.
+id: blue-cash-everyday
+name: Blue Cash Everyday Card
+issuer: amex
+network: amex
+availability: active
+annual_fee_usd: 0
+foreign_transaction_pct: null
+currency_type: cash
+currency_program: cash
+cpp_floor: 1.0
+cpp_optimistic: 1.0
+base_rate: 1
+earn:
+- type: category
+  key: groceries
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: 3% back at US supermarkets on up to $6,000/yr, then 1%.
+- type: category
+  key: online_shopping
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: 3% back on US online retail purchases on up to $6,000/yr, then 1%.
+- type: category
+  key: gas
+  rate: 3
+  cap_usd: 6000
+  cap_period: annual
+  portal_only: false
+  notes: 3% back at US gas stations on up to $6,000/yr, then 1%.
+credits:
+- name: Disney Streaming Credit
+  amount_usd: 7
+  period: monthly
+  category: streaming
+  requires_enrollment: true
+  expires: null
+  notes: Up to $7/month ($84/yr) statement credit after using the enrolled card for a subscription at
+    DisneyPlus.com, Hulu.com, or Stream.ESPN.com; enrollment required; monthly forfeit.
+signup_bonus:
+  points: null
+  cash_usd: 150
+  spend_usd: 2000
+  months: 6
+  notes: Earn $150 cash back (as Reward Dollars) after $2,000 in purchases in the first 6 months. Plus
+    0% intro APR for up to 18 months on purchases and balance transfers.
+benefits: []
+verified_date: '2026-10-05'
+confidence: high

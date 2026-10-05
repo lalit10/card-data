@@ -14,6 +14,13 @@ cpp_optimistic: 0.9
 base_rate: 2
 earn:
 - type: category
+  key: travel_hotels
+  rate: 6
+  cap_usd: null
+  cap_period: null
+  portal_only: false
+  notes: Eligible purchases at hotels participating in Marriott Bonvoy (direct).
+- type: category
   key: travel_flights
   rate: 3
   cap_usd: null
@@ -89,5 +96,5 @@ benefits:
 - cell_phone_protection
 - trip_cancellation_insurance
 - concierge_service
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

@@ -1,8 +1,8 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T02:56:24Z",
-  "card_count": 112,
+  "fetched_at": "2026-10-05T18:45:39Z",
+  "card_count": 115,
   "valuations": {
     "aa_advantage": {
       "floor_cpp": 0.8,
@@ -691,15 +691,15 @@
         "purchase_protection",
         "trip_cancellation_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-green",
       "name": "American Express Green Card",
       "issuer": "amex",
       "network": "amex",
-      "availability": "active",
+      "availability": "discontinued",
       "annual_fee_usd": 150,
       "foreign_transaction_pct": 0,
       "currency_type": "points",
@@ -785,8 +785,8 @@
         "no_foreign_transaction_fee",
         "trip_cancellation_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "goldman-sachs-apple-card",
@@ -1186,6 +1186,143 @@
       ],
       "verified_date": "2026-07-04",
       "confidence": "low"
+    },
+    {
+      "id": "amex-blue-cash-everyday",
+      "name": "Blue Cash Everyday Card",
+      "issuer": "amex",
+      "network": "amex",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": null,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 3,
+          "cap_usd": 6000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "3% back at US supermarkets on up to $6,000/yr, then 1%."
+        },
+        {
+          "type": "category",
+          "key": "online_shopping",
+          "rate": 3,
+          "cap_usd": 6000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "3% back on US online retail purchases on up to $6,000/yr, then 1%."
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 3,
+          "cap_usd": 6000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "3% back at US gas stations on up to $6,000/yr, then 1%."
+        }
+      ],
+      "credits": [
+        {
+          "name": "Disney Streaming Credit",
+          "amount_usd": 7,
+          "period": "monthly",
+          "category": "streaming",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "Up to $7/month ($84/yr) statement credit after using the enrolled card for a subscription at DisneyPlus.com, Hulu.com, or Stream.ESPN.com; enrollment required; monthly forfeit."
+        }
+      ],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 150,
+        "spend_usd": 2000,
+        "months": 6,
+        "notes": "Earn $150 cash back (as Reward Dollars) after $2,000 in purchases in the first 6 months. Plus 0% intro APR for up to 18 months on purchases and balance transfers."
+      },
+      "benefits": [],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Blue Cash Preferred Card",
+      "issuer": "amex",
+      "network": "amex",
+      "availability": "active",
+      "annual_fee_usd": 95,
+      "foreign_transaction_pct": null,
+      "currency_type": "cash",
+      "currency_program": "cash",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.0,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "groceries",
+          "rate": 6,
+          "cap_usd": 6000,
+          "cap_period": "annual",
+          "portal_only": false,
+          "notes": "6% back at US supermarkets on up to $6,000/yr, then 1%."
+        },
+        {
+          "type": "category",
+          "key": "streaming",
+          "rate": 6,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "6% back on select US streaming subscriptions."
+        },
+        {
+          "type": "category",
+          "key": "transit",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% back on transit including taxis, rideshare, parking, tolls, trains, and buses."
+        },
+        {
+          "type": "category",
+          "key": "gas",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% back at US gas stations."
+        }
+      ],
+      "credits": [
+        {
+          "name": "Disney Streaming Credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": "streaming",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "Up to $10/month ($120/yr) statement credit after using the enrolled card for a subscription (including the bundle) at DisneyPlus.com, Hulu.com, or Stream.ESPN.com; enrollment required; subject to auto-renewal; monthly forfeit."
+        }
+      ],
+      "signup_bonus": {
+        "points": null,
+        "cash_usd": 250,
+        "spend_usd": 3000,
+        "months": 6,
+        "notes": "Earn $250 cash back (as Reward Dollars) after $3,000 in purchases in the first 6 months. Plus 0% intro APR for up to 18 months on purchases and balance transfers. $0 intro annual fee for the first year, then $95."
+      },
+      "benefits": [],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bread-financial-bread-cashback",
@@ -2984,6 +3121,64 @@
       "confidence": "low"
     },
     {
+      "id": "amex-delta-blue",
+      "name": "Delta SkyMiles Blue American Express Card",
+      "issuer": "amex",
+      "network": "amex",
+      "availability": "active",
+      "annual_fee_usd": 0,
+      "foreign_transaction_pct": 0,
+      "currency_type": "points",
+      "currency_program": "delta_skymiles",
+      "cpp_floor": 1.0,
+      "cpp_optimistic": 1.3,
+      "base_rate": 1,
+      "earn": [
+        {
+          "type": "category",
+          "key": "dining",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x at restaurants including takeout and delivery in the US."
+        },
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 2,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "2x on purchases made directly with Delta."
+        }
+      ],
+      "credits": [
+        {
+          "name": "20% Back on In-Flight Purchases",
+          "amount_usd": 15,
+          "period": "annual",
+          "category": null,
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "20% savings as a statement credit on eligible Delta in-flight purchases (automatic); percentage-based with no dollar cap stated \u2014 modeled at ~$15/yr."
+        }
+      ],
+      "signup_bonus": {
+        "points": 10000,
+        "cash_usd": null,
+        "spend_usd": 1000,
+        "months": 6,
+        "notes": "Earn 10,000 bonus miles after $1,000 in eligible purchases in the first 6 months."
+      },
+      "benefits": [
+        "no_foreign_transaction_fee",
+        "no_blackout_dates"
+      ],
+      "verified_date": "2026-10-05",
+      "confidence": "high"
+    },
+    {
       "id": "amex-delta-gold",
       "name": "Delta SkyMiles Gold American Express Card",
       "issuer": "amex",
@@ -3017,6 +3212,24 @@
         }
       ],
       "credits": [
+        {
+          "name": "Rideshare Credit",
+          "amount_usd": 10,
+          "period": "monthly",
+          "category": "transit",
+          "requires_enrollment": true,
+          "expires": null,
+          "notes": "$10/month on US rideshare purchases with select providers; applies after the first card renewal; monthly forfeit."
+        },
+        {
+          "name": "Delta Stays Credit",
+          "amount_usd": 100,
+          "period": "annual",
+          "category": "travel_hotels",
+          "requires_enrollment": false,
+          "expires": null,
+          "notes": "$100/yr statement credit on prepaid hotel or vacation-rental bookings through Delta Stays on delta.com."
+        },
         {
           "name": "Delta Flight Credit",
           "amount_usd": 200,
@@ -3064,11 +3277,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 70000,
-        "cash_usd": null,
+        "points": 80000,
+        "cash_usd": 250,
         "spend_usd": 3000,
         "months": 6,
-        "notes": "Limited-time offer ending 07/15/2026 (11:59pm MST per the offer file). The standard evergreen bonus is not stated in the offer file \u2014 flag for verification."
+        "notes": "Limited-time offer ends 11/4/2026 \u2014 $250 statement credit plus up to 80,000 bonus miles after\" $3,000 in purchases in the first 6 months. Welcome offers vary; page says to apply to see your offer."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -3077,8 +3290,8 @@
         "car_rental_insurance",
         "extended_warranty"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-delta-platinum",
@@ -3094,6 +3307,15 @@
       "cpp_optimistic": 1.3,
       "base_rate": 1,
       "earn": [
+        {
+          "type": "category",
+          "key": "travel_flights",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Purchases made directly with Delta."
+        },
         {
           "type": "category",
           "key": "groceries",
@@ -3188,11 +3410,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 80000,
-        "cash_usd": null,
+        "points": 90000,
+        "cash_usd": 300,
         "spend_usd": 4000,
         "months": 6,
-        "notes": "Limited-time offer ending 07/15/2026 (11:59pm MST). Standard evergreen bonus not stated in the offer file \u2014 flag for verification."
+        "notes": "Limited-time offer ends 11/4/2026 \u2014 $300 statement credit plus up to 90,000 bonus miles after\" $4,000 in purchases in the first 6 months. Welcome offers vary; page says to apply to see your offer."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -3203,8 +3425,8 @@
         "car_rental_insurance",
         "extended_warranty"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-delta-reserve",
@@ -3286,11 +3508,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 100000,
+        "points": 50000,
         "cash_usd": null,
-        "spend_usd": 6000,
-        "months": 6,
-        "notes": "Offer ends 07/15/2026 per the offer file (\"public offer \u2014 check for renewal\"). Standard evergreen bonus not stated in the offer file."
+        "spend_usd": null,
+        "months": null,
+        "notes": "Limited-time offer ends 11/4/2026 \u2014 two round-trip Delta Comfort flight certificates plus 50,000\" bonus miles. Spend requirement was truncated on the page and could not be confirmed."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -3302,8 +3524,8 @@
         "car_rental_insurance",
         "extended_warranty"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "discover-it-cash-back",
@@ -3777,6 +3999,15 @@
       "earn": [
         {
           "type": "category",
+          "key": "travel_hotels",
+          "rate": 14,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases made directly with a hotel or resort in the Hilton portfolio."
+        },
+        {
+          "type": "category",
           "key": "dining",
           "rate": 7,
           "cap_usd": null,
@@ -3878,11 +4109,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 175000,
+        "points": 200000,
         "cash_usd": null,
         "spend_usd": 6000,
-        "months": 6,
-        "notes": "Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification. Standard evergreen bonus not separately stated."
+        "months": null,
+        "notes": "Best Hilton points offer yet per the page \u2014 200,000 Hilton Honors bonus points after $6,000 in purchases. The spend time window was not shown in the visible page text."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -3892,8 +4123,8 @@
         "car_rental_insurance",
         "extended_warranty"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-hilton-honors",
@@ -3909,6 +4140,15 @@
       "cpp_optimistic": 0.6,
       "base_rate": 3,
       "earn": [
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 7,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases made directly with a hotel or resort in the Hilton portfolio."
+        },
         {
           "type": "category",
           "key": "dining",
@@ -3949,11 +4189,11 @@
         }
       ],
       "signup_bonus": {
-        "points": 100000,
+        "points": 70000,
         "cash_usd": null,
         "spend_usd": 2000,
         "months": 6,
-        "notes": "Mixed bonus: 100,000 Hilton points plus a $100 statement credit. Offer ends 07/29/2026 per the offer file (\"public offer \u2014 check for renewal\"). Bonus points don't count toward elite-tier qualification."
+        "notes": "Limited-time offer \u2014 70,000 Hilton Honors bonus points plus one Free Night Reward after $2,000 in purchases in the first 6 months. Bonus points don't count toward elite-tier qualification."
       },
       "benefits": [
         "no_foreign_transaction_fee",
@@ -3961,8 +4201,8 @@
         "extended_warranty",
         "purchase_protection"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-hilton-surpass",
@@ -3978,6 +4218,15 @@
       "cpp_optimistic": 0.6,
       "base_rate": 3,
       "earn": [
+        {
+          "type": "category",
+          "key": "travel_hotels",
+          "rate": 12,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases made directly with a hotel or resort in the Hilton portfolio."
+        },
         {
           "type": "category",
           "key": "dining",
@@ -4049,14 +4298,14 @@
         "cash_usd": null,
         "spend_usd": 3000,
         "months": 6,
-        "notes": "Offer ends 07/29/2026 per the offer file. Bonus points don't count toward elite qualification. Standard evergreen bonus not separately stated."
+        "notes": "Limited-time offer ends 01/13/2027 per the offer file. Bonus points don't count toward elite qualification. Standard evergreen bonus not separately stated."
       },
       "benefits": [
         "no_foreign_transaction_fee",
         "elite_status"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-ihg-premier",
@@ -4676,6 +4925,15 @@
       "earn": [
         {
           "type": "category",
+          "key": "travel_hotels",
+          "rate": 6,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases at hotels participating in Marriott Bonvoy (direct)."
+        },
+        {
+          "type": "category",
           "key": "dining",
           "rate": 4,
           "cap_usd": 15000,
@@ -4725,8 +4983,8 @@
         "elite_status",
         "trip_cancellation_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-marriott-bold",
@@ -5008,6 +5266,15 @@
       "earn": [
         {
           "type": "category",
+          "key": "travel_hotels",
+          "rate": 6,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "Eligible purchases at hotels participating in Marriott Bonvoy (direct)."
+        },
+        {
+          "type": "category",
           "key": "travel_flights",
           "rate": 3,
           "cap_usd": null,
@@ -5087,8 +5354,8 @@
         "trip_cancellation_insurance",
         "concierge_service"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-miles-and-more",
@@ -6363,12 +6630,12 @@
         },
         {
           "name": "CLEAR Plus Credit",
-          "amount_usd": 209,
+          "amount_usd": 219,
           "period": "annual",
           "category": "travel_other",
           "requires_enrollment": true,
           "expires": null,
-          "notes": "Covers a CLEAR+ membership (~$209/yr); full value only to CLEAR users."
+          "notes": "Covers a CLEAR+ membership (~$219/yr); full value only to CLEAR users."
         },
         {
           "name": "Equinox Credit",
@@ -6450,8 +6717,8 @@
         "elite_status",
         "metal_card"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-travel-rewards",

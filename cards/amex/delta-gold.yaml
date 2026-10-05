@@ -30,6 +30,21 @@ earn:
   notes: Restaurants worldwide. Excludes restaurants inside another establishment, non-US third-party
     delivery, bars, nightclubs, cafeterias, convenience stores.
 credits:
+- name: Rideshare Credit
+  amount_usd: 10
+  period: monthly
+  category: transit
+  requires_enrollment: true
+  expires: null
+  notes: $10/month on US rideshare purchases with select providers; applies after the first card renewal;
+    monthly forfeit.
+- name: Delta Stays Credit
+  amount_usd: 100
+  period: annual
+  category: travel_hotels
+  requires_enrollment: false
+  expires: null
+  notes: $100/yr statement credit on prepaid hotel or vacation-rental bookings through Delta Stays on delta.com.
 - name: Delta Flight Credit
   amount_usd: 200
   period: annual
@@ -74,17 +89,17 @@ credits:
   notes: 10% back (up to $250/yr) on Venue Collection concessions, enrollment required; most cardholders
     capture a small fraction — modeled at ~$25.
 signup_bonus:
-  points: 70000
-  cash_usd: null
+  points: 80000
+  cash_usd: 250
   spend_usd: 3000
   months: 6
-  notes: Limited-time offer ending 07/15/2026 (11:59pm MST per the offer file). The standard evergreen
-    bonus is not stated in the offer file — flag for verification.
+  notes: Limited-time offer ends 11/4/2026 — $250 statement credit plus up to 80,000 bonus miles after"
+    $3,000 in purchases in the first 6 months. Welcome offers vary; page says to apply to see your offer.
 benefits:
 - no_foreign_transaction_fee
 - free_checked_bag
 - no_blackout_dates
 - car_rental_insurance
 - extended_warranty
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

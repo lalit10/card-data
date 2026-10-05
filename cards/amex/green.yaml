@@ -1,10 +1,11 @@
 # American Express Green Card (amex)
-# Edit freely; set verified_date when you confirm figures with the issuer.
+# DISCONTINUED: no detail page on americanexpress.com as of 2026-10-05
+# (absent from browse tabs, nav menu, and site search). Kept for reference.
 id: green
 name: American Express Green Card
 issuer: amex
 network: amex
-availability: active
+availability: discontinued
 annual_fee_usd: 150
 foreign_transaction_pct: 0
 currency_type: points
@@ -76,5 +77,5 @@ signup_bonus:
 benefits:
 - no_foreign_transaction_fee
 - trip_cancellation_insurance
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high
