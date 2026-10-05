@@ -16,14 +16,12 @@ earn: []
 credits: []
 signup_bonus:
   points: null
-  cash_usd: null
+  cash_usd: 200
   spend_usd: 1500
   months: 3
-  notes: One-Time Bonus Offer; not available if you open in response to a different TD offer or previously
-    received a bonus on any TD account. Bonus posts 6-8 weeks after the spend requirement is met, account
-    open and in good standing.
+  notes: $200 cash back as a statement credit after $1,500 in purchases in the first 90 days (max 20,000 Bonus Points for this promo).
 benefits:
 - zero_fraud_liability
 - cell_phone_protection
-verified_date: '2026-07-04'
-confidence: low
+verified_date: '2026-10-05'
+confidence: high

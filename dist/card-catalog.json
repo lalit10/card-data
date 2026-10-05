@@ -1,7 +1,7 @@
 {
   "source": "github.com/lalit10/card-data",
   "source_license": "MIT",
-  "fetched_at": "2026-10-05T21:42:27Z",
+  "fetched_at": "2026-10-05T22:31:39Z",
   "card_count": 123,
   "valuations": {
     "aa_advantage": {
@@ -834,20 +834,29 @@
       "base_rate": 1,
       "earn": [
         {
-          "type": "merchant",
-          "key": "uber",
-          "rate": 1,
+          "type": "category",
+          "key": "base",
+          "rate": 2,
           "cap_usd": null,
           "cap_period": null,
           "portal_only": false,
-          "notes": "3% Daily Cash applies at Uber only when paid via Apple Pay. Apple's 3% partner list changes over time (offer file names Nike, Uber, Walgreens, Booking.com, Exxon Mobil, ChargePoint, Hertz, Duane Reade, Ace Hardware as examples) \u2014 Uber is modeled here because it is the only listed partner with a registry key; the rest are omitted (no merchant key). Also, all purchases made directly from Apple (Apple Store, apple.com, App Store, Apple services) earn 3%, but there is no 'apple' merchant key, so that is captured only in the card notes below. NEEDS human verification of the current partner list (support.apple.com/en-us/120400)."
+          "notes": "2% Daily Cash on purchases made with Apple Pay; unlimited, real cash."
+        },
+        {
+          "type": "merchant",
+          "key": "apple_and_select_partners",
+          "rate": 3,
+          "cap_usd": null,
+          "cap_period": null,
+          "portal_only": false,
+          "notes": "3% Daily Cash on Apple purchases and select merchants with Apple Pay (Ace Hardware, Booking.com, ChargePoint, Duane Reade, Exxon Mobil, Hertz, Nike, Uber, Uber Eats, Walgreens)."
         }
       ],
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "bank-of-america-atmos-ascent",
@@ -1469,8 +1478,8 @@
         "zero_fraud_liability",
         "id_theft_insurance"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "chase-british-airways",
@@ -4599,8 +4608,8 @@
       "credits": [],
       "signup_bonus": null,
       "benefits": [],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "barclays-frontier",
@@ -7426,17 +7435,17 @@
       "credits": [],
       "signup_bonus": {
         "points": null,
-        "cash_usd": null,
+        "cash_usd": 200,
         "spend_usd": 1500,
         "months": 3,
-        "notes": "One-Time Bonus Offer; not available if you open in response to a different TD offer or previously received a bonus on any TD account. Bonus posts 6-8 weeks after the spend requirement is met, account open and in good standing."
+        "notes": "$200 cash back as a statement credit after $1,500 in purchases in the first 90 days (max 20,000 Bonus Points for this promo)."
       },
       "benefits": [
         "zero_fraud_liability",
         "cell_phone_protection"
       ],
-      "verified_date": "2026-07-04",
-      "confidence": "low"
+      "verified_date": "2026-10-05",
+      "confidence": "high"
     },
     {
       "id": "amex-platinum",
